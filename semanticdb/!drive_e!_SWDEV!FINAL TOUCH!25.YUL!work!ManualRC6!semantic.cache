@@ -1,0 +1,196 @@
+;; Object ManualRC6/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "ManualRC6/"
+  :tables (list 
+   (semanticdb-table "exp.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("util.*" include nil nil [139 153])
+            ("util.rc6.*" include nil nil [154 172])
+            ("exp" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("a" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [222 232]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [198 872]))                  
+                :type "class")
+                nil [174 879]))          
+    :file "exp.java"
+    :pointmax 1620
+    :fsize 1619
+    :lastmodtime '(19788 64937)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "RC6.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("RC6" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("wordSize" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [6799 6838])
+                    ("bytesPerWord" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [6843 6896])
+                    ("_noRounds" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [6956 6996])
+                    ("_S" variable
+                       (:dereference 1
+                        :typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [7070 7087])
+                    ("P32" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [7354 7399])
+                    ("Q32" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [7404 7449])
+                    ("LGW" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [7455 7491])
+                    ("forEncryption" variable
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [7516 7545])
+                    ("RC6" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [7654 7708])
+                    ("getAlgorithmName" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [7714 7780])
+                    ("getBlockSize" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [7786 7856])
+                    ("processBlock" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("in" variable
+                               (:dereference 1
+                                :type "byte")
+                                (reparse-symbol formal_parameters) [8641 8651])
+                            ("inOff" variable (:type "int") (reparse-symbol formal_parameters) [8661 8674])
+                            ("out" variable
+                               (:dereference 1
+                                :type "byte")
+                                (reparse-symbol formal_parameters) [8684 8695])
+                            ("outOff" variable (:type "int") (reparse-symbol formal_parameters) [8705 8719]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [8608 9299])
+                    ("reset" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [9305 9336])
+                    ("setKey" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("key" variable
+                               (:dereference 1
+                                :type "byte")
+                                (reparse-symbol formal_parameters) [9464 9479]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [9436 11572])
+                    ("encryptBlock" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("in" variable
+                               (:dereference 1
+                                :type "byte")
+                                (reparse-symbol formal_parameters) [11612 11622])
+                            ("inOff" variable (:type "int") (reparse-symbol formal_parameters) [11632 11645])
+                            ("out" variable
+                               (:dereference 1
+                                :type "byte")
+                                (reparse-symbol formal_parameters) [11655 11666])
+                            ("outOff" variable (:type "int") (reparse-symbol formal_parameters) [11676 11690]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [11578 13118])
+                    ("decryptBlock" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("in" variable
+                               (:dereference 1
+                                :type "byte")
+                                (reparse-symbol formal_parameters) [13158 13168])
+                            ("inOff" variable (:type "int") (reparse-symbol formal_parameters) [13178 13191])
+                            ("out" variable
+                               (:dereference 1
+                                :type "byte")
+                                (reparse-symbol formal_parameters) [13201 13212])
+                            ("outOff" variable (:type "int") (reparse-symbol formal_parameters) [13222 13236]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [13124 14615])
+                    ("rotateLeft" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol formal_parameters) [15245 15250])
+                            ("y" variable (:type "int") (reparse-symbol formal_parameters) [15252 15257]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [15222 15308])
+                    ("rotateRight" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol formal_parameters) [15766 15771])
+                            ("y" variable (:type "int") (reparse-symbol formal_parameters) [15773 15778]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [15742 15829])
+                    ("bytesToWord" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("src" variable
+                               (:dereference 1
+                                :type "byte")
+                                (reparse-symbol formal_parameters) [15868 15879])
+                            ("srcOff" variable (:type "int") (reparse-symbol formal_parameters) [15889 15903]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [15835 16095])
+                    ("wordToBytes" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("word" variable (:type "int") (reparse-symbol formal_parameters) [16135 16146])
+                            ("dst" variable
+                               (:dereference 1
+                                :type "byte")
+                                (reparse-symbol formal_parameters) [16156 16167])
+                            ("dstOff" variable (:type "int") (reparse-symbol formal_parameters) [16177 16191]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [16101 16338])
+                    ("asHex" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("buf" variable
+                               (:dereference 1
+                                :type "byte")
+                                (reparse-symbol formal_parameters) [16362 16372]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [16342 16835]))                  
+                :type "class")
+                nil [139 16837]))          
+    :file "RC6.java"
+    :pointmax 16838
+    :fsize 16837
+    :lastmodtime '(19786 18554)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!_SWDEV!FINAL TOUCH!25.YUL!work!ManualRC6!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

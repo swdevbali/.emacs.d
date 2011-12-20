@@ -1,0 +1,42 @@
+;; Object org/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "org/"
+  :tables (list 
+    (semanticdb-table "main.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Agenda Kerja Utama" section nil nil [245 1666])
+            ("*///-->" section nil nil [1666 2285])
+            ("Agenda Kerja Utama" section (:members 
+              ( ("Agenda Kerja Utama" section (:members 
+                  ( ("Table of Contents" section (:members 
+                      ( ("1 GAMELOFT" anchor nil nil [2455 2458])
+                        ("2 SWDEV" anchor nil nil [2497 2500])
+                        ("3 ABI" anchor nil nil [2536 2539])
+                        ("3.1 Umi" anchor nil nil [2573 2576])
+                        ("3.2 Al-Fath" anchor nil nil [2614 2617])
+                        ("3.3 Al-Kahfi" anchor nil nil [2659 2662])
+                        ("4 CAPOEIRA" anchor nil nil [2717 2720])
+                        ("5 TABLIGH" anchor nil nil [2759 2762])
+                        ("6 SON" anchor nil nil [2800 2803]))                      ) nil [2385 2903])
+                    ("1" section nil nil [2903 3189])
+                    ("2" section nil nil [3189 3408])
+                    ("3" section (:members 
+                      ( ("3.1" section nil nil [3575 3791])
+                        ("3.2" section nil nil [3791 4194])
+                        ("3.3" section nil nil [4194 4429]))                      ) nil [3408 4429])
+                    ("4" section nil nil [4429 4714])
+                    ("5" section nil nil [4714 4953])
+                    ("6" section (:members 
+                      ( ("&lt;Eko SW@SWDEV-DESKTOP&gt;" anchor nil nil [5192 5195]))                      ) nil [4953 5414]))                  ) nil [2312 5414]))              ) nil [2285 5414]))          
+    :file "main.html"
+    :pointmax 5414
+    :fsize 5652
+    :lastmodtime '(19818 20436)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!org!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

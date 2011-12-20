@@ -1,0 +1,897 @@
+;; Object sql/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "sql/"
+  :tables (list 
+   (semanticdb-table "DatabaseMetaData.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("java.sql" package nil nil [184 201])
+            ("DatabaseMetaData" type
+               (:typemodifiers ("public")
+                :interfaces ("Wrapper")
+                :members 
+                  ( ("allProceduresAreCallable" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [3237 3292])
+                    ("allTablesAreSelectable" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [3619 3672])
+                    ("getURL" function
+                       (:throws ("SQLException")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [3907 3943])
+                    ("getUserName" function
+                       (:throws ("SQLException")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [4133 4174])
+                    ("isReadOnly" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [4398 4439])
+                    ("nullsAreSortedHigh" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [5070 5119])
+                    ("nullsAreSortedLow" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [5761 5809])
+                    ("nullsAreSortedAtStart" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [6081 6133])
+                    ("nullsAreSortedAtEnd" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [6402 6452])
+                    ("getDatabaseProductName" function
+                       (:throws ("SQLException")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [6635 6687])
+                    ("getDatabaseProductVersion" function
+                       (:throws ("SQLException")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [6882 6937])
+                    ("getDriverName" function
+                       (:throws ("SQLException")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [7110 7153])
+                    ("getDriverVersion" function
+                       (:throws ("SQLException")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [7364 7410])
+                    ("getDriverMajorVersion" function (:type "int") (reparse-symbol interface_member_declaration) [7538 7566])
+                    ("getDriverMinorVersion" function (:type "int") (reparse-symbol interface_member_declaration) [7701 7729])
+                    ("usesLocalFiles" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [7962 8007])
+                    ("usesLocalFilePerTable" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [8296 8348])
+                    ("supportsMixedCaseIdentifiers" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [8662 8721])
+                    ("storesUpperCaseIdentifiers" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [9025 9082])
+                    ("storesLowerCaseIdentifiers" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [9386 9443])
+                    ("storesMixedCaseIdentifiers" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [9747 9804])
+                    ("supportsMixedCaseQuotedIdentifiers" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [10115 10180])
+                    ("storesUpperCaseQuotedIdentifiers" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [10482 10545])
+                    ("storesLowerCaseQuotedIdentifiers" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [10847 10910])
+                    ("storesMixedCaseQuotedIdentifiers" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [11212 11275])
+                    ("getIdentifierQuoteString" function
+                       (:throws ("SQLException")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [11580 11634])
+                    ("getSQLKeywords" function
+                       (:throws ("SQLException")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [11954 11998])
+                    ("getNumericFunctions" function
+                       (:throws ("SQLException")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [12355 12404])
+                    ("getStringFunctions" function
+                       (:throws ("SQLException")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [12769 12817])
+                    ("getSystemFunctions" function
+                       (:throws ("SQLException")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [13179 13227])
+                    ("getTimeDateFunctions" function
+                       (:throws ("SQLException")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [13508 13558])
+                    ("getSearchStringEscape" function
+                       (:throws ("SQLException")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [14124 14175])
+                    ("getExtraNameCharacters" function
+                       (:throws ("SQLException")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [14461 14513])
+                    ("supportsAlterTableWithAddColumn" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [14907 14969])
+                    ("supportsAlterTableWithDropColumn" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [15230 15293])
+                    ("supportsColumnAliasing" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [15679 15732])
+                    ("nullPlusNonNullIsNull" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [16058 16110])
+                    ("supportsConvert" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [16524 16570])
+                    ("supportsConvert" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("fromType" variable (:type "int") (reparse-symbol formal_parameters) [17306 17318])
+                            ("toType" variable (:type "int") (reparse-symbol formal_parameters) [17320 17330]))                          
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [17282 17352])
+                    ("supportsTableCorrelationNames" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [17588 17648])
+                    ("supportsDifferentTableCorrelationNames" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [17959 18028])
+                    ("supportsExpressionsInOrderBy" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [18291 18350])
+                    ("supportsOrderByUnrelated" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [18675 18730])
+                    ("supportsGroupBy" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [18992 19038])
+                    ("supportsGroupByUnrelated" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [19362 19417])
+                    ("supportsGroupByBeyondSelect" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [19868 19926])
+                    ("supportsLikeEscapeClause" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [20190 20245])
+                    ("supportsMultipleResultSets" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [20574 20631])
+                    ("supportsMultipleTransactions" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [20918 20977])
+                    ("supportsNonNullableColumns" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [21222 21279])
+                    ("supportsMinimumSQLGrammar" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [21520 21576])
+                    ("supportsCoreSQLGrammar" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [21814 21867])
+                    ("supportsExtendedSQLGrammar" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [22109 22166])
+                    ("supportsANSI92EntryLevelSQL" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [22421 22479])
+                    ("supportsANSI92IntermediateSQL" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [22737 22797])
+                    ("supportsANSI92FullSQL" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [23047 23099])
+                    ("supportsIntegrityEnhancementFacility" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [23358 23425])
+                    ("supportsOuterJoins" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [23661 23710])
+                    ("supportsFullOuterJoins" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [23946 23999])
+                    ("supportsLimitedOuterJoins" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [24370 24426])
+                    ("getSchemaTerm" function
+                       (:throws ("SQLException")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [24632 24675])
+                    ("getProcedureTerm" function
+                       (:throws ("SQLException")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [24887 24933])
+                    ("getCatalogTerm" function
+                       (:throws ("SQLException")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [25141 25185])
+                    ("isCatalogAtStart" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [25573 25620])
+                    ("getCatalogSeparator" function
+                       (:throws ("SQLException")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [25874 25923])
+                    ("supportsSchemasInDataManipulation" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [26171 26235])
+                    ("supportsSchemasInProcedureCalls" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [26480 26542])
+                    ("supportsSchemasInTableDefinitions" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [26789 26853])
+                    ("supportsSchemasInIndexDefinitions" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [27101 27165])
+                    ("supportsSchemasInPrivilegeDefinitions" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [27416 27484])
+                    ("supportsCatalogsInDataManipulation" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [27733 27798])
+                    ("supportsCatalogsInProcedureCalls" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [28044 28107])
+                    ("supportsCatalogsInTableDefinitions" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [28355 28420])
+                    ("supportsCatalogsInIndexDefinitions" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [28669 28734])
+                    ("supportsCatalogsInPrivilegeDefinitions" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [28986 29055])
+                    ("supportsPositionedDelete" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [29317 29372])
+                    ("supportsPositionedUpdate" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [29633 29688])
+                    ("supportsSelectForUpdate" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [29949 30003])
+                    ("supportsStoredProcedures" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [30291 30346])
+                    ("supportsSubqueriesInComparisons" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [30603 30665])
+                    ("supportsSubqueriesInExists" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [30931 30988])
+                    ("supportsSubqueriesInIns" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [31250 31304])
+                    ("supportsSubqueriesInQuantifieds" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [31561 31623])
+                    ("supportsCorrelatedSubqueries" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [31857 31916])
+                    ("supportsUnion" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [32151 32195])
+                    ("supportsUnionAll" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [32434 32481])
+                    ("supportsOpenCursorsAcrossCommit" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [32796 32858])
+                    ("supportsOpenCursorsAcrossRollback" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [33174 33238])
+                    ("supportsOpenStatementsAcrossCommit" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [33558 33623])
+                    ("supportsOpenStatementsAcrossRollback" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [33945 34012])
+                    ("getMaxBinaryLiteralLength" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [34716 34768])
+                    ("getMaxCharLiteralLength" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [35144 35194])
+                    ("getMaxColumnNameLength" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [35557 35606])
+                    ("getMaxColumnsInGroupBy" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [35962 36011])
+                    ("getMaxColumnsInIndex" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [36337 36384])
+                    ("getMaxColumnsInOrderBy" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [36741 36790])
+                    ("getMaxColumnsInSelect" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [37142 37190])
+                    ("getMaxColumnsInTable" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [37515 37562])
+                    ("getMaxConnections" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [37936 37980])
+                    ("getMaxCursorNameLength" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [38346 38395])
+                    ("getMaxIndexLength" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [38857 38901])
+                    ("getMaxSchemaNameLength" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [39267 39316])
+                    ("getMaxProcedureNameLength" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [39688 39740])
+                    ("getMaxCatalogNameLength" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [40108 40158])
+                    ("getMaxRowSize" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [40492 40532])
+                    ("doesMaxRowSizeIncludeBlobs" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [40881 40938])
+                    ("getMaxStatementLength" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [41306 41354])
+                    ("getMaxStatements" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [41739 41782])
+                    ("getMaxTableNameLength" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [42142 42190])
+                    ("getMaxTablesInSelect" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [42586 42633])
+                    ("getMaxUserNameLength" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [42991 43038])
+                    ("getDefaultTransactionIsolation" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [43424 43481])
+                    ("supportsTransactions" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [43879 43930])
+                    ("supportsTransactionIsolationLevel" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("level" variable (:type "int") (reparse-symbol formal_parameters) [44366 44375]))                          
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [44324 44398])
+                    ("supportsDataDefinitionAndDataManipulationTransactions" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [44694 44779])
+                    ("supportsDataManipulationTransactionsOnly" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [45053 45125])
+                    ("dataDefinitionCausesTransactionCommit" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [45404 45473])
+                    ("dataDefinitionIgnoredInTransactions" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [45742 45809])
+                    ("getProcedures" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("catalog" variable (:type "String") (reparse-symbol formal_parameters) [48197 48211])
+                            ("schemaPattern" variable (:type "String") (reparse-symbol formal_parameters) [48213 48233])
+                            ("procedureNamePattern" variable (:type "String") (reparse-symbol formal_parameters) [48242 48269]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [48173 48291])
+                    ("procedureResultUnknown" variable (:type "int") (reparse-symbol interface_member_declaration) [48574 48605])
+                    ("procedureNoResult" variable (:type "int") (reparse-symbol interface_member_declaration) [48865 48892])
+                    ("procedureReturnsResult" variable (:type "int") (reparse-symbol interface_member_declaration) [49144 49175])
+                    ("getProcedureColumns" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("catalog" variable (:type "String") (reparse-symbol formal_parameters) [54876 54890])
+                            ("schemaPattern" variable (:type "String") (reparse-symbol formal_parameters) [54898 54918])
+                            ("procedureNamePattern" variable (:type "String") (reparse-symbol formal_parameters) [54926 54953])
+                            ("columnNamePattern" variable (:type "String") (reparse-symbol formal_parameters) [54962 54986]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [54846 55008])
+                    ("procedureColumnUnknown" variable (:type "int") (reparse-symbol interface_member_declaration) [55267 55298])
+                    ("procedureColumnIn" variable (:type "int") (reparse-symbol interface_member_declaration) [55559 55585])
+                    ("procedureColumnInOut" variable (:type "int") (reparse-symbol interface_member_declaration) [55849 55878])
+                    ("procedureColumnOut" variable (:type "int") (reparse-symbol interface_member_declaration) [56139 56166])
+                    ("procedureColumnReturn" variable (:type "int") (reparse-symbol interface_member_declaration) [56426 56456])
+                    ("procedureColumnResult" variable (:type "int") (reparse-symbol interface_member_declaration) [56711 56741])
+                    ("procedureNoNulls" variable (:type "int") (reparse-symbol interface_member_declaration) [57014 57039])
+                    ("procedureNullable" variable (:type "int") (reparse-symbol interface_member_declaration) [57308 57334])
+                    ("procedureNullableUnknown" variable (:type "int") (reparse-symbol interface_member_declaration) [57629 57662])
+                    ("getTables" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("catalog" variable (:type "String") (reparse-symbol formal_parameters) [60354 60368])
+                            ("schemaPattern" variable (:type "String") (reparse-symbol formal_parameters) [60370 60390])
+                            ("tableNamePattern" variable (:type "String") (reparse-symbol formal_parameters) [60395 60418])
+                            ("types" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [60420 60434]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [60334 60456])
+                    ("getSchemas" function
+                       (:throws ("SQLException")
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [61028 61071])
+                    ("getCatalogs" function
+                       (:throws ("SQLException")
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [61540 61584])
+                    ("getTableTypes" function
+                       (:throws ("SQLException")
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [62173 62219])
+                    ("getColumns" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("catalog" variable (:type "String") (reparse-symbol formal_parameters) [67396 67410])
+                            ("schemaPattern" variable (:type "String") (reparse-symbol formal_parameters) [67412 67432])
+                            ("tableNamePattern" variable (:type "String") (reparse-symbol formal_parameters) [67438 67461])
+                            ("columnNamePattern" variable (:type "String") (reparse-symbol formal_parameters) [67463 67487]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [67375 67510])
+                    ("columnNoNulls" variable (:type "int") (reparse-symbol interface_member_declaration) [67778 67800])
+                    ("columnNullable" variable (:type "int") (reparse-symbol interface_member_declaration) [68070 68093])
+                    ("columnNullableUnknown" variable (:type "int") (reparse-symbol interface_member_declaration) [68347 68377])
+                    ("getColumnPrivileges" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("catalog" variable (:type "String") (reparse-symbol formal_parameters) [70339 70353])
+                            ("schema" variable (:type "String") (reparse-symbol formal_parameters) [70355 70368])
+                            ("table" variable (:type "String") (reparse-symbol formal_parameters) [70376 70388])
+                            ("columnNamePattern" variable (:type "String") (reparse-symbol formal_parameters) [70390 70414]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [70309 70436])
+                    ("getTablePrivileges" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("catalog" variable (:type "String") (reparse-symbol formal_parameters) [72608 72622])
+                            ("schemaPattern" variable (:type "String") (reparse-symbol formal_parameters) [72624 72644])
+                            ("tableNamePattern" variable (:type "String") (reparse-symbol formal_parameters) [72651 72674]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [72579 72696])
+                    ("getBestRowIdentifier" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("catalog" variable (:type "String") (reparse-symbol formal_parameters) [75555 75569])
+                            ("schema" variable (:type "String") (reparse-symbol formal_parameters) [75571 75584])
+                            ("table" variable (:type "String") (reparse-symbol formal_parameters) [75593 75605])
+                            ("scope" variable (:type "int") (reparse-symbol formal_parameters) [75607 75616])
+                            ("nullable" variable (:type "boolean") (reparse-symbol formal_parameters) [75618 75634]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [75524 75656])
+                    ("bestRowTemporary" variable (:type "int") (reparse-symbol interface_member_declaration) [75998 76025])
+                    ("bestRowTransaction" variable (:type "int") (reparse-symbol interface_member_declaration) [76343 76370])
+                    ("bestRowSession" variable (:type "int") (reparse-symbol interface_member_declaration) [76684 76711])
+                    ("bestRowUnknown" variable (:type "int") (reparse-symbol interface_member_declaration) [77007 77030])
+                    ("bestRowNotPseudo" variable (:type "int") (reparse-symbol interface_member_declaration) [77315 77340])
+                    ("bestRowPseudo" variable (:type "int") (reparse-symbol interface_member_declaration) [77621 77643])
+                    ("getVersionColumns" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("catalog" variable (:type "String") (reparse-symbol formal_parameters) [80163 80177])
+                            ("schema" variable (:type "String") (reparse-symbol formal_parameters) [80179 80192])
+                            ("table" variable (:type "String") (reparse-symbol formal_parameters) [80198 80210]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [80135 80232])
+                    ("versionColumnUnknown" variable (:type "int") (reparse-symbol interface_member_declaration) [80522 80551])
+                    ("versionColumnNotPseudo" variable (:type "int") (reparse-symbol interface_member_declaration) [80829 80860])
+                    ("versionColumnPseudo" variable (:type "int") (reparse-symbol interface_member_declaration) [81134 81162])
+                    ("getPrimaryKeys" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("catalog" variable (:type "String") (reparse-symbol formal_parameters) [82782 82796])
+                            ("schema" variable (:type "String") (reparse-symbol formal_parameters) [82798 82811])
+                            ("table" variable (:type "String") (reparse-symbol formal_parameters) [82821 82833]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [82757 82855])
+                    ("getImportedKeys" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("catalog" variable (:type "String") (reparse-symbol formal_parameters) [87109 87123])
+                            ("schema" variable (:type "String") (reparse-symbol formal_parameters) [87125 87138])
+                            ("table" variable (:type "String") (reparse-symbol formal_parameters) [87149 87161]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [87083 87183])
+                    ("importedKeyCascade" variable (:type "int") (reparse-symbol interface_member_declaration) [87835 87862])
+                    ("importedKeyRestrict" variable (:type "int") (reparse-symbol interface_member_declaration) [88514 88542])
+                    ("importedKeySetNull" variable (:type "int") (reparse-symbol interface_member_declaration) [89078 89106])
+                    ("importedKeyNoAction" variable (:type "int") (reparse-symbol interface_member_declaration) [89598 89626])
+                    ("importedKeySetDefault" variable (:type "int") (reparse-symbol interface_member_declaration) [90156 90187])
+                    ("importedKeyInitiallyDeferred" variable (:type "int") (reparse-symbol interface_member_declaration) [90528 90566])
+                    ("importedKeyInitiallyImmediate" variable (:type "int") (reparse-symbol interface_member_declaration) [90907 90946])
+                    ("importedKeyNotDeferrable" variable (:type "int") (reparse-symbol interface_member_declaration) [91287 91321])
+                    ("getExportedKeys" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("catalog" variable (:type "String") (reparse-symbol formal_parameters) [95657 95671])
+                            ("schema" variable (:type "String") (reparse-symbol formal_parameters) [95673 95686])
+                            ("table" variable (:type "String") (reparse-symbol formal_parameters) [95697 95709]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [95631 95731])
+                    ("getCrossReference" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("parentCatalog" variable (:type "String") (reparse-symbol formal_parameters) [100786 100806])
+                            ("parentSchema" variable (:type "String") (reparse-symbol formal_parameters) [100808 100827])
+                            ("parentTable" variable (:type "String") (reparse-symbol formal_parameters) [100829 100847])
+                            ("foreignCatalog" variable (:type "String") (reparse-symbol formal_parameters) [100853 100874])
+                            ("foreignSchema" variable (:type "String") (reparse-symbol formal_parameters) [100876 100896])
+                            ("foreignTable" variable (:type "String") (reparse-symbol formal_parameters) [100898 100917]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [100753 100944])
+                    ("getTypeInfo" function
+                       (:throws ("SQLException")
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [104387 104431])
+                    ("typeNoNulls" variable (:type "int") (reparse-symbol interface_member_declaration) [104712 104732])
+                    ("typeNullable" variable (:type "int") (reparse-symbol interface_member_declaration) [105008 105029])
+                    ("typeNullableUnknown" variable (:type "int") (reparse-symbol interface_member_declaration) [105330 105358])
+                    ("typePredNone" variable (:type "int") (reparse-symbol interface_member_declaration) [105646 105667])
+                    ("typePredChar" variable (:type "int") (reparse-symbol interface_member_declaration) [106008 106029])
+                    ("typePredBasic" variable (:type "int") (reparse-symbol interface_member_declaration) [106376 106398])
+                    ("typeSearchable" variable (:type "int") (reparse-symbol interface_member_declaration) [106685 106709])
+                    ("getIndexInfo" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("catalog" variable (:type "String") (reparse-symbol formal_parameters) [110152 110166])
+                            ("schema" variable (:type "String") (reparse-symbol formal_parameters) [110168 110181])
+                            ("table" variable (:type "String") (reparse-symbol formal_parameters) [110183 110195])
+                            ("unique" variable (:type "boolean") (reparse-symbol formal_parameters) [110203 110217])
+                            ("approximate" variable (:type "boolean") (reparse-symbol formal_parameters) [110219 110238]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [110129 110261])
+                    ("tableIndexStatistic" variable (:type "short") (reparse-symbol interface_member_declaration) [110583 110613])
+                    ("tableIndexClustered" variable (:type "short") (reparse-symbol interface_member_declaration) [110861 110891])
+                    ("tableIndexHashed" variable (:type "short") (reparse-symbol interface_member_declaration) [111136 111166])
+                    ("tableIndexOther" variable (:type "short") (reparse-symbol interface_member_declaration) [111503 111533])
+                    ("supportsResultSetType" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("type" variable (:type "int") (reparse-symbol formal_parameters) [111976 111984]))                          
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [111946 112006])
+                    ("supportsResultSetConcurrency" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("type" variable (:type "int") (reparse-symbol formal_parameters) [112514 112522])
+                            ("concurrency" variable (:type "int") (reparse-symbol formal_parameters) [112524 112539]))                          
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [112477 112562])
+                    ("ownUpdatesAreVisible" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("type" variable (:type "int") (reparse-symbol formal_parameters) [113206 113214]))                          
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [113177 113236])
+                    ("ownDeletesAreVisible" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("type" variable (:type "int") (reparse-symbol formal_parameters) [113811 113819]))                          
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [113782 113841])
+                    ("ownInsertsAreVisible" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("type" variable (:type "int") (reparse-symbol formal_parameters) [114416 114424]))                          
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [114387 114446])
+                    ("othersUpdatesAreVisible" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("type" variable (:type "int") (reparse-symbol formal_parameters) [115049 115057]))                          
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [115017 115079])
+                    ("othersDeletesAreVisible" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("type" variable (:type "int") (reparse-symbol formal_parameters) [115682 115690]))                          
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [115650 115712])
+                    ("othersInsertsAreVisible" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("type" variable (:type "int") (reparse-symbol formal_parameters) [116317 116325]))                          
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [116285 116347])
+                    ("updatesAreDetected" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("type" variable (:type "int") (reparse-symbol formal_parameters) [116984 116992]))                          
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [116957 117014])
+                    ("deletesAreDetected" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("type" variable (:type "int") (reparse-symbol formal_parameters) [117806 117814]))                          
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [117779 117836])
+                    ("insertsAreDetected" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("type" variable (:type "int") (reparse-symbol formal_parameters) [118483 118491]))                          
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [118456 118513])
+                    ("supportsBatchUpdates" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [118806 118857])
+                    ("getUDTs" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("catalog" variable (:type "String") (reparse-symbol formal_parameters) [121600 121614])
+                            ("schemaPattern" variable (:type "String") (reparse-symbol formal_parameters) [121616 121636])
+                            ("typeNamePattern" variable (:type "String") (reparse-symbol formal_parameters) [121647 121669])
+                            ("types" variable
+                               (:dereference 1
+                                :type "int")
+                                (reparse-symbol formal_parameters) [121671 121682]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [121582 121706])
+                    ("getConnection" function
+                       (:throws ("SQLException")
+                        :type "Connection")
+                        (reparse-symbol interface_member_declaration) [121955 122002])
+                    ("supportsSavepoints" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [122344 122393])
+                    ("supportsNamedParameters" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [122715 122769])
+                    ("supportsMultipleOpenResults" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [123255 123313])
+                    ("supportsGetGeneratedKeys" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [123842 123897])
+                    ("getSuperTypes" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("catalog" variable (:type "String") (reparse-symbol formal_parameters) [126035 126049])
+                            ("schemaPattern" variable (:type "String") (reparse-symbol formal_parameters) [126051 126071])
+                            ("typeNamePattern" variable (:type "String") (reparse-symbol formal_parameters) [126081 126103]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [126011 126125])
+                    ("getSuperTables" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("catalog" variable (:type "String") (reparse-symbol formal_parameters) [127883 127897])
+                            ("schemaPattern" variable (:type "String") (reparse-symbol formal_parameters) [127899 127919])
+                            ("tableNamePattern" variable (:type "String") (reparse-symbol formal_parameters) [127929 127952]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [127858 127974])
+                    ("attributeNoNulls" variable (:type "short") (reparse-symbol interface_member_declaration) [128239 128266])
+                    ("attributeNullable" variable (:type "short") (reparse-symbol interface_member_declaration) [128533 128561])
+                    ("attributeNullableUnknown" variable (:type "short") (reparse-symbol interface_member_declaration) [128846 128881])
+                    ("getAttributes" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("catalog" variable (:type "String") (reparse-symbol formal_parameters) [133449 133463])
+                            ("schemaPattern" variable (:type "String") (reparse-symbol formal_parameters) [133465 133485])
+                            ("typeNamePattern" variable (:type "String") (reparse-symbol formal_parameters) [133494 133516])
+                            ("attributeNamePattern" variable (:type "String") (reparse-symbol formal_parameters) [133518 133545]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [133425 133569])
+                    ("supportsResultSetHoldability" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("holdability" variable (:type "int") (reparse-symbol formal_parameters) [134080 134095]))                          
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [134043 134117])
+                    ("getResultSetHoldability" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [134501 134551])
+                    ("getDatabaseMajorVersion" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [134788 134838])
+                    ("getDatabaseMinorVersion" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [135071 135121])
+                    ("getJDBCMajorVersion" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [135346 135392])
+                    ("getJDBCMinorVersion" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [135617 135663])
+                    ("sqlStateXOpen" variable (:type "int") (reparse-symbol interface_member_declaration) [136005 136027])
+                    ("sqlStateSQL" variable (:type "int") (reparse-symbol interface_member_declaration) [136321 136341])
+                    ("sqlStateSQL99" variable (:type "int") (reparse-symbol interface_member_declaration) [136802 136834])
+                    ("getSQLStateType" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [137191 137233])
+                    ("locatorsUpdateCopy" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [137582 137631])
+                    ("supportsStatementPooling" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [137876 137931])
+                    ("getRowIdLifetime" function
+                       (:throws ("SQLException")
+                        :type "RowIdLifetime")
+                        (reparse-symbol interface_member_declaration) [138911 138964])
+                    ("getSchemas" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("catalog" variable (:type "String") (reparse-symbol formal_parameters) [140015 140029])
+                            ("schemaPattern" variable (:type "String") (reparse-symbol formal_parameters) [140031 140051]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [139994 140073])
+                    ("supportsStoredFunctionsUsingCallSyntax" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [140399 140468])
+                    ("autoCommitFailureClosesAllResultSets" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [141171 141238])
+                    ("getClientInfoProperties" function
+                       (:throws ("SQLException")
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [142102 142160])
+                    ("getFunctions" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("catalog" variable (:type "String") (reparse-symbol formal_parameters) [144671 144685])
+                            ("schemaPattern" variable (:type "String") (reparse-symbol formal_parameters) [144687 144707])
+                            ("functionNamePattern" variable (:type "String") (reparse-symbol formal_parameters) [144716 144742]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [144648 144764])
+                    ("getFunctionColumns" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("catalog" variable (:type "String") (reparse-symbol formal_parameters) [150065 150079])
+                            ("schemaPattern" variable (:type "String") (reparse-symbol formal_parameters) [150087 150107])
+                            ("functionNamePattern" variable (:type "String") (reparse-symbol formal_parameters) [150115 150141])
+                            ("columnNamePattern" variable (:type "String") (reparse-symbol formal_parameters) [150150 150174]))                          
+                        :type "ResultSet")
+                        (reparse-symbol interface_member_declaration) [150036 150196])
+                    ("functionColumnUnknown" variable (:type "int") (reparse-symbol interface_member_declaration) [150471 150501])
+                    ("functionColumnIn" variable (:type "int") (reparse-symbol interface_member_declaration) [150791 150816])
+                    ("functionColumnInOut" variable (:type "int") (reparse-symbol interface_member_declaration) [151113 151141])
+                    ("functionColumnOut" variable (:type "int") (reparse-symbol interface_member_declaration) [151431 151457])
+                    ("functionReturn" variable (:type "int") (reparse-symbol interface_member_declaration) [151750 151773])
+                    ("functionColumnResult" variable (:type "int") (reparse-symbol interface_member_declaration) [152084 152113])
+                    ("functionNoNulls" variable (:type "int") (reparse-symbol interface_member_declaration) [152413 152437])
+                    ("functionNullable" variable (:type "int") (reparse-symbol interface_member_declaration) [152728 152753])
+                    ("functionNullableUnknown" variable (:type "int") (reparse-symbol interface_member_declaration) [153069 153101])
+                    ("functionResultUnknown" variable (:type "int") (reparse-symbol interface_member_declaration) [153421 153451])
+                    ("functionNoTable" variable (:type "int") (reparse-symbol interface_member_declaration) [153726 153751])
+                    ("functionReturnsTable" variable (:type "int") (reparse-symbol interface_member_declaration) [154018 154047]))                  
+                :type "interface")
+                nil [2744 154050]))          
+    :file "DatabaseMetaData.java"
+    :pointmax 154054
+    :fsize 154053
+    :lastmodtime '(19853 18332)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!_SWDEV!GO!08.PIT!work!jdk6!java!sql!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

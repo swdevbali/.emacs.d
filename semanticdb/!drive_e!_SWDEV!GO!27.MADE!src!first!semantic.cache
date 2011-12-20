@@ -1,0 +1,16 @@
+;; Object first/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "first/"
+  :tables (list 
+   (semanticdb-table "first.cpp"
+    :major-mode 'c++-mode
+    :tags nil
+    :file "first.cpp"
+    :pointmax 1
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!_SWDEV!GO!27.MADE!src!first!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

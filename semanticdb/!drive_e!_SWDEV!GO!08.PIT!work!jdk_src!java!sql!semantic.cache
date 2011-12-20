@@ -1,0 +1,1209 @@
+;; Object sql/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "sql/"
+  :tables (list 
+   (semanticdb-table "ResultSet.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("java.sql" package nil nil [176 193])
+            ("java.math.BigDecimal" include nil nil [195 223])
+            ("java.util.Calendar" include nil nil [224 250])
+            ("java.io.Reader" include nil nil [251 273])
+            ("java.io.InputStream" include nil nil [274 301])
+            ("ResultSet" type
+               (:typemodifiers ("public")
+                :interfaces ("Wrapper")
+                :members 
+                  ( ("next" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [7399 7434])
+                    ("close" function
+                       (:throws ("SQLException")
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [8811 8844])
+                    ("wasNull" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [9450 9488])
+                    ("getString" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [10136 10151]))                          
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [10119 10173])
+                    ("getBoolean" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [11229 11244]))                          
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [11210 11266])
+                    ("getByte" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [11847 11862]))                          
+                        :type "byte")
+                        (reparse-symbol interface_member_declaration) [11834 11884])
+                    ("getShort" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [12468 12483]))                          
+                        :type "short")
+                        (reparse-symbol interface_member_declaration) [12453 12505])
+                    ("getInt" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [13084 13099]))                          
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [13073 13121])
+                    ("getLong" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [13702 13717]))                          
+                        :type "long")
+                        (reparse-symbol interface_member_declaration) [13689 13739])
+                    ("getFloat" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [14323 14338]))                          
+                        :type "float")
+                        (reparse-symbol interface_member_declaration) [14308 14360])
+                    ("getDouble" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [14947 14962]))                          
+                        :type "double")
+                        (reparse-symbol interface_member_declaration) [14930 14984])
+                    ("getBigDecimal" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [15794 15809])
+                            ("scale" variable (:type "int") (reparse-symbol formal_parameters) [15811 15820]))                          
+                        :type "BigDecimal")
+                        (reparse-symbol interface_member_declaration) [15769 15842])
+                    ("getBytes" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [16501 16516]))                          
+                        :type "byte[]")
+                        (reparse-symbol interface_member_declaration) [16485 16538])
+                    ("getDate" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [17147 17162]))                          
+                        :type "java.sql.Date")
+                        (reparse-symbol interface_member_declaration) [17125 17184])
+                    ("getTime" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [17793 17808]))                          
+                        :type "java.sql.Time")
+                        (reparse-symbol interface_member_declaration) [17771 17830])
+                    ("getTimestamp" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [18454 18469]))                          
+                        :type "java.sql.Timestamp")
+                        (reparse-symbol interface_member_declaration) [18422 18491])
+                    ("getAsciiStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [19798 19813]))                          
+                        :type "java.io.InputStream")
+                        (reparse-symbol interface_member_declaration) [19763 19835])
+                    ("getUnicodeStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [21502 21517]))                          
+                        :type "java.io.InputStream")
+                        (reparse-symbol interface_member_declaration) [21465 21539])
+                    ("getBinaryStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [22773 22788]))                          
+                        :type "java.io.InputStream")
+                        (reparse-symbol interface_member_declaration) [22737 22818])
+                    ("getString" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [23560 23578]))                          
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [23543 23600])
+                    ("getBoolean" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [24754 24772]))                          
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [24735 24794])
+                    ("getByte" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [25472 25490]))                          
+                        :type "byte")
+                        (reparse-symbol interface_member_declaration) [25459 25512])
+                    ("getShort" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [26193 26211]))                          
+                        :type "short")
+                        (reparse-symbol interface_member_declaration) [26178 26233])
+                    ("getInt" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [26909 26927]))                          
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [26898 26949])
+                    ("getLong" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [27627 27645]))                          
+                        :type "long")
+                        (reparse-symbol interface_member_declaration) [27614 27667])
+                    ("getFloat" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [28348 28366]))                          
+                        :type "float")
+                        (reparse-symbol interface_member_declaration) [28333 28388])
+                    ("getDouble" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [29072 29090]))                          
+                        :type "double")
+                        (reparse-symbol interface_member_declaration) [29055 29112])
+                    ("getBigDecimal" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [30020 30038])
+                            ("scale" variable (:type "int") (reparse-symbol formal_parameters) [30040 30049]))                          
+                        :type "BigDecimal")
+                        (reparse-symbol interface_member_declaration) [29995 30071])
+                    ("getBytes" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [30827 30845]))                          
+                        :type "byte[]")
+                        (reparse-symbol interface_member_declaration) [30811 30867])
+                    ("getDate" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [31573 31591]))                          
+                        :type "java.sql.Date")
+                        (reparse-symbol interface_member_declaration) [31551 31613])
+                    ("getTime" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [32329 32347]))                          
+                        :type "java.sql.Time")
+                        (reparse-symbol interface_member_declaration) [32307 32369])
+                    ("getTimestamp" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [33090 33108]))                          
+                        :type "java.sql.Timestamp")
+                        (reparse-symbol interface_member_declaration) [33058 33130])
+                    ("getAsciiStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [34515 34533]))                          
+                        :type "java.io.InputStream")
+                        (reparse-symbol interface_member_declaration) [34480 34555])
+                    ("getUnicodeStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [36280 36298]))                          
+                        :type "java.io.InputStream")
+                        (reparse-symbol interface_member_declaration) [36243 36320])
+                    ("getBinaryStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [37618 37636]))                          
+                        :type "java.io.InputStream")
+                        (reparse-symbol interface_member_declaration) [37582 37666])
+                    ("getWarnings" function
+                       (:throws ("SQLException")
+                        :type "SQLWarning")
+                        (reparse-symbol interface_member_declaration) [38780 38825])
+                    ("clearWarnings" function
+                       (:throws ("SQLException")
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [39247 39288])
+                    ("getCursorName" function
+                       (:throws ("SQLException")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [40468 40511])
+                    ("getMetaData" function
+                       (:throws ("SQLException")
+                        :type "ResultSetMetaData")
+                        (reparse-symbol interface_member_declaration) [40858 40910])
+                    ("getObject" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [42778 42793]))                          
+                        :type "Object")
+                        (reparse-symbol interface_member_declaration) [42761 42815])
+                    ("getObject" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [44342 44360]))                          
+                        :type "Object")
+                        (reparse-symbol interface_member_declaration) [44325 44382])
+                    ("findColumn" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [45053 45071]))                          
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [45038 45093])
+                    ("getCharacterStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [46044 46059]))                          
+                        :type "java.io.Reader")
+                        (reparse-symbol interface_member_declaration) [46010 46081])
+                    ("getCharacterStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [46877 46895]))                          
+                        :type "java.io.Reader")
+                        (reparse-symbol interface_member_declaration) [46843 46917])
+                    ("getBigDecimal" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [47592 47607]))                          
+                        :type "BigDecimal")
+                        (reparse-symbol interface_member_declaration) [47567 47629])
+                    ("getBigDecimal" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [48408 48426]))                          
+                        :type "BigDecimal")
+                        (reparse-symbol interface_member_declaration) [48383 48448])
+                    ("isBeforeFirst" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [49403 49447])
+                    ("isAfterLast" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [50220 50262])
+                    ("isFirst" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [50953 50991])
+                    ("isLast" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [51922 51959])
+                    ("beforeFirst" function
+                       (:throws ("SQLException")
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [52473 52512])
+                    ("afterLast" function
+                       (:throws ("SQLException")
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [53014 53051])
+                    ("first" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [53603 53639])
+                    ("last" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [54190 54225])
+                    ("getRow" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [54885 54918])
+                    ("absolute" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("row" variable (:type "int") (reparse-symbol formal_parameters) [56827 56834]))                          
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [56809 56857])
+                    ("relative" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("rows" variable (:type "int") (reparse-symbol formal_parameters) [58108 58116]))                          
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [58090 58139])
+                    ("previous" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [59266 59305])
+                    ("FETCH_FORWARD" variable (:type "int") (reparse-symbol interface_member_declaration) [59777 59802])
+                    ("FETCH_REVERSE" variable (:type "int") (reparse-symbol interface_member_declaration) [60103 60128])
+                    ("FETCH_UNKNOWN" variable (:type "int") (reparse-symbol interface_member_declaration) [60399 60424])
+                    ("setFetchDirection" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("direction" variable (:type "int") (reparse-symbol formal_parameters) [61385 61398]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [61362 61420])
+                    ("getFetchDirection" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [61787 61831])
+                    ("setFetchSize" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("rows" variable (:type "int") (reparse-symbol formal_parameters) [62657 62665]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [62639 62687])
+                    ("getFetchSize" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [63038 63077])
+                    ("TYPE_FORWARD_ONLY" variable (:type "int") (reparse-symbol interface_member_declaration) [63236 63265])
+                    ("TYPE_SCROLL_INSENSITIVE" variable (:type "int") (reparse-symbol interface_member_declaration) [63508 63543])
+                    ("TYPE_SCROLL_SENSITIVE" variable (:type "int") (reparse-symbol interface_member_declaration) [63782 63815])
+                    ("getType" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [64336 64370])
+                    ("CONCUR_READ_ONLY" variable (:type "int") (reparse-symbol interface_member_declaration) [64530 64558])
+                    ("CONCUR_UPDATABLE" variable (:type "int") (reparse-symbol interface_member_declaration) [64714 64742])
+                    ("getConcurrency" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [65260 65301])
+                    ("rowUpdated" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [66257 66298])
+                    ("rowInserted" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [67101 67143])
+                    ("rowDeleted" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [68077 68118])
+                    ("updateNull" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [68947 68962]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [68931 68984])
+                    ("updateBoolean" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [69850 69865])
+                            ("x" variable (:type "boolean") (reparse-symbol formal_parameters) [69867 69876]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [69831 69898])
+                    ("updateByte" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [70763 70778])
+                            ("x" variable (:type "byte") (reparse-symbol formal_parameters) [70780 70786]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [70747 70808])
+                    ("updateShort" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [71668 71683])
+                            ("x" variable (:type "short") (reparse-symbol formal_parameters) [71685 71692]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [71651 71714])
+                    ("updateInt" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [72571 72586])
+                            ("x" variable (:type "int") (reparse-symbol formal_parameters) [72588 72593]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [72556 72615])
+                    ("updateLong" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [73473 73488])
+                            ("x" variable (:type "long") (reparse-symbol formal_parameters) [73490 73496]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [73457 73518])
+                    ("updateFloat" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [74378 74393])
+                            ("x" variable (:type "float") (reparse-symbol formal_parameters) [74395 74402]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [74361 74424])
+                    ("updateDouble" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [75286 75301])
+                            ("x" variable (:type "double") (reparse-symbol formal_parameters) [75303 75311]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [75268 75333])
+                    ("updateBigDecimal" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [76221 76236])
+                            ("x" variable (:type "BigDecimal") (reparse-symbol formal_parameters) [76238 76250]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [76199 76272])
+                    ("updateString" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [77134 77149])
+                            ("x" variable (:type "String") (reparse-symbol formal_parameters) [77151 77159]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [77116 77181])
+                    ("updateBytes" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [78046 78061])
+                            ("x" variable
+                               (:dereference 1
+                                :type "byte")
+                                (reparse-symbol formal_parameters) [78063 78071]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [78029 78093])
+                    ("updateDate" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [78960 78975])
+                            ("x" variable (:type "java.sql.Date") (reparse-symbol formal_parameters) [78977 78992]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [78944 79014])
+                    ("updateTime" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [79881 79896])
+                            ("x" variable (:type "java.sql.Time") (reparse-symbol formal_parameters) [79898 79913]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [79865 79935])
+                    ("updateTimestamp" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [80819 80834])
+                            ("x" variable (:type "java.sql.Timestamp") (reparse-symbol formal_parameters) [80836 80856]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [80798 80884])
+                    ("updateAsciiStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [81846 81861])
+                            ("x" variable (:type "java.io.InputStream") (reparse-symbol formal_parameters) [81870 81891])
+                            ("length" variable (:type "int") (reparse-symbol formal_parameters) [81900 81910]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [81823 81932])
+                    ("updateBinaryStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [82900 82915])
+                            ("x" variable (:type "java.io.InputStream") (reparse-symbol formal_parameters) [82925 82946])
+                            ("length" variable (:type "int") (reparse-symbol formal_parameters) [82955 82965]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [82876 82987])
+                    ("updateCharacterStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [83955 83970])
+                            ("x" variable (:type "java.io.Reader") (reparse-symbol formal_parameters) [83980 83996])
+                            ("length" variable (:type "int") (reparse-symbol formal_parameters) [84006 84016]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [83928 84038])
+                    ("updateObject" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [85723 85738])
+                            ("x" variable (:type "Object") (reparse-symbol formal_parameters) [85740 85748])
+                            ("scaleOrLength" variable (:type "int") (reparse-symbol formal_parameters) [85750 85767]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [85705 85795])
+                    ("updateObject" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [86658 86673])
+                            ("x" variable (:type "Object") (reparse-symbol formal_parameters) [86675 86683]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [86640 86705])
+                    ("updateNull" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [87623 87641]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [87607 87663])
+                    ("updateBoolean" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [88626 88644])
+                            ("x" variable (:type "boolean") (reparse-symbol formal_parameters) [88646 88655]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [88607 88677])
+                    ("updateByte" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [89632 89650])
+                            ("x" variable (:type "byte") (reparse-symbol formal_parameters) [89652 89658]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [89616 89680])
+                    ("updateShort" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [90637 90655])
+                            ("x" variable (:type "short") (reparse-symbol formal_parameters) [90657 90664]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [90620 90686])
+                    ("updateInt" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [91640 91658])
+                            ("x" variable (:type "int") (reparse-symbol formal_parameters) [91660 91665]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [91625 91687])
+                    ("updateLong" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [92642 92660])
+                            ("x" variable (:type "long") (reparse-symbol formal_parameters) [92662 92668]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [92626 92690])
+                    ("updateFloat" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [93648 93666])
+                            ("x" variable (:type "float") (reparse-symbol formal_parameters) [93668 93675]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [93631 93697])
+                    ("updateDouble" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [94656 94674])
+                            ("x" variable (:type "double") (reparse-symbol formal_parameters) [94676 94684]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [94638 94706])
+                    ("updateBigDecimal" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [95689 95707])
+                            ("x" variable (:type "BigDecimal") (reparse-symbol formal_parameters) [95709 95721]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [95667 95743])
+                    ("updateString" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [96702 96720])
+                            ("x" variable (:type "String") (reparse-symbol formal_parameters) [96722 96730]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [96684 96752])
+                    ("updateBytes" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [97709 97727])
+                            ("x" variable
+                               (:dereference 1
+                                :type "byte")
+                                (reparse-symbol formal_parameters) [97729 97737]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [97692 97759])
+                    ("updateDate" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [98723 98741])
+                            ("x" variable (:type "java.sql.Date") (reparse-symbol formal_parameters) [98743 98758]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [98707 98780])
+                    ("updateTime" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [99744 99762])
+                            ("x" variable (:type "java.sql.Time") (reparse-symbol formal_parameters) [99764 99779]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [99728 99801])
+                    ("updateTimestamp" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [100782 100800])
+                            ("x" variable (:type "java.sql.Timestamp") (reparse-symbol formal_parameters) [100802 100822]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [100761 100850])
+                    ("updateAsciiStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [101909 101927])
+                            ("x" variable (:type "java.io.InputStream") (reparse-symbol formal_parameters) [101936 101957])
+                            ("length" variable (:type "int") (reparse-symbol formal_parameters) [101966 101976]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [101886 101998])
+                    ("updateBinaryStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [103058 103076])
+                            ("x" variable (:type "java.io.InputStream") (reparse-symbol formal_parameters) [103086 103107])
+                            ("length" variable (:type "int") (reparse-symbol formal_parameters) [103116 103126]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [103034 103148])
+                    ("updateCharacterStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [104282 104300])
+                            ("reader" variable (:type "java.io.Reader") (reparse-symbol formal_parameters) [104310 104331])
+                            ("length" variable (:type "int") (reparse-symbol formal_parameters) [104341 104351]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [104255 104373])
+                    ("updateObject" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [106155 106173])
+                            ("x" variable (:type "Object") (reparse-symbol formal_parameters) [106175 106183])
+                            ("scaleOrLength" variable (:type "int") (reparse-symbol formal_parameters) [106185 106202]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [106137 106230])
+                    ("updateObject" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [107190 107208])
+                            ("x" variable (:type "Object") (reparse-symbol formal_parameters) [107210 107218]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [107172 107240])
+                    ("insertRow" function
+                       (:throws ("SQLException")
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [107949 107986])
+                    ("updateRow" function
+                       (:throws ("SQLException")
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [108598 108635])
+                    ("deleteRow" function
+                       (:throws ("SQLException")
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [109235 109272])
+                    ("refreshRow" function
+                       (:throws ("SQLException")
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [110824 110862])
+                    ("cancelRowUpdates" function
+                       (:throws ("SQLException")
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [111709 111753])
+                    ("moveToInsertRow" function
+                       (:throws ("SQLException")
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [112886 112929])
+                    ("moveToCurrentRow" function
+                       (:throws ("SQLException")
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [113442 113486])
+                    ("getStatement" function
+                       (:throws ("SQLException")
+                        :type "Statement")
+                        (reparse-symbol interface_member_declaration) [114105 114150])
+                    ("getObject" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [115252 115267]))                          
+                        :type "Object")
+                        (reparse-symbol interface_member_declaration) [115235 115333])
+                    ("getRef" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [116014 116029]))                          
+                        :type "Ref")
+                        (reparse-symbol interface_member_declaration) [116003 116051])
+                    ("getBlob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [116762 116777]))                          
+                        :type "Blob")
+                        (reparse-symbol interface_member_declaration) [116749 116799])
+                    ("getClob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [117510 117525]))                          
+                        :type "Clob")
+                        (reparse-symbol interface_member_declaration) [117497 117547])
+                    ("getArray" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [118266 118281]))                          
+                        :type "Array")
+                        (reparse-symbol interface_member_declaration) [118251 118303])
+                    ("getObject" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [119448 119466]))                          
+                        :type "Object")
+                        (reparse-symbol interface_member_declaration) [119431 119530])
+                    ("getRef" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [120334 120352]))                          
+                        :type "Ref")
+                        (reparse-symbol interface_member_declaration) [120323 120374])
+                    ("getBlob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [121182 121200]))                          
+                        :type "Blob")
+                        (reparse-symbol interface_member_declaration) [121169 121222])
+                    ("getClob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [122022 122040]))                          
+                        :type "Clob")
+                        (reparse-symbol interface_member_declaration) [122009 122062])
+                    ("getArray" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [122876 122894]))                          
+                        :type "Array")
+                        (reparse-symbol interface_member_declaration) [122861 122916])
+                    ("getDate" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [123891 123906])
+                            ("cal" variable (:type "Calendar") (reparse-symbol formal_parameters) [123908 123920]))                          
+                        :type "java.sql.Date")
+                        (reparse-symbol interface_member_declaration) [123869 123942])
+                    ("getDate" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [125014 125032])
+                            ("cal" variable (:type "Calendar") (reparse-symbol formal_parameters) [125034 125046]))                          
+                        :type "java.sql.Date")
+                        (reparse-symbol interface_member_declaration) [124992 125068])
+                    ("getTime" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [126043 126058])
+                            ("cal" variable (:type "Calendar") (reparse-symbol formal_parameters) [126060 126072]))                          
+                        :type "java.sql.Time")
+                        (reparse-symbol interface_member_declaration) [126021 126094])
+                    ("getTime" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [127165 127183])
+                            ("cal" variable (:type "Calendar") (reparse-symbol formal_parameters) [127185 127197]))                          
+                        :type "java.sql.Time")
+                        (reparse-symbol interface_member_declaration) [127143 127219])
+                    ("getTimestamp" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [128224 128239])
+                            ("cal" variable (:type "Calendar") (reparse-symbol formal_parameters) [128241 128253]))                          
+                        :type "java.sql.Timestamp")
+                        (reparse-symbol interface_member_declaration) [128192 128282])
+                    ("getTimestamp" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [129380 129398])
+                            ("cal" variable (:type "Calendar") (reparse-symbol formal_parameters) [129400 129412]))                          
+                        :type "java.sql.Timestamp")
+                        (reparse-symbol interface_member_declaration) [129348 129441])
+                    ("HOLD_CURSORS_OVER_COMMIT" variable (:type "int") (reparse-symbol interface_member_declaration) [129733 129766])
+                    ("CLOSE_CURSORS_AT_COMMIT" variable (:type "int") (reparse-symbol interface_member_declaration) [129971 130003])
+                    ("getURL" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [130840 130855]))                          
+                        :type "java.net.URL")
+                        (reparse-symbol interface_member_declaration) [130820 130877])
+                    ("getURL" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [131794 131812]))                          
+                        :type "java.net.URL")
+                        (reparse-symbol interface_member_declaration) [131774 131834])
+                    ("updateRef" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [132699 132714])
+                            ("x" variable (:type "java.sql.Ref") (reparse-symbol formal_parameters) [132716 132730]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [132684 132752])
+                    ("updateRef" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [133719 133737])
+                            ("x" variable (:type "java.sql.Ref") (reparse-symbol formal_parameters) [133739 133753]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [133704 133775])
+                    ("updateBlob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [134642 134657])
+                            ("x" variable (:type "java.sql.Blob") (reparse-symbol formal_parameters) [134659 134674]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [134626 134696])
+                    ("updateBlob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [135661 135679])
+                            ("x" variable (:type "java.sql.Blob") (reparse-symbol formal_parameters) [135681 135696]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [135645 135718])
+                    ("updateClob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [136586 136601])
+                            ("x" variable (:type "java.sql.Clob") (reparse-symbol formal_parameters) [136603 136618]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [136570 136640])
+                    ("updateClob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [137605 137623])
+                            ("x" variable (:type "java.sql.Clob") (reparse-symbol formal_parameters) [137625 137640]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [137589 137662])
+                    ("updateArray" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [138531 138546])
+                            ("x" variable (:type "java.sql.Array") (reparse-symbol formal_parameters) [138548 138564]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [138514 138586])
+                    ("updateArray" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [139553 139571])
+                            ("x" variable (:type "java.sql.Array") (reparse-symbol formal_parameters) [139573 139589]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [139536 139611])
+                    ("getRowId" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [140408 140423]))                          
+                        :type "RowId")
+                        (reparse-symbol interface_member_declaration) [140393 140445])
+                    ("getRowId" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [141265 141283]))                          
+                        :type "RowId")
+                        (reparse-symbol interface_member_declaration) [141250 141305])
+                    ("updateRowId" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [142163 142178])
+                            ("x" variable (:type "RowId") (reparse-symbol formal_parameters) [142180 142187]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [142146 142209])
+                    ("updateRowId" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [143167 143185])
+                            ("x" variable (:type "RowId") (reparse-symbol formal_parameters) [143187 143194]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [143150 143216])
+                    ("getHoldability" function
+                       (:throws ("SQLException")
+                        :type "int")
+                        (reparse-symbol interface_member_declaration) [143566 143607])
+                    ("isClosed" function
+                       (:throws ("SQLException")
+                        :type "boolean")
+                        (reparse-symbol interface_member_declaration) [144007 144046])
+                    ("updateNString" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [145204 145219])
+                            ("nString" variable (:type "String") (reparse-symbol formal_parameters) [145221 145235]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [145185 145257])
+                    ("updateNString" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [146517 146535])
+                            ("nString" variable (:type "String") (reparse-symbol formal_parameters) [146537 146551]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [146498 146573])
+                    ("updateNClob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [147607 147622])
+                            ("nClob" variable (:type "NClob") (reparse-symbol formal_parameters) [147624 147635]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [147590 147657])
+                    ("updateNClob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [148790 148808])
+                            ("nClob" variable (:type "NClob") (reparse-symbol formal_parameters) [148810 148821]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [148773 148843])
+                    ("getNClob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [149709 149724]))                          
+                        :type "NClob")
+                        (reparse-symbol interface_member_declaration) [149694 149746])
+                    ("getNClob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [150697 150715]))                          
+                        :type "NClob")
+                        (reparse-symbol interface_member_declaration) [150682 150737])
+                    ("getSQLXML" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [151405 151420]))                          
+                        :type "SQLXML")
+                        (reparse-symbol interface_member_declaration) [151388 151442])
+                    ("getSQLXML" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [152211 152229]))                          
+                        :type "SQLXML")
+                        (reparse-symbol interface_member_declaration) [152194 152251])
+                    ("updateSQLXML" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [153554 153569])
+                            ("xmlObject" variable (:type "SQLXML") (reparse-symbol formal_parameters) [153571 153587]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [153536 153609])
+                    ("updateSQLXML" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [154992 155010])
+                            ("xmlObject" variable (:type "SQLXML") (reparse-symbol formal_parameters) [155012 155028]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [154974 155050])
+                    ("getNString" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [155897 155912]))                          
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [155879 155934])
+                    ("getNString" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [156883 156901]))                          
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [156865 156923])
+                    ("getNCharacterStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [157867 157882]))                          
+                        :type "java.io.Reader")
+                        (reparse-symbol interface_member_declaration) [157832 157904])
+                    ("getNCharacterStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [158936 158954]))                          
+                        :type "java.io.Reader")
+                        (reparse-symbol interface_member_declaration) [158901 158976])
+                    ("updateNCharacterStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [160219 160234])
+                            ("x" variable (:type "java.io.Reader") (reparse-symbol formal_parameters) [160244 160260])
+                            ("length" variable (:type "long") (reparse-symbol formal_parameters) [160270 160281]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [160191 160303])
+                    ("updateNCharacterStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [161721 161739])
+                            ("reader" variable (:type "java.io.Reader") (reparse-symbol formal_parameters) [161749 161770])
+                            ("length" variable (:type "long") (reparse-symbol formal_parameters) [161780 161791]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [161693 161813])
+                    ("updateAsciiStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [162785 162800])
+                            ("x" variable (:type "java.io.InputStream") (reparse-symbol formal_parameters) [162809 162830])
+                            ("length" variable (:type "long") (reparse-symbol formal_parameters) [162839 162850]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [162762 162872])
+                    ("updateBinaryStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [163851 163866])
+                            ("x" variable (:type "java.io.InputStream") (reparse-symbol formal_parameters) [163876 163897])
+                            ("length" variable (:type "long") (reparse-symbol formal_parameters) [163906 163917]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [163827 163939])
+                    ("updateCharacterStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [164918 164933])
+                            ("x" variable (:type "java.io.Reader") (reparse-symbol formal_parameters) [164943 164959])
+                            ("length" variable (:type "long") (reparse-symbol formal_parameters) [164969 164980]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [164891 165002])
+                    ("updateAsciiStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [166071 166089])
+                            ("x" variable (:type "java.io.InputStream") (reparse-symbol formal_parameters) [166098 166119])
+                            ("length" variable (:type "long") (reparse-symbol formal_parameters) [166128 166139]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [166048 166161])
+                    ("updateBinaryStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [167232 167250])
+                            ("x" variable (:type "java.io.InputStream") (reparse-symbol formal_parameters) [167260 167281])
+                            ("length" variable (:type "long") (reparse-symbol formal_parameters) [167290 167301]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [167208 167323])
+                    ("updateCharacterStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [168468 168486])
+                            ("reader" variable (:type "java.io.Reader") (reparse-symbol formal_parameters) [168496 168517])
+                            ("length" variable (:type "long") (reparse-symbol formal_parameters) [168527 168538]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [168441 168560])
+                    ("updateBlob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [169612 169627])
+                            ("inputStream" variable (:type "InputStream") (reparse-symbol formal_parameters) [169629 169652])
+                            ("length" variable (:type "long") (reparse-symbol formal_parameters) [169654 169665]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [169596 169687])
+                    ("updateBlob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [170838 170856])
+                            ("inputStream" variable (:type "InputStream") (reparse-symbol formal_parameters) [170858 170881])
+                            ("length" variable (:type "long") (reparse-symbol formal_parameters) [170883 170894]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [170822 170916])
+                    ("updateClob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [172255 172270])
+                            ("reader" variable (:type "Reader") (reparse-symbol formal_parameters) [172273 172286])
+                            ("length" variable (:type "long") (reparse-symbol formal_parameters) [172288 172299]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [172239 172321])
+                    ("updateClob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [173758 173776])
+                            ("reader" variable (:type "Reader") (reparse-symbol formal_parameters) [173779 173792])
+                            ("length" variable (:type "long") (reparse-symbol formal_parameters) [173794 173805]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [173742 173827])
+                    ("updateNClob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [175306 175321])
+                            ("reader" variable (:type "Reader") (reparse-symbol formal_parameters) [175324 175337])
+                            ("length" variable (:type "long") (reparse-symbol formal_parameters) [175339 175350]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [175289 175372])
+                    ("updateNClob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [176953 176971])
+                            ("reader" variable (:type "Reader") (reparse-symbol formal_parameters) [176974 176987])
+                            ("length" variable (:type "long") (reparse-symbol formal_parameters) [176989 177000]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [176936 177022])
+                    ("updateNCharacterStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [178495 178510])
+                            ("x" variable (:type "java.io.Reader") (reparse-symbol formal_parameters) [178520 178536]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [178467 178558])
+                    ("updateNCharacterStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [180188 180206])
+                            ("reader" variable (:type "java.io.Reader") (reparse-symbol formal_parameters) [180216 180237]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [180160 180259])
+                    ("updateAsciiStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [181436 181451])
+                            ("x" variable (:type "java.io.InputStream") (reparse-symbol formal_parameters) [181460 181481]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [181413 181503])
+                    ("updateBinaryStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [182688 182703])
+                            ("x" variable (:type "java.io.InputStream") (reparse-symbol formal_parameters) [182713 182734]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [182664 182756])
+                    ("updateCharacterStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [183944 183959])
+                            ("x" variable (:type "java.io.Reader") (reparse-symbol formal_parameters) [183969 183985]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [183917 184007])
+                    ("updateAsciiStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [185281 185299])
+                            ("x" variable (:type "java.io.InputStream") (reparse-symbol formal_parameters) [185308 185329]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [185258 185351])
+                    ("updateBinaryStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [186628 186646])
+                            ("x" variable (:type "java.io.InputStream") (reparse-symbol formal_parameters) [186656 186677]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [186604 186699])
+                    ("updateCharacterStream" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [188045 188063])
+                            ("reader" variable (:type "java.io.Reader") (reparse-symbol formal_parameters) [188073 188094]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [188018 188116])
+                    ("updateBlob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [189332 189347])
+                            ("inputStream" variable (:type "InputStream") (reparse-symbol formal_parameters) [189349 189372]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [189316 189394])
+                    ("updateBlob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [190704 190722])
+                            ("inputStream" variable (:type "InputStream") (reparse-symbol formal_parameters) [190724 190747]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [190688 190769])
+                    ("updateClob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [192119 192134])
+                            ("reader" variable (:type "Reader") (reparse-symbol formal_parameters) [192137 192150]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [192103 192172])
+                    ("updateClob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [193605 193623])
+                            ("reader" variable (:type "Reader") (reparse-symbol formal_parameters) [193626 193639]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [193589 193661])
+                    ("updateNClob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnIndex" variable (:type "int") (reparse-symbol formal_parameters) [195137 195152])
+                            ("reader" variable (:type "Reader") (reparse-symbol formal_parameters) [195155 195168]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [195120 195190])
+                    ("updateNClob" function
+                       (:throws ("SQLException")
+                        :arguments 
+                          ( ("columnLabel" variable (:type "String") (reparse-symbol formal_parameters) [196766 196784])
+                            ("reader" variable (:type "Reader") (reparse-symbol formal_parameters) [196787 196800]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [196749 196822]))                  
+                :type "interface")
+                nil [5957 196826]))          
+    :file "ResultSet.java"
+    :pointmax 196837
+    :fsize 196836
+    :lastmodtime '(19049 60226)
+    :unmatched-syntax '((RSHIFT 119496 . 119498) (QUESTION 119495 . 119496) (LT 119494 . 119495) (COMMA 119488 . 119489) (IDENTIFIER 119468 . 119472) (LT 119481 . 119482) (RSHIFT 115297 . 115299) (QUESTION 115296 . 115297) (LT 115295 . 115296) (COMMA 115289 . 115290) (IDENTIFIER 115269 . 115273) (LT 115282 . 115283) (RSHIFT 119496 . 119498) (QUESTION 119495 . 119496) (LT 119494 . 119495) (COMMA 119488 . 119489) (IDENTIFIER 119468 . 119472) (LT 119481 . 119482) (RSHIFT 115297 . 115299) (QUESTION 115296 . 115297) (LT 115295 . 115296) (COMMA 115289 . 115290) (IDENTIFIER 115269 . 115273) (LT 115282 . 115283))
+    )
+   )
+  :file "!drive_e!_SWDEV!GO!08.PIT!work!jdk_src!java!sql!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

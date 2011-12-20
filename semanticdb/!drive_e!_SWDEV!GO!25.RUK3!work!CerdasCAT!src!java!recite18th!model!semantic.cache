@@ -1,0 +1,137 @@
+;; Object model/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "model/"
+  :tables (list 
+   (semanticdb-table "Model.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("recite18th.model" package nil nil [1 26])
+            ("recite18th.library.Db" include nil nil [28 57])
+            ("java.util.Enumeration" include nil nil [58 87])
+            ("java.util.Hashtable" include nil nil [88 115])
+            ("java.util.List" include nil nil [116 138])
+            ("java.util.logging.Level" include nil nil [139 170])
+            ("java.util.logging.Logger" include nil nil [171 203])
+            ("Model" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("createNewModel" function
+                       (:typemodifiers ("public")
+                        :type "Model")
+                        (reparse-symbol class_member_declaration) [473 787])
+                    ("getTableName" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [793 855])
+                    ("tableName" variable
+                       (:typemodifiers ("protected")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [860 887])
+                    ("pkFieldValue" variable
+                       (:typemodifiers ("protected")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [922 935])
+                    ("pkFieldName" variable
+                       (:typemodifiers ("protected")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [892 921])
+                    ("Model" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [941 963])
+                    ("getPkFieldValue" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [969 1037])
+                    ("setPkFieldValue" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("pkFieldValue" variable (:type "String") (reparse-symbol formal_parameters) [1071 1090]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1043 1141])
+                    ("fqn" variable
+                       (:typemodifiers ("protected")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1146 1167])
+                    ("plainClassName" variable
+                       (:typemodifiers ("protected")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1172 1204])
+                    ("getPlainClassName" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1210 1282])
+                    ("setPlainClassName" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("plainClassName" variable (:type "String") (reparse-symbol formal_parameters) [1318 1339]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1288 1394])
+                    ("getFqn" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1400 1450])
+                    ("getPkFieldName" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1456 1522])
+                    ("Model" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("table" variable (:type "String") (reparse-symbol formal_parameters) [1541 1553])
+                            ("pkFieldName" variable (:type "String") (reparse-symbol formal_parameters) [1555 1573]))                          )
+                        (reparse-symbol class_member_declaration) [1528 1665])
+                    ("update" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("params" variable (:type "Hashtable") (reparse-symbol formal_parameters) [1904 1920]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1885 2473])
+                    ("insert" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("params" variable (:type "Hashtable") (reparse-symbol formal_parameters) [2498 2514]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2479 3280])
+                    ("delete" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("condition" variable (:type "String") (reparse-symbol formal_parameters) [3305 3321]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3286 3507])
+                    ("save" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("params" variable (:type "Hashtable") (reparse-symbol formal_parameters) [3530 3546]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3513 3782])
+                    ("getDataPerPage" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("sql" variable (:type "String") (reparse-symbol formal_parameters) [3815 3825]))                          
+                        :type "List")
+                        (reparse-symbol class_member_declaration) [3788 3867])
+                    ("getAllData" function
+                       (:typemodifiers ("public")
+                        :type "List")
+                        (reparse-symbol class_member_declaration) [3872 3961])
+                    ("getModelById" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("pkFieldValue" variable (:type "String") (reparse-symbol formal_parameters) [3993 4012]))                          
+                        :type "Model")
+                        (reparse-symbol class_member_declaration) [3967 4098]))                  
+                :type "class")
+                nil [447 4288]))          
+    :file "Model.java"
+    :pointmax 4289
+    :fsize 4288
+    :lastmodtime '(19836 18022)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!_SWDEV!GO!25.RUK3!work!CerdasCAT!src!java!recite18th!model!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

@@ -1,0 +1,18 @@
+;; Object merk_vendor/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "merk_vendor/"
+  :tables (list 
+   (semanticdb-table "merk_vendor_daftar.php"
+    :major-mode 'html-mode
+    :tags nil
+    :file "merk_vendor_daftar.php"
+    :pointmax 1108
+    :fsize 1142
+    :lastmodtime '(19693 52946)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!WWW!cecep-bengkel!system!application!views!merk_vendor!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

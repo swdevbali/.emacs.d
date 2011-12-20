@@ -1,0 +1,79 @@
+;; Object views/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "views/"
+  :tables (list 
+   (semanticdb-table "home.jsp"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Aplikasi Cerdas CAT" section nil nil [505 1018])
+            ("&nbsp;" section (:members 
+              ( ("&nbsp;" section nil nil [1086 1116])
+                ("CERDAS CAT &gt;&gt;" section (:members 
+                  ( ("Home" anchor nil nil [1219 1222])
+                    ("Help" anchor nil nil [1322 1325])
+                    ("About" anchor nil nil [1425 1428])
+                    ("${user_credential.username}" section (:members 
+                      ( ("Admin" anchor nil nil [1947 1950])
+                        ("Pimpinan" anchor nil nil [2030 2033])
+                        ("Pengajar" anchor nil nil [2119 2122])
+                        ("Peserta Test" anchor nil nil [2208 2211])
+                        ("Wali Peserta Test" anchor nil nil [2304 2307])
+                        ("Kelola Domain" anchor nil nil [2456 2459])
+                        ("Logout" anchor nil nil [2536 2539])
+                        ("Logout" anchor nil nil [2685 2688])
+                        ("Kelola Soal" anchor nil nil [2834 2837])
+                        ("Logout" anchor nil nil [2913 2916])
+                        ("Sign Up" anchor nil nil [3068 3071])
+                        ("Logout" anchor nil nil [3145 3148])
+                        ("Logout" anchor nil nil [3306 3309]))                      ) nil [1727 3411])
+                    ("&nbsp;" section nil nil [3411 3433])
+                    ("&nbsp;" section nil nil [3433 3589]))                  ) nil [1116 3589])
+                ("Home<!-- InstanceEndEditable -->" section (:members 
+                  ( ("" anchor nil nil [3987 3990]))                  ) nil [3589 4170]))              ) nil [1018 4170]))          
+    :file "home.jsp"
+    :pointmax 4170
+    :fsize 4372
+    :lastmodtime '(19824 25518)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "index.jsp"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Aplikasi Cerdas CAT" section nil nil [680 1193])
+            ("&nbsp;" section (:members 
+              ( ("&nbsp;" section nil nil [1261 1291])
+                ("CERDAS CAT &gt;&gt;" section (:members 
+                  ( ("Home" anchor nil nil [1394 1397])
+                    ("Help" anchor nil nil [1497 1500])
+                    ("About" anchor nil nil [1600 1603])
+                    ("${user_credential.username}" section (:members 
+                      ( ("Admin" anchor nil nil [2122 2125])
+                        ("Pimpinan" anchor nil nil [2205 2208])
+                        ("Pengajar" anchor nil nil [2294 2297])
+                        ("Peserta Test" anchor nil nil [2383 2386])
+                        ("Wali Peserta Test" anchor nil nil [2479 2482])
+                        ("Kelola Domain" anchor nil nil [2631 2634])
+                        ("Logout" anchor nil nil [2711 2714])
+                        ("Logout" anchor nil nil [2860 2863])
+                        ("Kelola Soal" anchor nil nil [3009 3012])
+                        ("Logout" anchor nil nil [3088 3091])
+                        ("Sign Up" anchor nil nil [3243 3246])
+                        ("Ambil Ujian" anchor nil nil [3319 3322])
+                        ("Logout" anchor nil nil [3408 3411])
+                        ("Logout" anchor nil nil [3569 3572]))                      ) nil [1902 3674])
+                    ("&nbsp;" section nil nil [3674 3696])
+                    ("&nbsp;" section nil nil [3696 3852]))                  ) nil [1291 3852])
+                ("Selamat datang <!-- InstanceEndEditable -->" section nil nil [3852 4035])
+                ("Username" section (:members 
+                  ( ("" anchor nil nil [5574 5577]))                  ) nil [4035 5757]))              ) nil [1193 5757]))          
+    :file "index.jsp"
+    :pointmax 5757
+    :fsize 5915
+    :lastmodtime '(19824 25518)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!_SWDEV!GO!25.RUK3!work!CerdasCAT!web!WEB-INF!views!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

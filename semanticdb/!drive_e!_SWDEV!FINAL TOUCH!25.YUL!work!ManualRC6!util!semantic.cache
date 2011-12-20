@@ -1,0 +1,39 @@
+;; Object util/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "util/"
+  :tables (list 
+   (semanticdb-table "Output.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("util" package nil nil [1 14])
+            ("Output" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("asHex" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("buf" variable
+                               (:dereference 1
+                                :type "byte")
+                                (reparse-symbol formal_parameters) [69 79]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [42 598])
+                    ("dbg" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("s" variable (:type "String") (reparse-symbol formal_parameters) [626 634]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [603 678]))                  
+                :type "class")
+                nil [16 680]))          
+    :file "Output.java"
+    :pointmax 680
+    :fsize 700
+    :lastmodtime '(19786 22656)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!_SWDEV!FINAL TOUCH!25.YUL!work!ManualRC6!util!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

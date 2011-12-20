@@ -1,0 +1,33 @@
+;; Object user_account/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "user_account/"
+  :tables (list 
+   (semanticdb-table "index.jsp"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Tambah Data" anchor nil nil [1 4])
+            ("Ubah" anchor nil nil [611 614])
+            ("Hapus" anchor nil nil [691 694]))          
+    :file "index.jsp"
+    :pointmax 930
+    :fsize 955
+    :lastmodtime '(19850 10866)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "view_user_account.jsp"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Tambah Data" anchor nil nil [324 327])
+            ("Ubah" anchor nil nil [1256 1259])
+            ("Hapus" anchor nil nil [1345 1348]))          
+    :file "view_user_account.jsp"
+    :pointmax 1530
+    :fsize 1529
+    :lastmodtime '(19853 23516)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!_SWDEV!GO!08.PIT!work!PitengSisfo!web!WEB-INF!views!user_account!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

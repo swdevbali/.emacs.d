@@ -1,0 +1,877 @@
+;; Object models/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "models/"
+  :tables (list 
+   (semanticdb-table "DosenModel.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("application.models" package nil nil [78 105])
+            ("recite18th.model.Model" include nil nil [106 136])
+            ("DosenModel" type
+               (:typemodifiers ("public")
+                :superclasses "Model"
+                :members 
+                  ( ("nip" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [181 199])
+                    ("nama" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [204 223])
+                    ("jns_klm" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [228 250])
+                    ("alamat_rumah" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [255 282])
+                    ("telpon_rumah" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [287 314])
+                    ("tanggal_lahir" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [319 347])
+                    ("email" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [352 372])
+                    ("tempat_lahir" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [377 404])
+                    ("password" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [409 432])
+                    ("username" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [437 460])
+                    ("peran" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [465 485])
+                    ("idjabatan_fungsional" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [490 525])
+                    ("tmt_jabatan_fungsional" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [530 567])
+                    ("golongan" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [572 595])
+                    ("tmmd" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [600 619])
+                    ("pendidikan_terakhir" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [624 658])
+                    ("tmt_pendidikan_terakhir" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [663 701])
+                    ("gelar_depan" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [706 732])
+                    ("gelar_belakang" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [737 766])
+                    ("mata_kuliah" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [771 797])
+                    ("kode_bidang_ilmu" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [802 833])
+                    ("status_sertifikasi" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [838 871])
+                    ("pak" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [876 894])
+                    ("cv" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [899 916])
+                    ("foto" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [921 940])
+                    ("deskripsi_diri" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [945 974])
+                    ("S1" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [979 996])
+                    ("S2" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1001 1018])
+                    ("S3" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1023 1040])
+                    ("karya" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1045 1065])
+                    ("sk_dosen_tetap" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1070 1099])
+                    ("sk_mengajar" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1104 1130])
+                    ("nip_atasan" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1135 1160])
+                    ("berkas_sudah_diperiksa" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1165 1202])
+                    ("idprodi" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1207 1229])
+                    ("DosenModel" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [1234 1362])
+                    ("setNip" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("nip" variable (:type "String") (reparse-symbol formal_parameters) [1386 1396]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1367 1431])
+                    ("getNip" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1436 1494])
+                    ("setNama" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("nama" variable (:type "String") (reparse-symbol formal_parameters) [1519 1530]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1499 1567])
+                    ("getNama" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1572 1632])
+                    ("setJns_klm" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("jns_klm" variable (:type "String") (reparse-symbol formal_parameters) [1660 1674]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1637 1717])
+                    ("getJns_klm" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1722 1788])
+                    ("setAlamat_rumah" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("alamat_rumah" variable (:type "String") (reparse-symbol formal_parameters) [1821 1840]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1793 1893])
+                    ("getAlamat_rumah" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1898 1974])
+                    ("setTelpon_rumah" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("telpon_rumah" variable (:type "String") (reparse-symbol formal_parameters) [2007 2026]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1979 2079])
+                    ("getTelpon_rumah" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2084 2160])
+                    ("setTanggal_lahir" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("tanggal_lahir" variable (:type "String") (reparse-symbol formal_parameters) [2194 2214]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2165 2269])
+                    ("getTanggal_lahir" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2274 2352])
+                    ("setEmail" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("email" variable (:type "String") (reparse-symbol formal_parameters) [2378 2390]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2357 2429])
+                    ("getEmail" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2434 2496])
+                    ("setTempat_lahir" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("tempat_lahir" variable (:type "String") (reparse-symbol formal_parameters) [2529 2548]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2501 2601])
+                    ("getTempat_lahir" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2606 2682])
+                    ("setPassword" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("password" variable (:type "String") (reparse-symbol formal_parameters) [2711 2726]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2687 2771])
+                    ("getPassword" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2776 2844])
+                    ("setUsername" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("username" variable (:type "String") (reparse-symbol formal_parameters) [2873 2888]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2849 2933])
+                    ("getUsername" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2938 3006])
+                    ("setPeran" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("peran" variable (:type "String") (reparse-symbol formal_parameters) [3032 3044]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3011 3083])
+                    ("getPeran" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [3088 3150])
+                    ("setIdjabatan_fungsional" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("idjabatan_fungsional" variable (:type "String") (reparse-symbol formal_parameters) [3191 3218]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3155 3287])
+                    ("getIdjabatan_fungsional" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [3292 3384])
+                    ("setTmt_jabatan_fungsional" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("tmt_jabatan_fungsional" variable (:type "String") (reparse-symbol formal_parameters) [3427 3456]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3389 3529])
+                    ("getTmt_jabatan_fungsional" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [3534 3630])
+                    ("setGolongan" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("golongan" variable (:type "String") (reparse-symbol formal_parameters) [3659 3674]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3635 3719])
+                    ("getGolongan" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [3724 3792])
+                    ("setTmmd" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("tmmd" variable (:type "String") (reparse-symbol formal_parameters) [3817 3828]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3797 3865])
+                    ("getTmmd" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [3870 3930])
+                    ("setPendidikan_terakhir" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("pendidikan_terakhir" variable (:type "String") (reparse-symbol formal_parameters) [3970 3996]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3935 4063])
+                    ("getPendidikan_terakhir" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [4068 4158])
+                    ("setTmt_pendidikan_terakhir" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("tmt_pendidikan_terakhir" variable (:type "String") (reparse-symbol formal_parameters) [4202 4232]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4163 4307])
+                    ("getTmt_pendidikan_terakhir" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [4312 4410])
+                    ("setGelar_depan" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("gelar_depan" variable (:type "String") (reparse-symbol formal_parameters) [4442 4460]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4415 4511])
+                    ("getGelar_depan" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [4516 4590])
+                    ("setGelar_belakang" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("gelar_belakang" variable (:type "String") (reparse-symbol formal_parameters) [4625 4646]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4595 4703])
+                    ("getGelar_belakang" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [4708 4788])
+                    ("setMata_kuliah" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("mata_kuliah" variable (:type "String") (reparse-symbol formal_parameters) [4820 4838]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4793 4889])
+                    ("getMata_kuliah" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [4894 4968])
+                    ("setKode_bidang_ilmu" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("kode_bidang_ilmu" variable (:type "String") (reparse-symbol formal_parameters) [5005 5028]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4973 5089])
+                    ("getKode_bidang_ilmu" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [5094 5178])
+                    ("setStatus_sertifikasi" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("status_sertifikasi" variable (:type "String") (reparse-symbol formal_parameters) [5217 5242]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5183 5307])
+                    ("getStatus_sertifikasi" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [5312 5400])
+                    ("setPak" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("pak" variable (:type "String") (reparse-symbol formal_parameters) [5424 5434]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5405 5469])
+                    ("getPak" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [5474 5532])
+                    ("setCv" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("cv" variable (:type "String") (reparse-symbol formal_parameters) [5555 5564]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5537 5597])
+                    ("getCv" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [5602 5658])
+                    ("setFoto" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("foto" variable (:type "String") (reparse-symbol formal_parameters) [5683 5694]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5663 5731])
+                    ("getFoto" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [5736 5796])
+                    ("setDeskripsi_diri" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("deskripsi_diri" variable (:type "String") (reparse-symbol formal_parameters) [5831 5852]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5801 5909])
+                    ("getDeskripsi_diri" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [5914 5994])
+                    ("setS1" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("S1" variable (:type "String") (reparse-symbol formal_parameters) [6017 6026]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5999 6059])
+                    ("getS1" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [6064 6120])
+                    ("setS2" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("S2" variable (:type "String") (reparse-symbol formal_parameters) [6143 6152]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6125 6185])
+                    ("getS2" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [6190 6246])
+                    ("setS3" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("S3" variable (:type "String") (reparse-symbol formal_parameters) [6269 6278]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6251 6311])
+                    ("getS3" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [6316 6372])
+                    ("setKarya" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("karya" variable (:type "String") (reparse-symbol formal_parameters) [6398 6410]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6377 6449])
+                    ("getKarya" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [6454 6516])
+                    ("setSk_dosen_tetap" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("sk_dosen_tetap" variable (:type "String") (reparse-symbol formal_parameters) [6551 6572]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6521 6629])
+                    ("getSk_dosen_tetap" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [6634 6714])
+                    ("setSk_mengajar" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("sk_mengajar" variable (:type "String") (reparse-symbol formal_parameters) [6746 6764]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6719 6815])
+                    ("getSk_mengajar" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [6820 6894])
+                    ("setNip_atasan" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("nip_atasan" variable (:type "String") (reparse-symbol formal_parameters) [6925 6942]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6899 6991])
+                    ("getNip_atasan" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [6996 7068])
+                    ("setBerkas_sudah_diperiksa" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("berkas_sudah_diperiksa" variable (:type "String") (reparse-symbol formal_parameters) [7111 7140]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [7073 7213])
+                    ("getBerkas_sudah_diperiksa" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [7218 7314])
+                    ("setIdprodi" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("idprodi" variable (:type "String") (reparse-symbol formal_parameters) [7342 7356]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [7319 7399])
+                    ("getIdprodi" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [7404 7470]))                  
+                :type "class")
+                nil [137 7472]))          
+    :file "DosenModel.java"
+    :pointmax 7473
+    :fsize 7472
+    :lastmodtime '(19826 52232)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "BidangIlmuModel.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("application.models" package nil nil [78 105])
+            ("recite18th.model.Model" include nil nil [106 136])
+            ("BidangIlmuModel" type
+               (:typemodifiers ("public")
+                :superclasses "Model"
+                :members 
+                  ( ("kode_bidang_ilmu" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [186 217])
+                    ("kode_subrumpun" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [222 251])
+                    ("bidang_ilmu" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [256 282])
+                    ("BidangIlmuModel" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [287 431])
+                    ("setKode_bidang_ilmu" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("kode_bidang_ilmu" variable (:type "String") (reparse-symbol formal_parameters) [468 491]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [436 552])
+                    ("getKode_bidang_ilmu" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [557 641])
+                    ("setKode_subrumpun" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("kode_subrumpun" variable (:type "String") (reparse-symbol formal_parameters) [676 697]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [646 754])
+                    ("getKode_subrumpun" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [759 839])
+                    ("setBidang_ilmu" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("bidang_ilmu" variable (:type "String") (reparse-symbol formal_parameters) [871 889]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [844 940])
+                    ("getBidang_ilmu" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [945 1019]))                  
+                :type "class")
+                nil [137 1021]))          
+    :file "BidangIlmuModel.java"
+    :pointmax 1022
+    :fsize 1021
+    :lastmodtime '(19826 52232)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "BeritaModel.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("application.models" package nil nil [78 105])
+            ("recite18th.model.Model" include nil nil [106 136])
+            ("BeritaModel" type
+               (:typemodifiers ("public")
+                :superclasses "Model"
+                :members 
+                  ( ("idberita" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [182 205])
+                    ("judul" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [210 230])
+                    ("isi" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [235 253])
+                    ("tanggal" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [258 280])
+                    ("BeritaModel" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [285 420])
+                    ("setIdberita" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("idberita" variable (:type "String") (reparse-symbol formal_parameters) [449 464]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [425 509])
+                    ("getIdberita" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [514 582])
+                    ("setJudul" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("judul" variable (:type "String") (reparse-symbol formal_parameters) [608 620]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [587 659])
+                    ("getJudul" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [664 726])
+                    ("setIsi" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("isi" variable (:type "String") (reparse-symbol formal_parameters) [750 760]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [731 795])
+                    ("getIsi" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [800 858])
+                    ("setTanggal" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("tanggal" variable (:type "String") (reparse-symbol formal_parameters) [886 900]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [863 943])
+                    ("getTanggal" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [948 1014]))                  
+                :type "class")
+                nil [137 1016]))          
+    :file "BeritaModel.java"
+    :pointmax 1017
+    :fsize 1016
+    :lastmodtime '(19826 52232)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "AspekPersepsionalModel.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("application.models" package nil nil [78 105])
+            ("recite18th.model.Model" include nil nil [106 136])
+            ("AspekPersepsionalModel" type
+               (:typemodifiers ("public")
+                :superclasses "Model"
+                :members 
+                  ( ("idaspek_persepsional" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [193 228])
+                    ("aspek_persepsional" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [233 266])
+                    ("AspekPersepsionalModel" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [271 452])
+                    ("setIdaspek_persepsional" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("idaspek_persepsional" variable (:type "String") (reparse-symbol formal_parameters) [493 520]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [457 589])
+                    ("getIdaspek_persepsional" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [594 686])
+                    ("setAspek_persepsional" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("aspek_persepsional" variable (:type "String") (reparse-symbol formal_parameters) [725 750]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [691 815])
+                    ("getAspek_persepsional" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [820 908]))                  
+                :type "class")
+                nil [137 910]))          
+    :file "AspekPersepsionalModel.java"
+    :pointmax 911
+    :fsize 910
+    :lastmodtime '(19826 52232)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "AsesorInternalModel.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("application.models" package nil nil [78 105])
+            ("recite18th.model.Model" include nil nil [106 136])
+            ("AsesorInternalModel" type
+               (:typemodifiers ("public")
+                :superclasses "Model"
+                :members 
+                  ( ("idasesor_internal" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [190 222])
+                    ("nip" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [227 245])
+                    ("AsesorInternalModel" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [250 419])
+                    ("setIdasesor_internal" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("idasesor_internal" variable (:type "String") (reparse-symbol formal_parameters) [457 481]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [424 544])
+                    ("getIdasesor_internal" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [549 635])
+                    ("setNip" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("nip" variable (:type "String") (reparse-symbol formal_parameters) [659 669]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [640 704])
+                    ("getNip" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [709 767]))                  
+                :type "class")
+                nil [137 769]))          
+    :file "AsesorInternalModel.java"
+    :pointmax 770
+    :fsize 769
+    :lastmodtime '(19826 52232)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "AsesorEksternalModel.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("application.models" package nil nil [78 105])
+            ("recite18th.model.Model" include nil nil [106 136])
+            ("AsesorEksternalModel" type
+               (:typemodifiers ("public")
+                :superclasses "Model"
+                :members 
+                  ( ("nama_asesor_eksternal" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [191 227])
+                    ("username" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [232 255])
+                    ("password" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [260 283])
+                    ("peran" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [288 308])
+                    ("nira" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [313 332])
+                    ("idptp_serdos" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [337 364])
+                    ("kode_bidang_ilmu" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [369 400])
+                    ("AsesorEksternalModel" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [405 564])
+                    ("setNama_asesor_eksternal" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("nama_asesor_eksternal" variable (:type "String") (reparse-symbol formal_parameters) [606 634]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [569 705])
+                    ("getNama_asesor_eksternal" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [710 804])
+                    ("setUsername" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("username" variable (:type "String") (reparse-symbol formal_parameters) [833 848]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [809 893])
+                    ("getUsername" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [898 966])
+                    ("setPassword" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("password" variable (:type "String") (reparse-symbol formal_parameters) [995 1010]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [971 1055])
+                    ("getPassword" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1060 1128])
+                    ("setPeran" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("peran" variable (:type "String") (reparse-symbol formal_parameters) [1154 1166]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1133 1205])
+                    ("getPeran" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1210 1272])
+                    ("setNira" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("nira" variable (:type "String") (reparse-symbol formal_parameters) [1297 1308]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1277 1345])
+                    ("getNira" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1350 1410])
+                    ("setIdptp_serdos" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("idptp_serdos" variable (:type "String") (reparse-symbol formal_parameters) [1443 1462]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1415 1515])
+                    ("getIdptp_serdos" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1520 1596])
+                    ("setKode_bidang_ilmu" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("kode_bidang_ilmu" variable (:type "String") (reparse-symbol formal_parameters) [1633 1656]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1601 1717])
+                    ("getKode_bidang_ilmu" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1722 1806]))                  
+                :type "class")
+                nil [137 1808]))          
+    :file "AsesorEksternalModel.java"
+    :pointmax 1809
+    :fsize 1808
+    :lastmodtime '(19826 52232)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!_SWDEV!GO!23.UTH!work!Serdos!src!java!application!models!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

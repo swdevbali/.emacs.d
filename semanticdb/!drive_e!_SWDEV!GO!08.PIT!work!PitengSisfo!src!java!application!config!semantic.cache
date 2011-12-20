@@ -1,0 +1,103 @@
+;; Object config/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "config/"
+  :tables (list 
+   (semanticdb-table "Database.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("application.config" package nil nil [101 128])
+            ("Database" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("HOST" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [187 233])
+                    ("PORT" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [238 279])
+                    ("DB" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [284 325])
+                    ("USER_NAME" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [330 376])
+                    ("PASSWORD" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [381 432])
+                    ("DB_TYPE" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [437 481]))                  
+                :type "class")
+                nil [159 496]))          
+    :file "Database.java"
+    :pointmax 496
+    :fsize 495
+    :lastmodtime '(19857 20328)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Config.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("application.config" package nil nil [101 128])
+            ("Config" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("firstController" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [242 294])
+                    ("homeController" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [335 386])
+                    ("loginController" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [429 482])
+                    ("mainPage" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [560 610])
+                    ("page404" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [615 667])
+                    ("base_url" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [672 747])
+                    ("base_path" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [752 847])
+                    ("application_title" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [982 1072])
+                    ("production_year" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1077 1129])
+                    ("author" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1134 1179]))                  
+                :type "class")
+                nil [216 1182]))          
+    :file "Config.java"
+    :pointmax 1183
+    :fsize 1182
+    :lastmodtime '(19856 59001)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!_SWDEV!GO!08.PIT!work!PitengSisfo!src!java!application!config!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

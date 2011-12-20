@@ -1,0 +1,33 @@
+;; Object testrc6/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "testrc6/"
+  :tables (list 
+   (semanticdb-table "Main.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("testrc6" package nil nil [102 118])
+            ("Main" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [260 273]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [236 326]))                  
+                :type "class")
+                nil [149 329]))          
+    :file "Main.java"
+    :pointmax 330
+    :fsize 329
+    :lastmodtime '(19745 13560)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!_SWDEV!FINAL TOUCH!25.YUL!work!TestRc6!src!testrc6!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

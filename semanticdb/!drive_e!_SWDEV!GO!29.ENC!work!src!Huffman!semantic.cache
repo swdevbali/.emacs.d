@@ -1,0 +1,185 @@
+;; Object Huffman/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Huffman/"
+  :tables (list 
+   (semanticdb-table "HuffViewer.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("javax.swing.*" include nil nil [1 22])
+            ("java.awt.BorderLayout" include nil nil [24 53])
+            ("java.awt.event.*" include nil nil [54 78])
+            ("java.util.*" include nil nil [79 98])
+            ("java.io.*" include nil nil [99 116])
+            ("HuffViewer" type
+               (:typemodifiers ("public")
+                :superclasses "JFrame"
+                :members 
+                  ( ("myOutput" variable
+                       (:typemodifiers ("protected")
+                        :type "JList")
+                        (reparse-symbol class_member_declaration) [164 194])
+                    ("myModel" variable
+                       (:typemodifiers ("protected")
+                        :type "IHuffModel")
+                        (reparse-symbol class_member_declaration) [199 229])
+                    ("myTitle" variable
+                       (:typemodifiers ("protected")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [234 263])
+                    ("myMessage" variable
+                       (:typemodifiers ("protected")
+                        :type "JTextField")
+                        (reparse-symbol class_member_declaration) [268 299])
+                    ("myFile" variable
+                       (:typemodifiers ("protected")
+                        :type "File")
+                        (reparse-symbol class_member_declaration) [304 326])
+                    ("myForce" variable
+                       (:typemodifiers ("private")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [331 355])
+                    ("ourChooser" variable
+                       (:typemodifiers ("protected" "static")
+                        :type "JFileChooser")
+                        (reparse-symbol class_member_declaration) [365 430])
+                    ("HuffViewer" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("title" variable (:type "String") (reparse-symbol formal_parameters) [463 475]))                          )
+                        (reparse-symbol class_member_declaration) [445 847])
+                    ("setModel" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("model" variable (:type "IHuffModel") (reparse-symbol formal_parameters) [874 890]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [853 953])
+                    ("makeMessage" function
+                       (:typemodifiers ("protected")
+                        :type "JPanel")
+                        (reparse-symbol class_member_declaration) [959 1203])
+                    ("makeOutput" function
+                       (:typemodifiers ("protected")
+                        :type "JPanel")
+                        (reparse-symbol class_member_declaration) [1213 1497])
+                    ("doRead" function
+                       (:typemodifiers ("protected")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1503 2339])
+                    ("makeOptionsMenu" function
+                       (:typemodifiers ("protected")
+                        :type "JMenu")
+                        (reparse-symbol class_member_declaration) [2344 3112])
+                    ("makeFileMenu" function
+                       (:typemodifiers ("protected")
+                        :type "JMenu")
+                        (reparse-symbol class_member_declaration) [3117 3829])
+                    ("makeMenus" function
+                       (:typemodifiers ("protected")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3834 3988])
+                    ("doDecode" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3994 5759])
+                    ("doSave" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5764 6999])
+                    ("cleanUp" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("f" variable (:type "File") (reparse-symbol formal_parameters) [7029 7035]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [7008 7194])
+                    ("getMonitorableStream" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("file" variable (:type "File") (reparse-symbol formal_parameters) [7260 7269])
+                            ("message" variable (:type "String") (reparse-symbol formal_parameters) [7271 7285]))                          
+                        :type "ProgressMonitorInputStream")
+                        (reparse-symbol class_member_declaration) [7204 7902])
+                    ("update" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("elements" variable (:type "Collection") (reparse-symbol formal_parameters) [7931 7950]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [7912 8053])
+                    ("showMessage" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("s" variable (:type "String") (reparse-symbol formal_parameters) [8085 8093]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [8061 8123])
+                    ("showError" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("s" variable (:type "String") (reparse-symbol formal_parameters) [8149 8157]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [8127 8286]))                  
+                :type "class")
+                nil [119 8293]))          
+    :file "HuffViewer.java"
+    :pointmax 8253
+    :fsize 8523
+    :lastmodtime '(19903 35155)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "IHuffModel.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("java.io.InputStream" include nil nil [316 343])
+            ("java.io.OutputStream" include nil nil [344 372])
+            ("java.io.File" include nil nil [373 393])
+            ("IHuffModel" type
+               (:typemodifiers ("public")
+                :interfaces ("IHuffConstants")
+                :members 
+                  ( ("showCodings" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [524 550])
+                    ("showCounts" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [645 670])
+                    ("initialize" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("stream" variable (:type "InputStream") (reparse-symbol formal_parameters) [916 934]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [893 936])
+                    ("write" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("stream" variable (:type "InputStream") (reparse-symbol formal_parameters) [1534 1552])
+                            ("file" variable (:type "File") (reparse-symbol formal_parameters) [1554 1563])
+                            ("force" variable (:type "boolean") (reparse-symbol formal_parameters) [1565 1578]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [1516 1580])
+                    ("setViewer" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("viewer" variable (:type "HuffViewer") (reparse-symbol formal_parameters) [1737 1754]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [1715 1756])
+                    ("uncompress" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("in" variable (:type "InputStream") (reparse-symbol formal_parameters) [1977 1991])
+                            ("out" variable (:type "OutputStream") (reparse-symbol formal_parameters) [1993 2009]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [1954 2011]))                  
+                :type "interface")
+                nil [395 2018]))          
+    :file "IHuffModel.java"
+    :pointmax 2019
+    :fsize 2079
+    :lastmodtime '(19903 35196)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!_SWDEV!GO!29.ENC!work!src!Huffman!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

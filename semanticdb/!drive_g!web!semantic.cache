@@ -1,0 +1,52 @@
+;; Object web/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "web/"
+  :tables (list 
+   (semanticdb-table "Agoes jQuery Plugin Menu.htm"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Agoes jQuery Plugin Menu" section nil nil [330 473])
+            ("$(function(){
+		$("ul.menu").agoestri_menu();
+	}
+	);" section nil nil [473 565])
+            ("$(function(){
+		$("ul.menu").agoestri_menu();
+	}
+	);" section nil nil [565 667])
+            ("$(function(){
+		$("ul.menu").agoestri_menu();
+	}
+	);" section nil nil [667 754])
+            ("-->
+<body>
+<div><div class="wrap-agoes-menu-h" style="min-width: 30px; "><div class="runbackmenu" style="width: 63px; left: 13px; display: block; ">" section nil nil [754 833])
+            ("FILE
+    	<div class="menuchild1"><ul>
+        	<li class="listmenuchild1 havechild">SAVE
+            	<div class="menuchild2"><ul>
+                	<li class="listmenuchild2"><a href="http://agoesdoubleb.i-bego.com/arsip/agoes-menu/index.html#">Save Project" section (:members 
+              ( ("Save Project" anchor nil nil [1281 1284])
+                ("Save All" anchor nil nil [1420 1423])
+                ("Image" anchor nil nil [1693 1696])
+                ("Video" anchor nil nil [1825 1828])
+                ("Text" anchor nil nil [1957 1960])
+                ("Properties" anchor nil nil [2126 2129])
+                ("menu1" anchor nil nil [2252 2255])
+                ("menu1" anchor nil nil [2373 2376])
+                ("menu1" anchor nil nil [2494 2497])
+                ("menu1" anchor nil nil [2615 2618])
+                ("Image" anchor nil nil [2839 2842])
+                ("Video" anchor nil nil [2971 2974])
+                ("Text" anchor nil nil [3103 3106]))              ) nil [833 4533]))          
+    :file "Agoes jQuery Plugin Menu.htm"
+    :pointmax 4533
+    :fsize 4532
+    :lastmodtime '(19852 38434)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_g!web!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

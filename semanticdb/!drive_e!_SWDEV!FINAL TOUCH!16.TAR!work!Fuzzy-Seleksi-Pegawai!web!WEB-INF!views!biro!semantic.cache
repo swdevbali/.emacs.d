@@ -1,0 +1,49 @@
+;; Object biro/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "biro/"
+  :tables (list 
+   (semanticdb-table "daftar_biro.jsp"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Penerimaan Karyawan dengan Metode Fuzzy MCDM" section nil nil [754 1592])
+            ("Penerimaan Karyawan <br />
+  <span class="style2">  dengan Metode Fuzzy MCDM" section (:members 
+              ( ("home" anchor nil nil [1843 1846])
+                ("help" anchor nil nil [1901 1904])
+                ("about" anchor nil nil [1965 1968])
+                ("daftar  biro <!-- InstanceEndEditable -->" section (:members 
+                  ( ("tambah data" anchor nil nil [2313 2316])
+                    ("Ubah" anchor nil nil [3234 3237])
+                    ("Hapus" anchor nil nil [3312 3315])
+                    ("menu" section (:members 
+                      ( ("Pemakai" anchor nil nil [5159 5162])
+                        ("Biro" anchor nil nil [5230 5233])
+                        ("Pendidikan" anchor nil nil [5296 5299])
+                        ("Jurusan" anchor nil nil [5417 5420])
+                        ("Logout" anchor nil nil [5489 5492])
+                        ("Kriteria-Subkriteria" anchor nil nil [5717 5720])
+                        ("Bobot Kriteria-Subkriteria" anchor nil nil [5802 5805])
+                        ("Calon Karyawan" anchor nil nil [5898 5901])
+                        ("Pengisian Hasil Test" anchor nil nil [5982 5985])
+                        ("Proses Tahap 1" anchor nil nil [6069 6072])
+                        ("Laporan" anchor nil nil [6153 6156])
+                        ("Logout" anchor nil nil [6231 6234])
+                        ("Pengisian Hasil Test" anchor nil nil [6407 6410])
+                        ("Proses Tahap 2" anchor nil nil [6494 6497])
+                        ("Laporan" anchor nil nil [6578 6581])
+                        ("Logout" anchor nil nil [6656 6659])
+                        ("Pengisian Hasil Test" anchor nil nil [6827 6830])
+                        ("Proses Tahap 3" anchor nil nil [6914 6917])
+                        ("Laporan" anchor nil nil [6998 7001])
+                        ("Logout" anchor nil nil [7076 7079]))                      ) nil [3678 7339]))                  ) nil [2161 7339]))              ) nil [1592 7339]))          
+    :file "daftar_biro.jsp"
+    :pointmax 7339
+    :fsize 7492
+    :lastmodtime '(19807 42201)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!_SWDEV!FINAL TOUCH!16.TAR!work!Fuzzy-Seleksi-Pegawai!web!WEB-INF!views!biro!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

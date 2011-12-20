@@ -1,0 +1,331 @@
+;; Object src/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "src/"
+  :tables (list 
+   (semanticdb-table "GloftCanvas.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("javax.microedition.lcdui.*" include nil nil [1 35])
+            ("javax.microedition.rms.*" include nil nil [36 68])
+            ("javax.microedition.media.*" include nil nil [69 103])
+            ("java.io.*" include nil nil [104 121])
+            ("GloftCanvas" type
+               (:typemodifiers ("public")
+                :interfaces ("Runnable")
+                :superclasses "Canvas"
+                :members 
+                  ( ("instance" variable
+                       (:typemodifiers ("public" "static")
+                        :type "GloftCanvas")
+                        (reparse-symbol class_member_declaration) [203 243])
+                    ("is_running" variable
+                       (:typemodifiers ("private")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [248 282])
+                    ("SCREEN_WIDTH" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [306 352])
+                    ("SCREEN_HEIGHT" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [357 403])
+                    ("GAMESTATE_LOGO" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [427 471])
+                    ("GAMESTATE_LOADING" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [476 525])
+                    ("GAMESTATE_SPLASH" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [530 579])
+                    ("GAMESTATE_MAINMENU" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [584 633])
+                    ("GAMESTATE_IN_GAME" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [638 687])
+                    ("GAMESTATE_IGP" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [692 741])
+                    ("GAMESTATE_HELP" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [765 814])
+                    ("GAMESTATE_ABOUT" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [819 868])
+                    ("GAMESTATE_EXIT" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [873 922])
+                    ("m_iState" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [928 985])
+                    ("m_iCounterState" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [990 1034])
+                    ("m_gameloftLogo" variable
+                       (:typemodifiers ("private")
+                        :type "Image")
+                        (reparse-symbol class_member_declaration) [1052 1099])
+                    ("m_gameloftLoading" variable
+                       (:typemodifiers ("private")
+                        :type "Image")
+                        (reparse-symbol class_member_declaration) [1104 1151])
+                    ("m_gameSplash" variable
+                       (:typemodifiers ("private")
+                        :type "Image")
+                        (reparse-symbol class_member_declaration) [1156 1203])
+                    ("m_resourceLoadingFinish" variable
+                       (:typemodifiers ("private")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1208 1255])
+                    ("m_gameBackground" variable
+                       (:typemodifiers ("private")
+                        :type "Image")
+                        (reparse-symbol class_member_declaration) [1260 1307])
+                    ("m_characterImage" variable
+                       (:typemodifiers ("private")
+                        :type "Image")
+                        (reparse-symbol class_member_declaration) [1312 1359])
+                    ("m_characterRGB" variable
+                       (:dereference 1
+                        :typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1364 1411])
+                    ("m_gameloftLogoSprite" variable
+                       (:typemodifiers ("private")
+                        :type "ASprite")
+                        (reparse-symbol class_member_declaration) [1432 1479])
+                    ("KEY_FIRE" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1503 1548])
+                    ("KEY_BACK" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1553 1598])
+                    ("KEY_NEXT" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1603 1648])
+                    ("KEY_LEFT" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1653 1698])
+                    ("KEY_RIGHT" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1703 1747])
+                    ("KEY_UP" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1752 1796])
+                    ("KEY_DOWN" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1801 1845])
+                    ("m_iLastKeyPressed" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1850 1880])
+                    ("m_iCurrentAction" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1899 1929])
+                    ("ACTION_NONE" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1934 1978])
+                    ("ACTION_FIRE" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1983 2027])
+                    ("ACTION_BACK" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2032 2081])
+                    ("ACTION_NEXT" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2086 2135])
+                    ("ACTION_LEFT" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2140 2189])
+                    ("ACTION_RIGHT" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2194 2243])
+                    ("ACTION_UP" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2248 2297])
+                    ("ACTION_DOWN" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2302 2351])
+                    ("MAP_KEY_LEFT" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2367 2430])
+                    ("MAP_TOP" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2435 2499])
+                    ("MAP_SIZE" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2504 2550])
+                    ("m_iCharX" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2572 2618])
+                    ("m_iCharY" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2623 2669])
+                    ("m_iCharTime" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2674 2718])
+                    ("CHAR_SIZE" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2723 2768])
+                    ("m_isPlayerWin" variable
+                       (:typemodifiers ("private")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [2773 2821])
+                    ("m_resourceLoaded" variable
+                       (:typemodifiers ("private")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [2826 2874])
+                    ("m_iCharacterWidth" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2879 2925])
+                    ("m_iCharacterHeight" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2930 2975])
+                    ("m_iCharSpaceX" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [2980 3025])
+                    ("m_iCharSpaceY" variable
+                       (:typemodifiers ("private" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3030 3075])
+                    ("m_rs" variable
+                       (:typemodifiers ("private")
+                        :type "RecordStore")
+                        (reparse-symbol class_member_declaration) [3092 3117])
+                    ("MENU_NEW_GAME" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3134 3178])
+                    ("MENU_HELP" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3183 3232])
+                    ("MENU_ABOUT" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3237 3286])
+                    ("MENU_EXIT" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3291 3340])
+                    ("m_iSelectedMenu" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3346 3402])
+                    ("player" variable
+                       (:dereference 1
+                        :typemodifiers ("public" "static" "final")
+                        :type "Player")
+                        (reparse-symbol class_member_declaration) [3420 3483])
+                    ("GloftCanvas" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [3489 3649])
+                    ("createSprites" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3660 4267])
+                    ("loadResources" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4274 6361])
+                    ("paint" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("g" variable (:type "Graphics") (reparse-symbol formal_parameters) [6384 6394]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6366 9832])
+                    ("drawMenu" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("menu" variable (:type "String") (reparse-symbol formal_parameters) [9860 9871])
+                            ("x" variable (:type "int") (reparse-symbol formal_parameters) [9873 9878])
+                            ("y" variable (:type "int") (reparse-symbol formal_parameters) [9880 9885])
+                            ("menuId" variable (:type "int") (reparse-symbol formal_parameters) [9887 9897])
+                            ("g" variable (:type "Graphics") (reparse-symbol formal_parameters) [9899 9909]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [9838 10043])
+                    ("update" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [10053 15502])
+                    ("run" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [15508 15685])
+                    ("playSound" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("fileName" variable (:type "String") (reparse-symbol formal_parameters) [15714 15729]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [15692 16025])
+                    ("keyPressed" function
+                       (:typemodifiers ("protected")
+                        :arguments 
+                          ( ("keycode" variable (:type "int") (reparse-symbol formal_parameters) [16056 16067]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [16030 17266])
+                    ("keyRepeated" function
+                       (:typemodifiers ("protected")
+                        :arguments 
+                          ( ("keycode" variable (:type "int") (reparse-symbol formal_parameters) [17299 17310]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [17272 17416])
+                    ("keyReleased" function
+                       (:typemodifiers ("protected")
+                        :arguments 
+                          ( ("keycode" variable (:type "int") (reparse-symbol formal_parameters) [17448 17459]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [17421 17498]))                  
+                :type "class")
+                nil [123 17500]))          
+    :file "GloftCanvas.java"
+    :pointmax 17501
+    :fsize 17500
+    :lastmodtime '(19782 56297)
+    :unmatched-syntax '((punctuation 1480 . 1481) (IF 1413 . 1415) (punctuation 1412 . 1413))
+    )
+   )
+  :file "!drive_e!_SWDEV!GO!20.ALF!work!VPet!src!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

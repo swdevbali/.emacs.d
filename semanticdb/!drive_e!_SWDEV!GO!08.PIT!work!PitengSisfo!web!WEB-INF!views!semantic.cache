@@ -1,0 +1,95 @@
+;; Object views/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "views/"
+  :tables (list 
+   (semanticdb-table "login.jsp"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Username : <input type=" text " id=" username " name=" username "/>
+  Password : <input type=" password " id=" password " name=" password "/>
+  <input name=" Submit " type=" submit " value=" Submit "/>" section nil nil [318 461])
+            ("Username : <input type=" text " id=" username " name=" username "/>
+  Password : <input type=" password " id=" password " name=" password "/>
+  <input name=" Submit " type=" submit " value=" Submit "/>" section nil nil [461 777]))          
+    :file "login.jsp"
+    :pointmax 777
+    :fsize 486
+    :lastmodtime '(19853 40161)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "index.jsp"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Sistem Informasi Pegawai Bantul 2011" section nil nil [318 633])
+            ("$(function(){
+  $(" ul\.menu ").agoestri_menu();
+  }
+  );" section nil nil [633 705])
+            ("$(function(){
+  $(" ul\.menu ").agoestri_menu();
+  }
+  );" section nil nil [705 785])
+            ("$(function(){
+  $(" ul\.menu ").agoestri_menu();
+  }
+  );" section nil nil [785 871])
+            ("" section nil nil [871 1135]))          
+    :file "index.jsp"
+    :pointmax 1135
+    :fsize 1164
+    :lastmodtime '(19853 45576)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "body.jsp"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Body" section nil nil [1 175]))          
+    :file "body.jsp"
+    :pointmax 175
+    :fsize 111
+    :lastmodtime '(19853 39488)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "nav_admin.jsp"
+    :major-mode 'html-mode
+    :tags nil
+    :file "nav_admin.jsp"
+    :pointmax 35
+    :fsize 35
+    :lastmodtime '(19853 42656)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "header.jsp"
+    :major-mode 'html-mode
+    :tags 
+        '( ("" anchor nil nil [21 24]))          
+    :file "header.jsp"
+    :pointmax 352
+    :fsize 361
+    :lastmodtime '(19855 14730)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "nav_pegawai.jsp"
+    :major-mode 'html-mode
+    :tags nil
+    :file "nav_pegawai.jsp"
+    :pointmax 13
+    :fsize 12
+    :lastmodtime '(19850 2017)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "footer.jsp"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Hak Cipta (C) <%=Config.production_year%> <%=Config.author%>" anchor nil nil [57 60]))          
+    :file "footer.jsp"
+    :pointmax 187
+    :fsize 191
+    :lastmodtime '(19855 14981)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!_SWDEV!GO!08.PIT!work!PitengSisfo!web!WEB-INF!views!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

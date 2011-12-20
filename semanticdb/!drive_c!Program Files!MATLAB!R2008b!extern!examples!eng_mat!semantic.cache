@@ -1,0 +1,110 @@
+;; Object eng_mat/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "eng_mat/"
+  :tables (list 
+   (semanticdb-table "engdemo.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdlib.h" include (:system-flag t) nil [226 245])
+            ("stdio.h" include (:system-flag t) nil [246 264])
+            ("string.h" include (:system-flag t) nil [265 284])
+            ("include\engine.h" include nil nil [285 312])
+            ("BUFSIZE" variable (:constant-flag t) nil [322 329])
+            ("main" function (:type "int") nil [335 3610]))          
+    :file "engdemo.c"
+    :pointmax 3572
+    :fsize 3617
+    :lastmodtime '(19818 12099)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("BUFSIZE" . ((number "256" 322 . 325)))
+          )
+
+    )
+   (semanticdb-table "matdgns.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [429 447])
+            ("stdlib.h" include (:system-flag t) nil [448 467])
+            ("mat.h" include nil nil [468 484])
+            ("diagnose" function
+               (:arguments 
+                  ( ("file" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [499 516]))                  
+                :type "int")
+                nil [486 2973])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [2984 2993])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2994 3006]))                  
+                :type "int")
+                nil [2975 3288]))          
+    :file "matdgns.c"
+    :pointmax 3289
+    :fsize 3288
+    :lastmodtime '(15928 61466)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "matcreat.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [446 464])
+            ("string.h" include (:system-flag t) nil [465 484])
+            ("stdlib.h" include (:system-flag t) nil [504 523])
+            ("mat.h" include nil nil [561 577])
+            ("BUFSIZE" variable (:constant-flag t) nil [587 594])
+            ("main" function (:type "int") nil [600 4552]))          
+    :file "matcreat.c"
+    :pointmax 4558
+    :fsize 4557
+    :lastmodtime '(17712 13250)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("BUFSIZE" . ((number "256" 595 . 598)))
+          )
+
+    )
+   (semanticdb-table "engwindemo.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("windows.h" include (:system-flag t) nil [218 238])
+            ("stdlib.h" include (:system-flag t) nil [239 258])
+            ("stdio.h" include (:system-flag t) nil [259 277])
+            ("string.h" include (:system-flag t) nil [278 297])
+            ("engine.h" include nil nil [298 317])
+            ("BUFSIZE" variable (:constant-flag t) nil [327 334])
+            ("Areal" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :default-value "{ 1, 2, 3, 4, 5, 6 }"
+                :type "double")
+                nil [340 386])
+            ("WinMain" function
+               (:arguments 
+                  ( ("hInstance" variable (:type ("HINSTANCE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [408 428])
+                    ("hPrevInstance" variable (:type ("HINSTANCE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [449 473])
+                    ("lpszCmdLine" variable (:type ("LPSTR" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [494 516])
+                    ("nCmdShow" variable (:type "int") (reparse-symbol arg-sub-list) [537 556]))                  
+                :type ("PASCAL" type (:type "class") nil nil))
+                nil [392 3054]))          
+    :file "engwindemo.c"
+    :pointmax 3055
+    :fsize 3054
+    :lastmodtime '(16175 26534)
+    :unmatched-syntax '((INT 388 . 391))
+    :lexical-table 
+        '(("BUFSIZE" . ((number "256" 335 . 338)))
+          )
+
+    )
+   )
+  :file "!drive_c!Program Files!MATLAB!R2008b!extern!examples!eng_mat!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

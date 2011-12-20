@@ -1,0 +1,45 @@
+;; Object ConsoleVS/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "ConsoleVS/"
+  :tables (list 
+   (semanticdb-table "First.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function (:type "int") nil [21 239]))          
+    :file "First.cpp"
+    :pointmax 240
+    :fsize 249
+    :lastmodtime '(19804 16204)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Pointer.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [21 41])
+            ("main" function (:type "int") nil [43 134]))          
+    :file "Pointer.cpp"
+    :pointmax 135
+    :fsize 142
+    :lastmodtime '(19803 826)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Clr.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("main" function (:type "int") nil [1 59]))          
+    :file "Clr.cpp"
+    :pointmax 60
+    :fsize 63
+    :lastmodtime '(19803 1043)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!_SWDEV!_FUN!ConsoleVS!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

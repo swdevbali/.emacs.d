@@ -1,0 +1,38 @@
+;; Object org/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "org/"
+  :tables (list 
+   (semanticdb-table "EnkripsiCitraMMSdenganRc6.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("EnkripsiCitraMMSdenganRc6" section nil nil [245 1673])
+            ("*///-->" section nil nil [1673 2292])
+            ("EnkripsiCitraMMSdenganRc6" section (:members 
+              ( ("EnkripsiCitraMMSdenganRc6" section (:members 
+                  ( ("Table of Contents" section (:members 
+                      ( ("1 Proses Enkripsi Citra dengan RC6" anchor nil nil [2469 2472])
+                        ("1.1 KONSEP ENKRIPSI" anchor nil nil [2535 2538])
+                        ("1.2 KONSEP DEKRIPSI" anchor nil nil [2588 2591])
+                        ("1.3 Kenapa tidak citra langsung dienkripsi dengan RC6???" anchor nil nil [2641 2644])
+                        ("1.4 Perlukah sertifikat digital???" anchor nil nil [2731 2734])
+                        ("2 PENJELASAN KODE" anchor nil nil [2811 2814])
+                        ("2.1 Bagaimana aplikasi membaca citra dari memory handphone???" anchor nil nil [2860 2863]))                      ) nil [2399 3033])
+                    ("1" section (:members 
+                      ( ("1.1" section nil nil [3229 3972])
+                        ("1.2" section nil nil [3972 4687])
+                        ("1.3" section nil nil [4687 5349])
+                        ("1.4" section nil nil [5349 6042]))                      ) nil [3033 6042])
+                    ("2" section (:members 
+                      ( ("2.1" section (:members 
+                          ( ("&lt;Eko SW@SWDEV-DESKTOP&gt;" anchor nil nil [6517 6520]))                          ) nil [6221 6739]))                      ) nil [6042 6739]))                  ) nil [2319 6739]))              ) nil [2292 6739]))          
+    :file "EnkripsiCitraMMSdenganRc6.html"
+    :pointmax 6739
+    :fsize 6955
+    :lastmodtime '(19802 20304)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!_SWDEV!FINAL TOUCH!25.YUL!org!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

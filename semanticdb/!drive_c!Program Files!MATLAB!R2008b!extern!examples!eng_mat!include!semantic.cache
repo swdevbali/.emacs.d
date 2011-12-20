@@ -1,0 +1,2079 @@
+;; Object include/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "include/"
+  :tables (list 
+   (semanticdb-table "engine.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("engine_h" variable (:constant-flag t) nil [421 429])
+            ("EXTERN_C" variable (:constant-flag t) nil [786 794])
+            ("matrix.h" include nil nil [819 838])
+            ("Engine" type
+               (:typedef ("engine" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :superclasses "engine"
+                :type "typedef")
+                nil [878 907])
+            ("engEvalString" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("ep" variable
+                       (:pointer 1
+                        :type ("Engine" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1013 1024])
+                    ("string" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1048 1103]))                  
+                :type "int")
+                nil [984 1104])
+            ("engOpenSingleUse" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("startcmd" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1229 1250])
+                    ("reserved" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1302 1317])
+                    ("retstatus" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1366 1402]))                  
+                :type ("Engine" type (:type "class") nil nil))
+                nil [1190 1403])
+            ("engSetVisible" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("ep" variable
+                       (:pointer 1
+                        :type ("Engine" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1509 1520])
+                    ("newVal" variable (:type "bool") (reparse-symbol arg-sub-list) [1554 1572]))                  
+                :type "int")
+                nil [1476 1573])
+            ("engGetVisible" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("ep" variable
+                       (:pointer 1
+                        :type ("Engine" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1680 1691])
+                    ("bVal" variable
+                       (:pointer 1
+                        :type "bool")
+                        (reparse-symbol arg-sub-list) [1725 1742]))                  
+                :type "int")
+                nil [1647 1743])
+            ("engOpen" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("startcmd" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1805 1875]))                  
+                :type ("Engine" type (:type "class") nil nil))
+                nil [1778 1876])
+            ("engClose" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("ep" variable
+                       (:pointer 1
+                        :type ("Engine" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1938 1980]))                  
+                :type "int")
+                nil [1914 1981])
+            ("engGetVariable" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("ep" variable
+                       (:pointer 1
+                        :type ("Engine" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2092 2103])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2127 2176]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [2057 2177])
+            ("engPutVariable" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("ep" variable
+                       (:pointer 1
+                        :type ("Engine" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2287 2298])
+                    ("var_name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2332 2353])
+                    ("ap" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2359 2405]))                  
+                :type "int")
+                nil [2253 2406])
+            ("engOutputBuffer" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("ep" variable
+                       (:pointer 1
+                        :type ("Engine" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2495 2506])
+                    ("buffer" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2530 2543])
+                    ("buflen" variable (:type "int") (reparse-symbol arg-sub-list) [2582 2626]))                  
+                :type "int")
+                nil [2464 2627])
+            ("engOpenV4" variable (:constant-flag t) nil [2638 2647])
+            ("engGetFull" variable (:constant-flag t) nil [2687 2697])
+            ("engPutFull" variable (:constant-flag t) nil [2735 2745])
+            ("engGetMatrix" variable (:constant-flag t) nil [2783 2795])
+            ("engPutMatrix" variable (:constant-flag t) nil [2833 2845])
+            ("engPutArray" variable (:constant-flag t) nil [3037 3048])
+            ("engGetArray" variable (:constant-flag t) nil [3083 3094]))          
+    :file "engine.h"
+    :pointmax 3176
+    :fsize 3175
+    :lastmodtime '(18582 57950)
+    :unmatched-syntax '((symbol 383 . 387) (symbol 376 . 382) (punctuation 375 . 376))
+    :lexical-table 
+        '(("engOpenV4" (spp-arg-list nil 2647 . 2649) . ((symbol "cannot_call_engOpenV4" 2655 . 2676)))
+          ("engPutMatrix" (spp-arg-list nil 2845 . 2847) . ((symbol "engPutMatrix_is_obsolete" 2850 . 2874)))
+          ("engPutArray" (spp-arg-list nil 3048 . 3050) . ((symbol "engPutArray_is_obsolete" 3051 . 3074)))
+          ("engGetFull" (spp-arg-list nil 2697 . 2699) . ((symbol "engGetFull_is_obsolete" 2704 . 2726)))
+          ("engGetMatrix" (spp-arg-list nil 2795 . 2797) . ((symbol "engGetMatrix_is_obsolete" 2800 . 2824)))
+          ("engPutFull" (spp-arg-list nil 2745 . 2747) . ((symbol "engPutFull_is_obsolete" 2752 . 2774)))
+          ("engine_h")
+          ("engGetArray" (spp-arg-list nil 3094 . 3096) . ((symbol "engGetArray_is_obsolete" 3097 . 3120)))
+          ("EXTERN_C" . ((EXTERN "extern" 795 . 801)))
+          )
+
+    )
+   (semanticdb-table "matrix.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("matrix_h" variable (:constant-flag t) nil [1422 1430])
+            ("EXTERN_C" variable (:constant-flag t) nil [1787 1795])
+            ("MX_API_VER" variable (:constant-flag t) nil [1848 1858])
+            ("mxSetProperty" variable (:constant-flag t) nil [2219 2232])
+            ("mxGetProperty" variable (:constant-flag t) nil [2290 2303])
+            ("mxSetField" variable (:constant-flag t) nil [2358 2368])
+            ("mxSetFieldByNumber" variable (:constant-flag t) nil [2428 2446])
+            ("mxGetFieldByNumber" variable (:constant-flag t) nil [2514 2532])
+            ("mxGetField" variable (:constant-flag t) nil [2592 2602])
+            ("mxCreateStructMatrix" variable (:constant-flag t) nil [2664 2684])
+            ("mxCreateCellMatrix" variable (:constant-flag t) nil [2754 2772])
+            ("mxCreateCharMatrixFromStrings" variable (:constant-flag t) nil [2851 2880])
+            ("mxGetString" variable (:constant-flag t) nil [2952 2963])
+            ("mxGetNumberOfDimensions" variable (:constant-flag t) nil [3029 3052])
+            ("mxGetDimensions" variable (:constant-flag t) nil [3122 3137])
+            ("mxSetDimensions" variable (:constant-flag t) nil [3199 3214])
+            ("mxSetIr" variable (:constant-flag t) nil [3268 3275])
+            ("mxGetIr" variable (:constant-flag t) nil [3321 3328])
+            ("mxSetJc" variable (:constant-flag t) nil [3374 3381])
+            ("mxGetJc" variable (:constant-flag t) nil [3427 3434])
+            ("mxCreateStructArray" variable (:constant-flag t) nil [3492 3511])
+            ("mxCreateCharArray" variable (:constant-flag t) nil [3579 3596])
+            ("mxCreateNumericArray" variable (:constant-flag t) nil [3665 3685])
+            ("mxCreateCellArray" variable (:constant-flag t) nil [3754 3771])
+            ("mxCreateLogicalArray" variable (:constant-flag t) nil [3840 3860])
+            ("mxGetCell" variable (:constant-flag t) nil [3921 3930])
+            ("mxSetCell" variable (:constant-flag t) nil [3980 3989])
+            ("mxSetNzmax" variable (:constant-flag t) nil [4040 4050])
+            ("mxSetN" variable (:constant-flag t) nil [4098 4104])
+            ("mxSetM" variable (:constant-flag t) nil [4148 4154])
+            ("mxGetNzmax" variable (:constant-flag t) nil [4202 4212])
+            ("mxCreateDoubleMatrix" variable (:constant-flag t) nil [4274 4294])
+            ("mxCreateNumericMatrix" variable (:constant-flag t) nil [4367 4388])
+            ("mxCreateLogicalMatrix" variable (:constant-flag t) nil [4462 4483])
+            ("mxCreateSparse" variable (:constant-flag t) nil [4550 4564])
+            ("mxCreateSparseLogicalMatrix" variable (:constant-flag t) nil [4637 4664])
+            ("mxGetNChars" variable (:constant-flag t) nil [4734 4745])
+            ("mxCreateStringFromNChars" variable (:constant-flag t) nil [4812 4836])
+            ("mxCalcSingleSubscript" variable (:constant-flag t) nil [4913 4934])
+            ("mxGetDimensions_fcn" variable (:constant-flag t) nil [5006 5025])
+            ("stddef.h" include (:system-flag t) nil [5357 5376])
+            ("mxMalloc" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5478 5515]))                  
+                :type "void")
+                nil [5449 5516])
+            ("mxCalloc" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5614 5623])
+                    ("size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5652 5691]))                  
+                :type "void")
+                nil [5585 5692])
+            ("mxFree" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("ptr" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [5770 5780]))                  
+                :type "void")
+                nil [5749 5817])
+            ("mxRealloc" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("ptr" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [5905 5915])
+                    ("size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5916 5928]))                  
+                :type "void")
+                nil [5880 5929])
+            ("mxArray" type
+               (:typedef ("mxArray_tag" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :superclasses "mxArray_tag"
+                :type "typedef")
+                nil [6005 6040])
+            ("mxArray_DEFINED" variable (:constant-flag t) nil [6049 6064])
+            ("tmwtypes.h" include nil nil [6106 6127])
+            ("mxFunctionPtr" variable
+               (:functionpointer-flag t
+                :type "void")
+                nil [6137 6212])
+            ("mxMAXNAM" variable (:constant-flag t) nil [6222 6230])
+            ("mxLogical" type
+               (:typedef ("unsigned char")
+                :superclasses "unsigned char"
+                :type "typedef")
+                nil [6322 6354])
+            ("CHAR16_T" variable (:constant-flag t) nil [6528 6536])
+            ("char16_t" type
+               (:typedef ("wchar_t")
+                :superclasses "wchar_t"
+                :type "typedef")
+                nil [6603 6630])
+            ("mxChar" type
+               (:typedef ("char16_t" type (:type "class") nil nil)
+                :superclasses "char16_t"
+                :type "typedef")
+                nil [6721 6745])
+            ("mxClassID" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("mxUNKNOWN_CLASS" variable
+                             (:constant-flag t
+                              :default-value (6907 6908)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [6889 6908])
+                          ("mxCELL_CLASS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [6911 6924])
+                          ("mxSTRUCT_CLASS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [6926 6941])
+                          ("mxLOGICAL_CLASS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [6943 6959])
+                          ("mxCHAR_CLASS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [6961 6974])
+                          ("mxVOID_CLASS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [6976 6989])
+                          ("mxDOUBLE_CLASS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [6991 7006])
+                          ("mxSINGLE_CLASS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [7008 7023])
+                          ("mxINT8_CLASS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [7025 7038])
+                          ("mxUINT8_CLASS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [7040 7054])
+                          ("mxINT16_CLASS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [7056 7070])
+                          ("mxUINT16_CLASS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [7072 7087])
+                          ("mxINT32_CLASS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [7089 7103])
+                          ("mxUINT32_CLASS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [7105 7120])
+                          ("mxINT64_CLASS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [7122 7136])
+                          ("mxUINT64_CLASS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [7138 7153])
+                          ("mxFUNCTION_CLASS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [7155 7172])
+                          ("mxOPAQUE_CLASS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [7181 7196])
+                          ("mxOBJECT_CLASS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [7198 7214]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [6873 7225])
+            ("mxINDEX_CLASS" variable (:constant-flag t) nil [7235 7248])
+            ("mxSPARSE_CLASS" variable (:constant-flag t) nil [7395 7409])
+            ("mxComplexity" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("mxREAL" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [7471 7478])
+                          ("mxCOMPLEX" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [7483 7494]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [7452 7508])
+            ("mxGetClassID" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8896 8914]))                  
+                :type ("mxClassID" type (:type "class") nil nil))
+                nil [8864 8915])
+            ("mxGetData" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8978 9025]))                  
+                :type "void")
+                nil [8948 9026])
+            ("mxSetData" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9233 9245])
+                    ("newdata" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [9274 9317]))                  
+                :type "void")
+                nil [9204 9318])
+            ("mxIsNumeric" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9454 9472]))                  
+                :type "bool")
+                nil [9428 9473])
+            ("mxIsCell" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9561 9579]))                  
+                :type "bool")
+                nil [9538 9580])
+            ("mxIsLogical" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9676 9694]))                  
+                :type "bool")
+                nil [9650 9695])
+            ("mxIsChar" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9793 9811]))                  
+                :type "bool")
+                nil [9770 9812])
+            ("mxIsStruct" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9906 9924]))                  
+                :type "bool")
+                nil [9881 9925])
+            ("mxIsOpaque" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10017 10035]))                  
+                :type "bool")
+                nil [9992 10036])
+            ("mxIsFunctionHandle" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10136 10154]))                  
+                :type "bool")
+                nil [10103 10155])
+            ("mxIsObject" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10345 10392]))                  
+                :type "bool")
+                nil [10315 10393])
+            ("mxGetImagData" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10485 10532]))                  
+                :type "void")
+                nil [10451 10533])
+            ("mxSetImagData" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10774 10786])
+                    ("newdata" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [10815 10873]))                  
+                :type "void")
+                nil [10741 10874])
+            ("mxIsComplex" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10970 10988]))                  
+                :type "bool")
+                nil [10944 10989])
+            ("mxIsSparse" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11096 11114]))                  
+                :type "bool")
+                nil [11071 11115])
+            ("mxIsDouble" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11259 11277]))                  
+                :type "bool")
+                nil [11234 11278])
+            ("mxIsSingle" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11422 11440]))                  
+                :type "bool")
+                nil [11397 11441])
+            ("mxIsInt8" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11565 11583]))                  
+                :type "bool")
+                nil [11542 11584])
+            ("mxIsUint8" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11711 11729]))                  
+                :type "bool")
+                nil [11687 11730])
+            ("mxIsInt16" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11856 11874]))                  
+                :type "bool")
+                nil [11832 11875])
+            ("mxIsUint16" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12004 12022]))                  
+                :type "bool")
+                nil [11979 12023])
+            ("mxIsInt32" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12149 12167]))                  
+                :type "bool")
+                nil [12125 12168])
+            ("mxIsUint32" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12297 12315]))                  
+                :type "bool")
+                nil [12272 12316])
+            ("mxIsInt64" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12442 12460]))                  
+                :type "bool")
+                nil [12418 12461])
+            ("mxIsUint64" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12590 12608]))                  
+                :type "bool")
+                nil [12565 12609])
+            ("mxGetNumberOfDimensions_730" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12696 12714]))                  
+                :type ("mwSize" type (:type "class") nil nil))
+                nil [12656 12715])
+            ("mxGetDimensions_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12977 12995]))                  
+                :type ("mwSize" type (:type "class") nil nil))
+                nil [12938 12996])
+            ("mxGetNumberOfElements" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [13086 13133]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [13042 13134])
+            ("mxGetPr" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [13217 13264]))                  
+                :type "double")
+                nil [13187 13265])
+            ("mxSetPr" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [13484 13496])
+                    ("pr" variable
+                       (:pointer 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [13525 13574]))                  
+                :type "void")
+                nil [13457 13575])
+            ("mxGetPi" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [13663 13710]))                  
+                :type "double")
+                nil [13633 13711])
+            ("mxSetPi" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [13939 13951])
+                    ("pi" variable
+                       (:pointer 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [13980 14034]))                  
+                :type "void")
+                nil [13912 14035])
+            ("mxGetChars" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14103 14150]))                  
+                :type ("mxChar" type (:type "class") nil nil))
+                nil [14070 14151])
+            ("mxGetUserBits" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14482 14529]))                  
+                :type "int")
+                nil [14450 14530])
+            ("mxSetUserBits" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14726 14738])
+                    ("value" variable (:type "int") (reparse-symbol arg-sub-list) [14764 14779]))                  
+                :type "void")
+                nil [14696 14780])
+            ("mxGetScalar" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14982 15000]))                  
+                :type "double")
+                nil [14954 15001])
+            ("mxIsFromGlobalWS" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15083 15101]))                  
+                :type "bool")
+                nil [15052 15102])
+            ("mxSetFromGlobalWS" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15182 15194])
+                    ("global" variable (:type "bool") (reparse-symbol arg-sub-list) [15195 15207]))                  
+                :type "void")
+                nil [15150 15208])
+            ("mxGetM" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15263 15281]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [15240 15282])
+            ("mxSetM_730" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15335 15347])
+                    ("m" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15348 15357]))                  
+                :type "void")
+                nil [15314 15358])
+            ("mxGetN" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15416 15434]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [15393 15435])
+            ("mxIsEmpty" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15492 15539]))                  
+                :type "bool")
+                nil [15463 15540])
+            ("mxGetIr_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15625 15643]))                  
+                :type ("mwIndex" type (:type "class") nil nil))
+                nil [15599 15644])
+            ("mxSetIr_730" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15718 15730])
+                    ("newir" variable
+                       (:pointer 1
+                        :type ("mwIndex" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15731 15746]))                  
+                :type "void")
+                nil [15696 15747])
+            ("mxGetJc_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15835 15853]))                  
+                :type ("mwIndex" type (:type "class") nil nil))
+                nil [15809 15854])
+            ("mxSetJc_730" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15931 15943])
+                    ("newjc" variable
+                       (:pointer 1
+                        :type ("mwIndex" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15944 15959]))                  
+                :type "void")
+                nil [15909 15960])
+            ("mxGetNzmax_730" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16054 16072]))                  
+                :type ("mwSize" type (:type "class") nil nil))
+                nil [16027 16073])
+            ("mxSetNzmax_730" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16158 16170])
+                    ("nzmax" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16171 16184]))                  
+                :type "void")
+                nil [16133 16185])
+            ("mxGetElementSize" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16259 16277]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [16226 16278])
+            ("mxCalcSingleSubscript_730" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16433 16451])
+                    ("nsubs" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16452 16465])
+                    ("subs" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mwIndex" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16466 16486]))                  
+                :type ("mwIndex" type (:type "class") nil nil))
+                nil [16394 16487])
+            ("mxGetNumberOfFields" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16578 16625]))                  
+                :type "int")
+                nil [16540 16626])
+            ("mxGetCell_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16714 16732])
+                    ("i" variable (:type ("mwIndex" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16733 16743]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [16686 16744])
+            ("mxSetCell_730" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16836 16848])
+                    ("i" variable (:type ("mwIndex" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16849 16859])
+                    ("value" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16860 16875]))                  
+                :type "void")
+                nil [16812 16876])
+            ("mxGetFieldNameByNumber" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16970 16988])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [16989 16995]))                  
+                :type "char")
+                nil [16926 16996])
+            ("mxGetFieldNumber" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [17074 17092])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [17093 17110]))                  
+                :type "int")
+                nil [17044 17111])
+            ("mxGetFieldByNumber_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [17252 17270])
+                    ("i" variable (:type ("mwIndex" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17271 17281])
+                    ("fieldnum" variable (:type "int") (reparse-symbol arg-sub-list) [17282 17295]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [17215 17296])
+            ("mxSetFieldByNumber_730" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [17371 17383])
+                    ("i" variable (:type ("mwIndex" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17384 17394])
+                    ("fieldnum" variable (:type "int") (reparse-symbol arg-sub-list) [17395 17408])
+                    ("value" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [17409 17424]))                  
+                :type "void")
+                nil [17338 17425])
+            ("mxGetField_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [17622 17640])
+                    ("i" variable (:type ("mwIndex" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17641 17651])
+                    ("fieldname" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [17652 17674]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [17593 17675])
+            ("mxSetField_730" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [17860 17872])
+                    ("i" variable (:type ("mwIndex" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17873 17883])
+                    ("fieldname" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [17884 17906])
+                    ("value" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [17907 17922]))                  
+                :type "void")
+                nil [17835 17923])
+            ("mxGetProperty_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [18125 18143])
+                    ("i" variable (:type ("mwIndex" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18144 18154])
+                    ("propname" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [18155 18176]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [18093 18177])
+            ("mxSetProperty_730" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [18372 18384])
+                    ("i" variable (:type ("mwIndex" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18385 18395])
+                    ("propname" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [18396 18417])
+                    ("value" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [18418 18439]))                  
+                :type "void")
+                nil [18344 18440])
+            ("mxGetClassName" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [18530 18548]))                  
+                :type "char")
+                nil [18494 18549])
+            ("mxIsClass" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [18650 18668])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [18669 18686]))                  
+                :type "bool")
+                nil [18626 18687])
+            ("stdlib.h" include (:system-flag t) nil [18690 18709])
+            ("mxCreateNumericMatrix_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("m" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18886 18895])
+                    ("n" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18896 18905])
+                    ("classid" variable (:type ("mxClassID" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18906 18924])
+                    ("flag" variable (:type ("mxComplexity" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18925 18943]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [18846 18944])
+            ("mxSetN_730" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [19010 19022])
+                    ("n" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [19023 19032]))                  
+                :type "void")
+                nil [18989 19033])
+            ("mxSetDimensions_730" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [19229 19241])
+                    ("size" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mwSize" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [19242 19261])
+                    ("ndims" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [19262 19275]))                  
+                :type "int")
+                nil [19200 19276])
+            ("mxDestroyArray" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [19337 19349]))                  
+                :type "void")
+                nil [19308 19350])
+            ("mxCreateNumericArray_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("ndim" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [19593 19605])
+                    ("dims" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mwSize" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [19606 19625])
+                    ("classid" variable (:type ("mxClassID" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [19626 19644])
+                    ("flag" variable (:type ("mxComplexity" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [19645 19663]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [19554 19664])
+            ("mxCreateCharArray_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("ndim" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [19797 19809])
+                    ("dims" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mwSize" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [19810 19829]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [19761 19830])
+            ("mxCreateDoubleMatrix_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("m" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [19997 20006])
+                    ("n" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [20007 20016])
+                    ("flag" variable (:type ("mxComplexity" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [20017 20035]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [19958 20036])
+            ("mxGetLogicals" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [20148 20166]))                  
+                :type ("mxLogical" type (:type "class") nil nil))
+                nil [20114 20167])
+            ("mxCreateLogicalArray_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("ndim" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [20285 20297])
+                    ("dims" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mwSize" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [20298 20317]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [20246 20318])
+            ("mxCreateLogicalMatrix_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("m" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [20527 20536])
+                    ("n" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [20537 20546]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [20487 20547])
+            ("mxCreateLogicalScalar" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("value" variable (:type "bool") (reparse-symbol arg-sub-list) [20669 20680]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [20629 20681])
+            ("mxIsLogicalScalar" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [20782 20800]))                  
+                :type "bool")
+                nil [20750 20801])
+            ("mxIsLogicalScalarTrue" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [20900 20918]))                  
+                :type "bool")
+                nil [20864 20919])
+            ("mxCreateDoubleScalar" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("value" variable (:type "double") (reparse-symbol arg-sub-list) [21050 21063]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [21011 21064])
+            ("mxCreateSparse_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("m" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21147 21156])
+                    ("n" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21157 21166])
+                    ("nzmax" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21167 21180])
+                    ("flag" variable (:type ("mxComplexity" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21181 21199]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [21114 21200])
+            ("mxCreateSparseLogicalMatrix_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("m" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21293 21302])
+                    ("n" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21303 21312])
+                    ("nzmax" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21313 21326]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [21247 21327])
+            ("mxGetNChars_730" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [21551 21569])
+                    ("buf" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [21570 21580])
+                    ("nChars" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21581 21595]))                  
+                :type "void")
+                nil [21525 21596])
+            ("mxGetString_730" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [22031 22049])
+                    ("buf" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [22050 22060])
+                    ("buflen" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22061 22075]))                  
+                :type "int")
+                nil [22006 22076])
+            ("mxArrayToString" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [22337 22355]))                  
+                :type "char")
+                nil [22306 22356])
+            ("mxCreateStringFromNChars_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [22594 22610])
+                    ("n" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22611 22620]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [22551 22621])
+            ("mxCreateString" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [22774 22790]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [22741 22791])
+            ("mxCreateCharMatrixFromStrings_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("m" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22909 22918])
+                    ("str" variable
+                       (:pointer 2
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [22919 22936]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [22861 22937])
+            ("mxCreateCellMatrix_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("m" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23061 23070])
+                    ("n" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23071 23080]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [23024 23081])
+            ("mxCreateCellArray_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("ndim" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23205 23217])
+                    ("dims" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mwSize" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [23218 23237]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [23169 23238])
+            ("mxCreateStructMatrix_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("m" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23392 23401])
+                    ("n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23402 23411])
+                    ("nfields" variable (:type "int") (reparse-symbol arg-sub-list) [23412 23424])
+                    ("fieldnames" variable
+                       (:pointer 2
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [23425 23449]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [23353 23450])
+            ("mxCreateStructArray_730" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("ndim" variable (:type ("mwSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23604 23616])
+                    ("dims" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mwSize" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [23617 23636])
+                    ("nfields" variable (:type "int") (reparse-symbol arg-sub-list) [23637 23649])
+                    ("fieldnames" variable
+                       (:pointer 2
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [23658 23682]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [23566 23683])
+            ("mxDuplicateArray" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("in" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [23791 23809]))                  
+                :type ("mxArray" type (:type "class") nil nil))
+                nil [23756 23810])
+            ("mxSetClassName" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [24017 24029])
+                    ("classname" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [24030 24052]))                  
+                :type "int")
+                nil [23989 24053])
+            ("mxAddField" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [24226 24238])
+                    ("fieldname" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [24239 24261]))                  
+                :type "int")
+                nil [24202 24262])
+            ("mxRemoveField" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pa" variable
+                       (:pointer 1
+                        :type ("mxArray" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [24418 24430])
+                    ("field" variable (:type "int") (reparse-symbol arg-sub-list) [24431 24441]))                  
+                :type "void")
+                nil [24390 24442])
+            ("mxGetEps" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [24687 24692]))                  
+                :type "double")
+                nil [24662 24693])
+            ("mxGetInf" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [24807 24812]))                  
+                :type "double")
+                nil [24782 24813])
+            ("mxGetNaN" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [24927 24932]))                  
+                :type "double")
+                nil [24902 24933])
+            ("mxIsFinite" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("x" variable (:type "double") (reparse-symbol arg-sub-list) [25028 25079]))                  
+                :type "bool")
+                nil [24998 25080])
+            ("mxIsInf" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("x" variable (:type "double") (reparse-symbol arg-sub-list) [25170 25221]))                  
+                :type "bool")
+                nil [25143 25222])
+            ("mxIsNaN" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("x" variable (:type "double") (reparse-symbol arg-sub-list) [25307 25358]))                  
+                :type "bool")
+                nil [25280 25359])
+            ("mxCreateFull" variable (:constant-flag t) nil [25370 25382])
+            ("mxIsFull" variable (:constant-flag t) nil [25418 25426])
+            ("mxIsString" variable (:constant-flag t) nil [25462 25472])
+            ("mxFreeMatrix" variable (:constant-flag t) nil [25508 25520])
+            ("mxCreateScalarDouble" variable (:constant-flag t) nil [25558 25578])
+            ("mxGetName" variable (:constant-flag t) nil [26027 26036])
+            ("mxSetName" variable (:constant-flag t) nil [26073 26082])
+            ("assert.h" include (:system-flag t) nil [27894 27915])
+            ("mxAssert" variable (:constant-flag t) nil [27926 27934])
+            ("mxAssertS" variable (:constant-flag t) nil [27973 27982])
+            ("stdlib.h" include (:system-flag t) nil [28021 28040]))          
+    :file "matrix.h"
+    :pointmax 41297
+    :fsize 41296
+    :lastmodtime '(18582 56660)
+    :unmatched-syntax '((TYPEDEF 6129 . 6136) (symbol 1384 . 1388) (symbol 1377 . 1383) (punctuation 1376 . 1377))
+    :lexical-table 
+        '(("mxSetProperty" . ((symbol "mxSetProperty_730" 2233 . 2250)))
+          ("mxSetJc" . ((symbol "mxSetJc_730" 3382 . 3393)))
+          ("mxAssertS" (spp-arg-list ("test" "message") 27982 . 27997) . ((symbol "assert" 27998 . 28004) (semantic-list "(test)" 28004 . 28010)))
+          ("mxGetJc" . ((symbol "mxGetJc_730" 3435 . 3446)))
+          ("mxGetProperty" . ((symbol "mxGetProperty_730" 2304 . 2321)))
+          ("mxCreateSparse" . ((symbol "mxCreateSparse_730" 4565 . 4583)))
+          ("CHAR16_T" . ((WCHAR "wchar_t" 6537 . 6544)))
+          ("mxIsFull" (spp-arg-list nil 25426 . 25428) . ((symbol "mxIsFull_is_obsolete" 25433 . 25453)))
+          ("mxCreateLogicalArray" . ((symbol "mxCreateLogicalArray_730" 3861 . 3885)))
+          ("mxGetCell" . ((symbol "mxGetCell_730" 3931 . 3944)))
+          ("mxSetNzmax" . ((symbol "mxSetNzmax_730" 4051 . 4065)))
+          ("mxCreateScalarDouble" (spp-arg-list ("d") 25578 . 25581) . ((symbol "mxCreateDoubleScalar" 25582 . 25602) (semantic-list "(d)" 25602 . 25605)))
+          ("mxGetField" . ((symbol "mxGetField_730" 2603 . 2617)))
+          ("mxSetCell" . ((symbol "mxSetCell_730" 3990 . 4003)))
+          ("mxGetNChars" . ((symbol "mxGetNChars_730" 4746 . 4761)))
+          ("mxCreateStructMatrix" . ((symbol "mxCreateStructMatrix_730" 2685 . 2709)))
+          ("mxGetDimensions_fcn" . ((symbol "mxGetDimensions_730" 5026 . 5045)))
+          ("mxIsString" (spp-arg-list nil 25472 . 25474) . ((symbol "mxIsString_is_obsolete" 25477 . 25499)))
+          ("MX_API_VER" . ((number "0x07040000" 1859 . 1869)))
+          ("mxCreateCharMatrixFromStrings" . ((symbol "mxCreateCharMatrixFromStrings_730" 2881 . 2914)))
+          ("mxCreateCharArray" . ((symbol "mxCreateCharArray_730" 3597 . 3618)))
+          ("mxGetNumberOfDimensions" . ((symbol "mxGetNumberOfDimensions_730" 3053 . 3080)))
+          ("mxSetIr" . ((symbol "mxSetIr_730" 3276 . 3287)))
+          ("mxSetM" . ((symbol "mxSetM_730" 4155 . 4165)))
+          ("mxCreateSparseLogicalMatrix" . ((symbol "mxCreateSparseLogicalMatrix_730" 4665 . 4696)))
+          ("mxMAXNAM" . ((symbol "TMW_NAME_LENGTH_MAX" 6232 . 6251)))
+          ("mxFreeMatrix" (spp-arg-list nil 25520 . 25522) . ((symbol "mxFreeMatrix_is_obsolete" 25523 . 25547)))
+          ("mxSetFieldByNumber" . ((symbol "mxSetFieldByNumber_730" 2447 . 2469)))
+          ("mxGetIr" . ((symbol "mxGetIr_730" 3329 . 3340)))
+          ("mxCreateStructArray" . ((symbol "mxCreateStructArray_730" 3512 . 3535)))
+          ("mxCreateNumericArray" . ((symbol "mxCreateNumericArray_730" 3686 . 3710)))
+          ("mxSetN" . ((symbol "mxSetN_730" 4105 . 4115)))
+          ("mxGetNzmax" . ((symbol "mxGetNzmax_730" 4213 . 4227)))
+          ("mxCreateDoubleMatrix" . ((symbol "mxCreateDoubleMatrix_730" 4295 . 4319)))
+          ("mxCreateCellMatrix" . ((symbol "mxCreateCellMatrix_730" 2773 . 2795)))
+          ("mxCreateLogicalMatrix" . ((symbol "mxCreateLogicalMatrix_730" 4484 . 4509)))
+          ("mxINDEX_CLASS" . ((semantic-list "((sizeof(size_t)==4) ? mxUINT32_CLASS : mxUINT64_CLASS)" 7249 . 7304)))
+          ("mxAssert" (spp-arg-list ("test" "message") 27934 . 27949) . ((symbol "assert" 27950 . 27956) (semantic-list "(test)" 27956 . 27962)))
+          ("mxGetDimensions" . ((symbol "mxGetDimensions_730" 3138 . 3157)))
+          ("mxCreateCellArray" . ((symbol "mxCreateCellArray_730" 3772 . 3793)))
+          ("mxArray_DEFINED")
+          ("matrix_h")
+          ("mxGetFieldByNumber" . ((symbol "mxGetFieldByNumber_730" 2533 . 2555)))
+          ("mxCreateNumericMatrix" . ((symbol "mxCreateNumericMatrix_730" 4389 . 4414)))
+          ("mxCreateStringFromNChars" . ((symbol "mxCreateStringFromNChars_730" 4837 . 4865)))
+          ("mxCalcSingleSubscript" . ((symbol "mxCalcSingleSubscript_730" 4935 . 4960)))
+          ("mxGetName" (spp-arg-list nil 26036 . 26038) . ((symbol "mxGetName_is_obsolete" 26043 . 26064)))
+          ("EXTERN_C" . ((EXTERN "extern" 1796 . 1802)))
+          ("mxSetField" . ((symbol "mxSetField_730" 2369 . 2383)))
+          ("mxGetString" . ((symbol "mxGetString_730" 2964 . 2979)))
+          ("mxSetDimensions" . ((symbol "mxSetDimensions_730" 3215 . 3234)))
+          ("mxSPARSE_CLASS" . ((symbol "mxVOID_CLASS" 7410 . 7422)))
+          ("mxCreateFull" (spp-arg-list nil 25382 . 25384) . ((symbol "mxCreateFull_is_obsolete" 25385 . 25409)))
+          ("mxSetName" (spp-arg-list nil 26082 . 26084) . ((symbol "mxSetName_is_obsolete" 26089 . 26110)))
+          )
+
+    )
+   (semanticdb-table "tmwtypes.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("tmwtypes_h" variable (:constant-flag t) nil [298 308])
+            ("__TMWTYPES__" variable (:constant-flag t) nil [464 476])
+            ("limits.h" include (:system-flag t) nil [805 824])
+            ("LOGICAL_IS_A_TYPE" variable (:constant-flag t) nil [883 900])
+            ("SPARSE_GENERALIZATION" variable (:constant-flag t) nil [909 930])
+            ("FLT_MANT_DIG" variable (:constant-flag t) nil [1133 1145])
+            ("DBL_MANT_DIG" variable (:constant-flag t) nil [1159 1171])
+            ("uchar_T" type
+               (:typedef ("unsigned char")
+                :superclasses "unsigned char"
+                :type "typedef")
+                nil [1582 1613])
+            ("ushort_T" type
+               (:typedef ("unsigned short")
+                :superclasses "unsigned short"
+                :type "typedef")
+                nil [1614 1646])
+            ("ulong_T" type
+               (:typedef ("unsigned long")
+                :superclasses "unsigned long"
+                :type "typedef")
+                nil [1647 1678])
+            ("TMW_BITS_PER_INT" variable (:constant-flag t) nil [3295 3311])
+            ("TMW_BITS_PER_INT" variable (:constant-flag t) nil [3351 3367])
+            ("TMW_BITS_PER_INT" variable (:constant-flag t) nil [3412 3428])
+            ("TMW_BITS_PER_LONG" variable (:constant-flag t) nil [3547 3564])
+            ("TMW_BITS_PER_LONG" variable (:constant-flag t) nil [3605 3622])
+            ("TMW_BITS_PER_LONG" variable (:constant-flag t) nil [3668 3685])
+            ("TMW_BITS_PER_SHRT" variable (:constant-flag t) nil [3805 3822])
+            ("TMW_BITS_PER_SHRT" variable (:constant-flag t) nil [3863 3880])
+            ("TMW_BITS_PER_SHRT" variable (:constant-flag t) nil [3926 3943])
+            ("TMW_BITS_PER_SCHAR" variable (:constant-flag t) nil [4065 4083])
+            ("TMW_BITS_PER_SCHAR" variable (:constant-flag t) nil [4125 4143])
+            ("TMW_BITS_PER_SCHAR" variable (:constant-flag t) nil [4190 4208])
+            ("TMW_CHAR_SIGNED" variable (:constant-flag t) nil [4328 4343])
+            ("INT8_T" variable (:constant-flag t) nil [5261 5267])
+            ("INT8_T" variable (:constant-flag t) nil [5314 5320])
+            ("INT8_T" variable (:constant-flag t) nil [5390 5396])
+            ("INT8_T" variable (:constant-flag t) nil [5491 5497])
+            ("int8_T" type
+               (:typedef ("short")
+                :superclasses "short"
+                :type "typedef")
+                nil [5534 5556])
+            ("UINT8_T" variable (:constant-flag t) nil [5623 5630])
+            ("UINT8_T" variable (:constant-flag t) nil [5686 5693])
+            ("UINT8_T" variable (:constant-flag t) nil [5772 5779])
+            ("UINT8_T" variable (:constant-flag t) nil [5877 5884])
+            ("uint8_T" type
+               (:typedef ("unsigned short")
+                :superclasses "unsigned short"
+                :type "typedef")
+                nil [5931 5955])
+            ("INT16_T" variable (:constant-flag t) nil [6024 6031])
+            ("INT16_T" variable (:constant-flag t) nil [6079 6086])
+            ("INT16_T" variable (:constant-flag t) nil [6157 6164])
+            ("INT16_T" variable (:constant-flag t) nil [6261 6268])
+            ("int16_T" type
+               (:typedef ("short")
+                :superclasses "short"
+                :type "typedef")
+                nil [6306 6330])
+            ("UINT16_T" variable (:constant-flag t) nil [6400 6408])
+            ("UINT16_T" variable (:constant-flag t) nil [6465 6473])
+            ("UINT16_T" variable (:constant-flag t) nil [6553 6561])
+            ("UINT16_T" variable (:constant-flag t) nil [6661 6669])
+            ("uint16_T" type
+               (:typedef ("unsigned short")
+                :superclasses "unsigned short"
+                :type "typedef")
+                nil [6717 6743])
+            ("INT32_T" variable (:constant-flag t) nil [6812 6819])
+            ("INT32_T" variable (:constant-flag t) nil [6867 6874])
+            ("INT32_T" variable (:constant-flag t) nil [6945 6952])
+            ("INT32_T" variable (:constant-flag t) nil [7049 7056])
+            ("int32_T" type
+               (:typedef ("short")
+                :superclasses "short"
+                :type "typedef")
+                nil [7094 7118])
+            ("UINT32_T" variable (:constant-flag t) nil [7188 7196])
+            ("UINT32_T" variable (:constant-flag t) nil [7253 7261])
+            ("UINT32_T" variable (:constant-flag t) nil [7341 7349])
+            ("UINT32_T" variable (:constant-flag t) nil [7449 7457])
+            ("uint32_T" type
+               (:typedef ("unsigned short")
+                :superclasses "unsigned short"
+                :type "typedef")
+                nil [7505 7531])
+            ("REAL32_T" variable (:constant-flag t) nil [8604 8612])
+            ("real32_T" type
+               (:typedef ("float")
+                :superclasses "float"
+                :type "typedef")
+                nil [8692 8718])
+            ("REAL64_T" variable (:constant-flag t) nil [8801 8809])
+            ("real64_T" type
+               (:typedef ("double")
+                :superclasses "double"
+                :type "typedef")
+                nil [8891 8917])
+            ("INT64_T" variable (:constant-flag t) nil [9564 9571])
+            ("FMT64" variable (:constant-flag t) nil [9587 9592])
+            ("INT_TYPE_64_IS_LONG" variable (:constant-flag t) nil [9645 9664])
+            ("INT64_T" variable (:constant-flag t) nil [9889 9896])
+            ("FMT64" variable (:constant-flag t) nil [9915 9920])
+            ("INT64_T" variable (:constant-flag t) nil [10034 10041])
+            ("FMT64" variable (:constant-flag t) nil [10062 10067])
+            ("int64_T" type
+               (:typedef ("long long")
+                :superclasses "long long"
+                :type "typedef")
+                nil [10202 10226])
+            ("UINT64_T" variable (:constant-flag t) nil [10484 10492])
+            ("FMT64" variable (:constant-flag t) nil [10517 10522])
+            ("UINT64_T" variable (:constant-flag t) nil [10819 10827])
+            ("FMT64" variable (:constant-flag t) nil [10855 10860])
+            ("UINT64_T" variable (:constant-flag t) nil [10974 10982])
+            ("FMT64" variable (:constant-flag t) nil [11012 11017])
+            ("uint64_T" type
+               (:typedef ("unsigned long long")
+                :superclasses "unsigned long long"
+                :type "typedef")
+                nil [11153 11179])
+            ("FMT_SIZE_T" variable (:constant-flag t) nil [11560 11570])
+            ("FMT_SIZE_T" variable (:constant-flag t) nil [11617 11627])
+            ("FMT_SIZE_T" variable (:constant-flag t) nil [11670 11680])
+            ("FMT_PTRDIFF_T" variable (:constant-flag t) nil [11876 11889])
+            ("FMT_PTRDIFF_T" variable (:constant-flag t) nil [11936 11949])
+            ("FMT_PTRDIFF_T" variable (:constant-flag t) nil [11992 12005])
+            ("REAL_T" variable (:constant-flag t) nil [12918 12924])
+            ("real_T" type
+               (:typedef ("real64_T" type (:type "class") nil nil)
+                :superclasses "real64_T"
+                :type "typedef")
+                nil [13025 13047])
+            ("TIME_T" variable (:constant-flag t) nil [13096 13102])
+            ("time_T" type
+               (:typedef ("real_T" type (:type "class") nil nil)
+                :superclasses "real_T"
+                :type "typedef")
+                nil [13140 13162])
+            ("BOOLEAN_T" variable (:constant-flag t) nil [13245 13254])
+            ("boolean_T" type
+               (:typedef ("unsigned short")
+                :superclasses "unsigned short"
+                :type "typedef")
+                nil [13318 13346])
+            ("CHARACTER_T" variable (:constant-flag t) nil [13378 13389])
+            ("char_T" type
+               (:typedef ("char")
+                :superclasses "char"
+                :type "typedef")
+                nil [13402 13429])
+            ("INTEGER_T" variable (:constant-flag t) nil [13459 13468])
+            ("int_T" type
+               (:typedef ("int")
+                :superclasses "int"
+                :type "typedef")
+                nil [13480 13504])
+            ("UINTEGER_T" variable (:constant-flag t) nil [13535 13545])
+            ("uint_T" type
+               (:typedef ("unsigned int")
+                :superclasses "unsigned int"
+                :type "typedef")
+                nil [13562 13588])
+            ("BYTE_T" variable (:constant-flag t) nil [13615 13621])
+            ("byte_T" type
+               (:typedef ("unsigned char")
+                :superclasses "unsigned char"
+                :type "typedef")
+                nil [13643 13665])
+            ("creal32_T" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("im" variable (:type ("real32_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [13988 14004])
+                          ("re" variable (:type ("real32_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [13988 14004]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [13965 14021])
+            ("CREAL32_T" variable (:constant-flag t) nil [14034 14043])
+            ("creal64_T" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("im" variable (:type ("real64_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14134 14150])
+                          ("re" variable (:type ("real64_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14134 14150]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [14111 14167])
+            ("CREAL64_T" variable (:constant-flag t) nil [14180 14189])
+            ("creal_T" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("im" variable (:type ("real_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14276 14290])
+                          ("re" variable (:type ("real_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14276 14290]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [14253 14305])
+            ("CREAL_T" variable (:constant-flag t) nil [14318 14325])
+            ("cint8_T" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("im" variable (:type ("int8_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14434 14448])
+                          ("re" variable (:type ("int8_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14434 14448]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [14411 14463])
+            ("CINT8_T" variable (:constant-flag t) nil [14476 14483])
+            ("cuint8_T" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("im" variable (:type ("uint8_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14570 14585])
+                          ("re" variable (:type ("uint8_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14570 14585]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [14547 14601])
+            ("CUINT8_T" variable (:constant-flag t) nil [14614 14622])
+            ("cint16_T" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("im" variable (:type ("int16_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14710 14725])
+                          ("re" variable (:type ("int16_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14710 14725]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [14687 14741])
+            ("CINT16_T" variable (:constant-flag t) nil [14754 14762])
+            ("cuint16_T" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("im" variable (:type ("uint16_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14852 14868])
+                          ("re" variable (:type ("uint16_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14852 14868]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [14829 14885])
+            ("CUINT16_T" variable (:constant-flag t) nil [14898 14907])
+            ("cint32_T" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("im" variable (:type ("int32_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14996 15011])
+                          ("re" variable (:type ("int32_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14996 15011]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [14973 15027])
+            ("CINT32_T" variable (:constant-flag t) nil [15040 15048])
+            ("cuint32_T" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("im" variable (:type ("uint32_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [15138 15154])
+                          ("re" variable (:type ("uint32_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [15138 15154]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [15115 15171])
+            ("CUINT32_T" variable (:constant-flag t) nil [15184 15193])
+            ("cint64_T" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("im" variable (:type ("int64_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [15282 15297])
+                          ("re" variable (:type ("int64_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [15282 15297]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [15259 15313])
+            ("CINT64_T" variable (:constant-flag t) nil [15326 15334])
+            ("cuint64_T" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("im" variable (:type ("uint64_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [15424 15440])
+                          ("re" variable (:type ("uint64_T" type (:type "class") nil nil)) (reparse-symbol classsubparts) [15424 15440]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [15401 15457])
+            ("CUINT64_T" variable (:constant-flag t) nil [15470 15479])
+            ("MAX_int8_T" variable (:constant-flag t) nil [15893 15903])
+            ("MIN_int8_T" variable (:constant-flag t) nil [15956 15966])
+            ("MAX_uint8_T" variable (:constant-flag t) nil [16019 16030])
+            ("MIN_uint8_T" variable (:constant-flag t) nil [16082 16093])
+            ("MAX_int16_T" variable (:constant-flag t) nil [16150 16161])
+            ("MIN_int16_T" variable (:constant-flag t) nil [16214 16225])
+            ("MAX_uint16_T" variable (:constant-flag t) nil [16279 16291])
+            ("MIN_uint16_T" variable (:constant-flag t) nil [16343 16355])
+            ("MAX_int32_T" variable (:constant-flag t) nil [16412 16423])
+            ("MIN_int32_T" variable (:constant-flag t) nil [16482 16493])
+            ("MAX_uint32_T" variable (:constant-flag t) nil [16552 16564])
+            ("MIN_uint32_T" variable (:constant-flag t) nil [16622 16634])
+            ("MAX_int64_T" variable (:constant-flag t) nil [16834 16845])
+            ("MIN_int64_T" variable (:constant-flag t) nil [16896 16907])
+            ("MAX_uint64_T" variable (:constant-flag t) nil [16988 17000])
+            ("MIN_uint64_T" variable (:constant-flag t) nil [17051 17063])
+            ("uint64_to_double" variable (:constant-flag t) nil [18864 18880])
+            ("_bool_T" variable (:constant-flag t) nil [19346 19353])
+            ("false" variable (:constant-flag t) nil [19402 19407])
+            ("true" variable (:constant-flag t) nil [19441 19445])
+            ("TMW_NAME_LENGTH_MAX" variable (:constant-flag t) nil [19924 19943])
+            ("stddef.h" include (:system-flag t) nil [20000 20019])
+            ("mwSize" type
+               (:typedef ("size_t" type (:type "class") nil nil)
+                :superclasses "size_t"
+                :type "typedef")
+                nil [20115 20140])
+            ("mwIndex" type
+               (:typedef ("size_t" type (:type "class") nil nil)
+                :superclasses "size_t"
+                :type "typedef")
+                nil [20186 20212])
+            ("mwSignedIndex" type
+               (:typedef ("ptrdiff_t" type (:type "class") nil nil)
+                :superclasses "ptrdiff_t"
+                :type "typedef")
+                nil [20257 20289])
+            ("MWSIZE_MAX" variable (:constant-flag t) nil [20462 20472])
+            ("MWINDEX_MAX" variable (:constant-flag t) nil [20503 20514])
+            ("MWSINDEX_MAX" variable (:constant-flag t) nil [20544 20556])
+            ("MWSINDEX_MIN" variable (:constant-flag t) nil [20584 20596])
+            ("MWSIZE_MIN" variable (:constant-flag t) nil [20778 20788])
+            ("MWINDEX_MIN" variable (:constant-flag t) nil [20804 20815]))          
+    :file "tmwtypes.h"
+    :pointmax 20875
+    :fsize 20874
+    :lastmodtime '(18582 59296)
+    :unmatched-syntax '((string 19696 . 19788) (symbol 19690 . 19695) (punctuation 19689 . 19690) (punctuation 19377 . 19378) (BOOL 19373 . 19377) (symbol 19363 . 19372) (TYPEDEF 19355 . 19362) (symbol 11130 . 11143) (symbol 10179 . 10192) (symbol 258 . 262) (symbol 251 . 257) (punctuation 250 . 251))
+    :lexical-table 
+        '(("CREAL32_T" . ((symbol "creal32_T" 14044 . 14053)))
+          ("CREAL64_T" . ((symbol "creal64_T" 14190 . 14199)))
+          ("MAX_uint8_T" . ((semantic-list "((uint8_T)(255))" 16035 . 16051)))
+          ("FMT_SIZE_T" . ((string "\"I\"" 11681 . 11684)))
+          ("CUINT8_T" . ((symbol "cuint8_T" 14623 . 14631)))
+          ("MIN_int8_T" . ((semantic-list "((int8_T)(-128))" 15972 . 15988)))
+          ("TMW_CHAR_SIGNED" . ((number "1" 4344 . 4345)))
+          ("UINT16_T" . ((UNSIGNED "unsigned" 6670 . 6678) (SHORT "short" 6679 . 6684)))
+          ("TMW_NAME_LENGTH_MAX" . ((number "64" 19944 . 19946)))
+          ("tmwtypes_h")
+          ("TMW_BITS_PER_SHRT" . ((number "32" 3944 . 3946)))
+          ("UINT32_T" . ((UNSIGNED "unsigned" 7458 . 7466) (SHORT "short" 7467 . 7472)))
+          ("UINT64_T" . 
+              ((UNSIGNED "unsigned" 10983 . 10991) (LONG "long" 10992 . 10996) (LONG "long" 10997 . 11001)))
+          ("CINT16_T" . ((symbol "cint16_T" 14763 . 14771)))
+          ("MIN_uint8_T" . ((semantic-list "((uint8_T)(0))" 16098 . 16112)))
+          ("MAX_int16_T" . ((semantic-list "((int16_T)(32767))" 16166 . 16184)))
+          ("MWINDEX_MAX" . ((symbol "281474976710655UL" 20517 . 20534)))
+          ("TMW_BITS_PER_SCHAR" . ((number "32" 4209 . 4211)))
+          ("UINT8_T" . ((UNSIGNED "unsigned" 5885 . 5893) (SHORT "short" 5894 . 5899)))
+          ("INTEGER_T" . ((INT "int" 13469 . 13472)))
+          ("CINT32_T" . ((symbol "cint32_T" 15049 . 15057)))
+          ("CINT64_T" . ((symbol "cint64_T" 15335 . 15343)))
+          ("MAX_int8_T" . ((semantic-list "((int8_T)(127))" 15909 . 15924)))
+          ("MAX_int32_T" . ((semantic-list "((int32_T)(2147483647))" 16428 . 16451)))
+          ("MAX_int64_T" . ((semantic-list "((int64_T)(9223372036854775807))" 16850 . 16882)))
+          ("false" . ((semantic-list "(0)" 19408 . 19411)))
+          ("CHARACTER_T" . ((CHAR "char" 13390 . 13394)))
+          ("BYTE_T" . ((UNSIGNED "unsigned" 13622 . 13630) (CHAR "char" 13631 . 13635)))
+          ("CUINT16_T" . ((symbol "cuint16_T" 14908 . 14917)))
+          ("MWINDEX_MIN" . ((symbol "0UL" 20818 . 20821)))
+          ("INT16_T" . ((SHORT "short" 6269 . 6274)))
+          ("INT_TYPE_64_IS_LONG")
+          ("BOOLEAN_T" . ((symbol "UINT8_T" 13255 . 13262)))
+          ("CUINT32_T" . ((symbol "cuint32_T" 15194 . 15203)))
+          ("CUINT64_T" . ((symbol "cuint64_T" 15480 . 15489)))
+          ("MIN_int16_T" . ((semantic-list "((int16_T)(-32768))" 16230 . 16249)))
+          ("MWSINDEX_MAX" . ((number "281474976710655L" 20558 . 20574)))
+          ("SPARSE_GENERALIZATION")
+          ("DBL_MANT_DIG" . ((number "53" 1172 . 1174)))
+          ("TMW_BITS_PER_LONG" . ((number "32" 3686 . 3688)))
+          ("INT32_T" . ((SHORT "short" 7057 . 7062)))
+          ("INT64_T" . ((LONG "long" 10042 . 10046) (LONG "long" 10047 . 10051)))
+          ("TIME_T" . ((symbol "real_T" 13103 . 13109)))
+          ("MIN_int32_T" . ((semantic-list "((int32_T)(-2147483647-1))" 16498 . 16524)))
+          ("MIN_int64_T" . ((semantic-list "((int64_T)(-9223372036854775807-1))" 16912 . 16947)))
+          ("uint64_to_double" (spp-arg-list ("u") 18880 . 18883) . ((semantic-list "((double)(u))" 18884 . 18897)))
+          ("__TMWTYPES__")
+          ("MAX_uint16_T" . ((semantic-list "((uint16_T)(65535))" 16295 . 16314)))
+          ("true" . ((semantic-list "(1)" 19446 . 19449)))
+          ("MWSINDEX_MIN" . ((punctuation "-" 20597 . 20598) (number "281474976710655L" 20598 . 20614)))
+          ("FLT_MANT_DIG" . ((number "24" 1146 . 1148)))
+          ("CREAL_T" . ((symbol "creal_T" 14326 . 14333)))
+          ("CINT8_T" . ((symbol "cint8_T" 14484 . 14491)))
+          ("MIN_uint16_T" . ((semantic-list "((uint16_T)(0))" 16359 . 16374)))
+          ("MAX_uint32_T" . ((semantic-list "((uint32_T)(0xFFFFFFFFU))" 16568 . 16593)))
+          ("MAX_uint64_T" . ((semantic-list "((uint64_T)(0xFFFFFFFFFFFFFFFFU))" 17004 . 17037)))
+          ("MWSIZE_MAX" . ((symbol "281474976710655UL" 20476 . 20493)))
+          ("LOGICAL_IS_A_TYPE")
+          ("REAL32_T" . ((FLOAT "float" 8613 . 8618)))
+          ("REAL64_T" . ((DOUBLE "double" 8810 . 8816)))
+          ("FMT64" . ((string "\"ll\"" 11018 . 11022)))
+          ("UINTEGER_T" . ((UNSIGNED "unsigned" 13546 . 13554)))
+          ("MIN_uint32_T" . ((semantic-list "((uint32_T)(0))" 16638 . 16653)))
+          ("MIN_uint64_T" . ((semantic-list "((uint64_T)(0))" 17067 . 17082)))
+          ("INT8_T" . ((SHORT "short" 5498 . 5503)))
+          ("FMT_PTRDIFF_T" . ((string "\"I\"" 12006 . 12009)))
+          ("REAL_T" . ((symbol "real64_T" 12925 . 12933)))
+          ("_bool_T")
+          ("MWSIZE_MIN" . ((symbol "0UL" 20792 . 20795)))
+          ("TMW_BITS_PER_INT" . ((number "32" 3429 . 3431)))
+          )
+
+    )
+   )
+  :file "!drive_c!Program Files!MATLAB!R2008b!extern!examples!eng_mat!include!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

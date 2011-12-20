@@ -1,0 +1,28 @@
+;; Object eng_mat/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "eng_mat/"
+  :tables (list 
+   (semanticdb-table "engdemo.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdlib.h" include (:system-flag t) nil [226 245])
+            ("stdio.h" include (:system-flag t) nil [246 264])
+            ("string.h" include (:system-flag t) nil [265 284])
+            ("include\engine.h" include nil nil [285 312])
+            ("BUFSIZE" variable (:constant-flag t) nil [322 329])
+            ("main" function (:type "int") nil [335 3610]))          
+    :file "engdemo.c"
+    :pointmax 3618
+    :fsize 3617
+    :lastmodtime '(19818 24216)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("BUFSIZE" . ((number "256" 330 . 333)))
+          )
+
+    )
+   )
+  :file "!drive_e!_SWDEV!GO!27.MADE!src!eng_mat!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

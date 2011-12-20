@@ -1,0 +1,197 @@
+;; Object src/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "src/"
+  :tables (list 
+   (semanticdb-table "Huffman.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("java.lang.Math" include nil nil [1 23])
+            ("Huffman" type
+               (:members 
+                  ( ("NCHAR" variable
+                       (:typemodifiers ("final" "static")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [103 132])
+                    ("Tree" type
+                       (:typemodifiers ("static" "abstract")
+                        :members 
+                          ( ("weight" variable (:type "int") (reparse-symbol class_member_declaration) [1426 1437])
+                            ("buildCode" function
+                               (:typemodifiers ("abstract")
+                                :arguments 
+                                  ( ("code" variable (:type "Code") (reparse-symbol formal_parameters) [1470 1479])
+                                    ("path" variable (:type "String") (reparse-symbol formal_parameters) [1481 1492]))                                  
+                                :type "void")
+                                (reparse-symbol class_member_declaration) [1446 1494])
+                            ("toString" function
+                               (:typemodifiers ("public" "abstract")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [1503 1537]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [1389 1543])
+                    ("Node" type
+                       (:typemodifiers ("static")
+                        :superclasses "Tree"
+                        :members 
+                          ( ("right" variable (:type "Tree") (reparse-symbol class_member_declaration) [1601 1607])
+                            ("left" variable (:type "Tree") (reparse-symbol class_member_declaration) [1590 1600])
+                            ("Node" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("l" variable (:type "Tree") (reparse-symbol formal_parameters) [1626 1632])
+                                    ("r" variable (:type "Tree") (reparse-symbol formal_parameters) [1634 1640])
+                                    ("w" variable (:type "int") (reparse-symbol formal_parameters) [1642 1647]))                                  )
+                                (reparse-symbol class_member_declaration) [1621 1729])
+                            ("toString" function
+                               (:typemodifiers ("public")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [1740 1822])
+                            ("buildCode" function
+                               (:arguments 
+                                  ( ("code" variable (:type "Code") (reparse-symbol formal_parameters) [1847 1856])
+                                    ("path" variable (:type "String") (reparse-symbol formal_parameters) [1858 1869]))                                  
+                                :type "void")
+                                (reparse-symbol class_member_declaration) [1832 1915]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [1549 1921])
+                    ("Leaf" type
+                       (:typemodifiers ("static")
+                        :superclasses "Tree"
+                        :members 
+                          ( ("ch" variable (:type "char") (reparse-symbol class_member_declaration) [1968 1976])
+                            ("Leaf" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("c" variable (:type "char") (reparse-symbol formal_parameters) [1991 1997])
+                                    ("w" variable (:type "int") (reparse-symbol formal_parameters) [1999 2004]))                                  )
+                                (reparse-symbol class_member_declaration) [1986 2061])
+                            ("toString" function
+                               (:typemodifiers ("public")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [2071 2136])
+                            ("buildCode" function
+                               (:arguments 
+                                  ( ("code" variable (:type "Code") (reparse-symbol formal_parameters) [2161 2170])
+                                    ("path" variable (:type "String") (reparse-symbol formal_parameters) [2172 2183]))                                  
+                                :type "void")
+                                (reparse-symbol class_member_declaration) [2146 2231]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [1927 2237])
+                    ("Code" type
+                       (:typemodifiers ("static")
+                        :members 
+                          ( ("table" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [2702 2717])
+                            ("Code" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("tree" variable (:type "Tree") (reparse-symbol formal_parameters) [2732 2741]))                                  )
+                                (reparse-symbol class_member_declaration) [2727 2831])
+                            ("bitsPerChar" function
+                               (:arguments 
+                                  ( ("text" variable (:type "String") (reparse-symbol formal_parameters) [2860 2871]))                                  
+                                :type "double")
+                                (reparse-symbol class_member_declaration) [2841 3065]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [2674 3071])
+                    ("freqCount" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("text" variable (:type "String") (reparse-symbol formal_parameters) [3161 3172]))                          
+                        :type "int[]")
+                        (reparse-symbol class_member_declaration) [3138 3320])
+                    ("makeTree" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("text" variable (:type "String") (reparse-symbol formal_parameters) [3389 3400]))                          
+                        :type "Tree")
+                        (reparse-symbol class_member_declaration) [3368 4605])
+                    ("Parse" type
+                       (:typemodifiers ("static")
+                        :members 
+                          ( ("tree" variable (:type "Tree") (reparse-symbol class_member_declaration) [4921 4931])
+                            ("next" variable (:type "int") (reparse-symbol class_member_declaration) [4940 4949])
+                            ("Parse" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("s" variable (:type "String") (reparse-symbol formal_parameters) [4965 4973])
+                                    ("pos" variable (:type "int") (reparse-symbol formal_parameters) [4975 4982]))                                  )
+                                (reparse-symbol class_member_declaration) [4959 5258]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [4892 5264])
+                    ("Encoder" type
+                       (:typemodifiers ("static")
+                        :members 
+                          ( ("codetable" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [5440 5459])
+                            ("Encoder" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("code" variable (:type "Code") (reparse-symbol formal_parameters) [5475 5484]))                                  )
+                                (reparse-symbol class_member_declaration) [5467 5528])
+                            ("encode" function
+                               (:typemodifiers ("public")
+                                :arguments 
+                                  ( ("text" variable (:type "String") (reparse-symbol formal_parameters) [5563 5574]))                                  
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [5542 5871]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [5411 5877])
+                    ("Decoder" type
+                       (:typemodifiers ("static")
+                        :members 
+                          ( ("root" variable (:type "Tree") (reparse-symbol class_member_declaration) [6058 6068])
+                            ("pos" variable (:type "Tree") (reparse-symbol class_member_declaration) [6103 6112])
+                            ("Decoder" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("tree" variable (:type "Tree") (reparse-symbol formal_parameters) [6159 6168]))                                  )
+                                (reparse-symbol class_member_declaration) [6151 6201])
+                            ("decode" function
+                               (:typemodifiers ("public")
+                                :arguments 
+                                  ( ("text" variable (:type "String") (reparse-symbol formal_parameters) [6236 6247]))                                  
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [6215 6802]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [6029 6808])
+                    ("test" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("text" variable (:type "String") (reparse-symbol formal_parameters) [6938 6949]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6921 7726])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [7756 7769]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [7732 8087])
+                    ("text1" variable
+                       (:typemodifiers ("final" "static")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [8093 8142])
+                    ("text2" variable
+                       (:typemodifiers ("final" "static")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [8149 8805]))                  
+                :type "class")
+                nil [82 8808]))          
+    :file "Huffman.java"
+    :pointmax 8497
+    :fsize 9110
+    :lastmodtime '(19903 33733)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!_SWDEV!GO!29.ENC!work!src!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

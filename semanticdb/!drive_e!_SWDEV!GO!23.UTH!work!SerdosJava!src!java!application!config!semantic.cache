@@ -1,0 +1,79 @@
+;; Object config/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "config/"
+  :tables (list 
+   (semanticdb-table "Config.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("application.config" package nil nil [101 128])
+            ("Config" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("firstController" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [242 294])
+                    ("page404" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [299 351])
+                    ("base_url" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [356 426])
+                    ("base_path" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [431 527]))                  
+                :type "class")
+                nil [216 530]))          
+    :file "Config.java"
+    :pointmax 626
+    :fsize 530
+    :lastmodtime '(19826 49424)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Database.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("application.config" package nil nil [101 128])
+            ("Database" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("HOST" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [187 224])
+                    ("PORT" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [229 266])
+                    ("DB" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [271 306])
+                    ("USER_NAME" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [311 353])
+                    ("PASSWORD" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [358 399])
+                    ("DB_TYPE" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [404 443]))                  
+                :type "class")
+                nil [159 458]))          
+    :file "Database.java"
+    :pointmax 459
+    :fsize 458
+    :lastmodtime '(19826 49476)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!_SWDEV!GO!23.UTH!work!SerdosJava!src!java!application!config!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )

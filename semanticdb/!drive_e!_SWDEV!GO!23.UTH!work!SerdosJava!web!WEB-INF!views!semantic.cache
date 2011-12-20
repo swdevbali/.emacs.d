@@ -1,0 +1,21 @@
+;; Object views/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "views/"
+  :tables (list 
+   (semanticdb-table "index.jsp"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Your Web Application Title" section nil nil [318 458])
+            ("Welcome to Recite18th" section (:members 
+              ( ("Welcome to Recite18th" section nil nil [465 551]))              ) nil [458 551]))          
+    :file "index.jsp"
+    :pointmax 551
+    :fsize 564
+    :lastmodtime '(19826 48251)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!drive_e!_SWDEV!GO!23.UTH!work!SerdosJava!web!WEB-INF!views!semantic.cache"
+  :semantic-tag-version "2.0pre7"
+  :semanticdb-version "2.0pre7"
+  )
