@@ -240,3 +240,4 @@
 (set-face-foreground 'font-lock-function-name-face "lightgreen")
 (set-face-foreground 'font-lock-string-face "lightgray")
 (global-visual-line-mode t)
+(require 'php-mode)
