@@ -8,7 +8,7 @@
   "Toggles bars visibility."
   (interactive)
   (menu-bar-mode)
-  (tool-bar-mode)
+;  (tool-bar-mode)
   (scroll-bar-mode))
 
 (defun toggle-full-screen-and-bars ()
@@ -74,8 +74,8 @@
 ;(autoload 'psvn "psvn" nil t)
 (when (fboundp 'winner-mode)
   (winner-mode 1))
-(tool-bar-mode 0)
-(scroll-bar-mode 0)
+;(tool-bar-mode 0)
+;(scroll-bar-mode 0)
 
 (add-hook 'comint-output-filter-functions
     'shell-strip-ctrl-m nil t)
