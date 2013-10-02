@@ -36,6 +36,8 @@
 ;  (interactive)
 ;  (shell-command "cdf ~/Training/GloftTEST/trunk/;~/Training/GloftTEST/trunk/make.bat run"))
 (global-set-key "\M-f" 'menu-bar-open)
+(global-set-key [C-o] 'find-file)
+(global-set-key [C-s] 'save-buffer)
 ;(global-set-key [C--] 'shrink-window)
 ;(global-set-key [C-+] 'enlarge-window)
 (global-set-key [f5] 'buffer-menu)
@@ -265,3 +267,14 @@
   (setq web-mode-block-padding 0)
 )
 (add-hook 'web-mode-hook  'web-mode-hook)
+
+;my preferred working space
+(split-window-horizontally)
+(other-window 1)
+(calendar)
+(other-window 2) ;main code
+(split-window-vertically)
+(eshell)
+(other-window 1)
+(find-file "docs/steps.org")
+(other-window 2)
