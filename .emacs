@@ -268,13 +268,23 @@
 )
 (add-hook 'web-mode-hook  'web-mode-hook)
 
-;my preferred working space
+;my preferred working space : LARGER SCREEN
+;(split-window-horizontally)
+;(other-window 1)
+;(calendar)
+;(other-window 2) ;main code
+;(split-window-vertically)
+;(eshell)
+;(other-window 1)
+;(find-file "docs/steps.org")
+;(other-window 2)
+
+;my preferred working space : smaller
 (split-window-horizontally)
-(other-window 1)
-(calendar)
-(other-window 2) ;main code
 (split-window-vertically)
+(find-file "docs/steps.org")
+(other-window 1)
 (eshell)
 (other-window 1)
-(find-file "docs/steps.org")
-(other-window 2)
+
+
