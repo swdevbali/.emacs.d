@@ -1,8 +1,8 @@
 (add-to-list 'load-path "~/.emacs.d/")
-(defun toggle-full-screen ()
-  "Toggles full-screen mode for Emacs window on Win32."
-  (interactive)
-  (shell-command "~/emacs_fullscreen.exe"))
+;(defun toggle-full-screen ()
+;  "Toggles full-screen mode for Emacs window on Win32."
+;  (interactive)
+;  (shell-command "~/emacs_fullscreen.exe"))
 
 (defun toggle-bars ()
   "Toggles bars visibility."
@@ -16,7 +16,7 @@
   (interactive)
   (toggle-bars)
   (toggle-full-screen))
-(toggle-full-screen)
+;(toggle-full-screen)
 (global-set-key [f11] 'toggle-full-screen-and-bars)
 (setq is-windows (string= system-type "windows-nt"))
 ;(require 'dosbat)
@@ -280,11 +280,11 @@
 ;(other-window 2)
 
 ;my preferred working space : smaller
-(split-window-horizontally)
-(split-window-vertically)
-(find-file "docs/steps.org")
-(other-window 1)
-(eshell)
-(other-window 1)
+;(split-window-horizontally)
+;(split-window-vertically)
+;(find-file "docs/steps.org")
+;(other-window 1)
+;(eshell)
+;(other-window 1)
 
 
