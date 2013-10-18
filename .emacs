@@ -146,7 +146,7 @@
 (fset 'yes-or-no-p 'y-or-n-p)
 (set-default 'fill-column 80)
 (setq visible-bell nil)
-;(visual-line-mode nil)
+(visual-line-mode t)
 ;(set-face-foreground 'font-lock-comment-face "green")
 
 (defun insert-gettersetter (type field)
@@ -241,7 +241,7 @@
 (set-face-background 'region "green")
 (set-face-foreground 'font-lock-function-name-face "lightgreen")
 (set-face-foreground 'font-lock-string-face "lightgray")
-;(global-visual-line-mode t)
+(global-visual-line-mode t)
 (require 'php-mode)
 (setq backup-directory-alist `(("." . "~/.saves")))
 
