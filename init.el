@@ -13,3 +13,6 @@
 ;make CTRL+C, CTRL+V as copy & paste shortcut as in Windows
 (cua-mode 1)
 
+;; auto jump
+(global-set-key (kbd "C-x C-M->") 'find-tag) ; bind to some unused placeholder
+(global-set-key (kbd "M-.") (kbd "C-x C-M-> <return>"))
