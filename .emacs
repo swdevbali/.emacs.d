@@ -17,7 +17,7 @@
   (toggle-bars)
   (toggle-full-screen))
 ;(toggle-full-screen)
-(global-set-key [f11] 'toggle-full-screen-and-bars)
+;(global-set-key [f11] 'toggle-full-screen-and-bars)
 (setq is-windows (string= system-type "windows-nt"))
 ;(require 'dosbat)
 ;(require 'cygwin-mount)
@@ -146,7 +146,7 @@
 (fset 'yes-or-no-p 'y-or-n-p)
 (set-default 'fill-column 80)
 (setq visible-bell nil)
-(visual-line-mode t)
+;(visual-line-mode t)
 ;(set-face-foreground 'font-lock-comment-face "green")
 
 (defun insert-gettersetter (type field)
@@ -237,11 +237,11 @@
 (add-to-list 'auto-mode-alist '("\\.jsp\\'" . html-mode))
 (add-to-list 'load-path
              "~/.emacs.d/plugins")
-(require 'yasnippet)
+;(require 'yasnippet)
 (set-face-background 'region "green")
 (set-face-foreground 'font-lock-function-name-face "lightgreen")
 (set-face-foreground 'font-lock-string-face "lightgray")
-(global-visual-line-mode t)
+;(global-visual-line-mode t)
 (require 'php-mode)
 (setq backup-directory-alist `(("." . "~/.saves")))
 
@@ -291,4 +291,4 @@
 ;wordpress
 (setq load-path (cons "~/.emacs.d/org2blog/" load-path))
   (require 'org2blog-autoloads)
-(load-file "~/wp-settings.el")
+;(load-file "~/wp-settings.el")
