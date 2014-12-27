@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/.emacs.d/")
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/lisp"))
 ;(defun toggle-full-screen ()
 ;  "Toggles full-screen mode for Emacs window on Win32."
 ;  (interactive)
@@ -289,6 +289,6 @@
 
 
 ;wordpress
-(setq load-path (cons "~/.emacs.d/org2blog/" load-path))
-  (require 'org2blog-autoloads)
+;(setq load-path (cons "~/.emacs.d/org2blog/" load-path))
+ ; (require 'org2blog-autoloads)
 ;(load-file "~/wp-settings.el")

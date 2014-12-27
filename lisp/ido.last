@@ -1,0 +1,33 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/ekowibowo/desktoppublisher/" . "auxes/")
+ ("/Users/ekowibowo/" . "desktoppublisher/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/ekowibowo/desktoppublisher/auxes/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "Info.plist"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/ekowibowo/Downloads/scramphoto.app/Contents/MacOS/" (21660 39121 0 0) "zlib.so" "unicodedata.so" "uix/" "time.so" "termios.so" "strop.so" "select.so" "scramphoto.kv" "scramphoto.ini" "scramphoto" "readline.so" "Python" "pygame.transform.so" "pygame.time.so" "pygame.surflock.so" "pygame.surface.so" "pygame.sdlmain_osx.so" "pygame.scrap.so" "pygame.rwobject.so" "pygame.rect.so" "pygame.pixelcopy.so" "pygame.pixelarray.so" "pygame.overlay.so" "pygame.mouse.so" "pygame.mixer_music.so" "pygame.mixer.so" "pygame.math.so" "pygame.mask.so" "pygame.key.so" "pygame.joystick.so" "pygame.imageext.so" "pygame.image.so" "pygame.font.so" "pygame.fastevent.so" "pygame.event.so" "pygame.draw.so" "pygame.display.so" "pygame.constants.so" "pygame.color.so" "pygame.cdrom.so" "pygame.bufferproxy.so" "pygame.base.so" "pygame._numericsurfarray.so" "pygame._numericsndarray.so" "pygame._freetype.so" "pyexpat.so" "plyer/" "PIL._imagingft.so" "PIL._imaging.so" "parser.so" "operator.so" "Nav.so" "mmap.so" "math.so" "main.py" "MacOS.so" "libz.1.2.8.dylib" "libtiff.5.dylib" "libSDL_ttf-2.0.0.dylib" "libSDL_mixer-1.2.0.dylib" "libSDL_image-1.2.0.dylib" "libSDL2_ttf-2.0.0.dylib" "libSDL2_mixer-2.0.0.dylib" "libSDL2_image-2.0.0.dylib" "libSDL2-2.0.0.dylib" "libSDL-1.2.0.dylib" "libs/" "libpng16.16.dylib" "libpng15.15.dylib" "libncursesw.5.dylib" "libjpeg.9.dylib" "libjpeg.8.dylib" "libfreetype.6.dylib" "lib/" "kivy_install/" "kivy.properties.so" "kivy.graphics.vertex_instructions.so" "kivy.graphics.vertex.so" "kivy.graphics.vbo.so" "kivy.graphics.transformation.so" "kivy.graphics.texture.so" "kivy.graphics.svg.so" "kivy.graphics.stencil_instructions.so" "kivy.graphics.shader.so" "kivy.graphics.opengl_utils.so" "kivy.graphics.opengl.so" "kivy.graphics.instructions.so" "kivy.graphics.gl_instructions.so" "kivy.graphics.fbo.so" "kivy.graphics.context_instructions.so" "kivy.graphics.context.so" "kivy.graphics.compiler.so" "kivy.graphics.c_opengl_debug.so" "kivy.graphics.buffer.so" "kivy.core.window._window_sdl2.so" "kivy.core.text.text_layout.so" "kivy.core.text._text_sdl2.so" "kivy.core.image.img_imageio.so" "kivy.core.image._img_sdl2.so" "kivy.core.clipboard._clipboard_sdl2.so" "kivy.core.camera.camera_avfoundation.so" "kivy._event.so" "itertools.so" "info.plist" "include/" "grp.so" "gestalt.so" "fcntl.so" "exifread/" "docutils/" "datetime.so" "data/" "cStringIO.so" "cPickle.so" "bz2.so" "binascii.so" "audioop.so" "array.so" "_Win.so" "_struct.so" "_ssl.so" "_socket.so" "_scproxy.so" "_Res.so" "_random.so" "_Qd.so" "_multiprocessing.so" "_multibytecodec.so" "_Menu.so" "_locale.so" "_json.so" "_io.so" "_heapq.so" "_hashlib.so" "_functools.so" "_File.so" "_Evt.so" "_Dlg.so" "_ctypes.so" "_Ctl.so" "_csv.so" "_collections.so" "_codecs_tw.so" "_codecs_kr.so" "_codecs_jp.so" "_codecs_iso2022.so" "_codecs_hk.so" "_codecs_cn.so" "_bisect.so" "_AE.so" ".idea/" ".DS_Store" "../" "./")
+
+ ("/Users/ekowibowo/desktoppublisher/auxes/" (21656 38885 0 0) "TestJava.class" "TestJava$1.class" "TestJava/" "JavaApplicationStub" "Info.plist.original" "Info.plist.appbundler-generated.xml" "Info.plist" "Info.jarbundler.plist" "icon.iconset/" "icon.icns" ".DS_Store" "../" "./")
+
+ ("/Users/ekowibowo/desktoppublisher/" (21656 38158 0 0) "win/" "test.html" "seq.sh" "lib/" "ie9win7.1problem/" "how-to-create-dmg.log" "dmg/" "dist/" "bundle.sh" "build.xml" "build-testuri.xml" "build-jarbundler.xml" "auxes/" ".idea/" ".gitignore~" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/ekowibowo/" (21655 46721 0 0) "www.google.com@20141127-214609.zip" "www.google.com-search-as_q--num-20-start_20141126-061442/" "SDL/" "ScramSoftware/" "ScramGet Library/" "pyinstaller/" "PycharmProjects/" "Public/" "Pictures/" "Phone to Mac Transfers/" "Music/" "Movies/" "Mac_OSX_SDKs/" "Library/" "Dropbox/" "Downloads/" "Documents/" "desktoppublisher/" "Desktop/" "Capoeira Kids London Muzenza Academy.mp4" "appbundler~svn/" ".vnc/" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".sqlite_history" ".ScramGet/" ".saves/" ".profile~" ".profile" ".pip/" ".ori-kivy/" ".meetingburner.com/" ".matplotlib/" ".lesshst" ".kivy/" ".gnupg/" ".gitconfig" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".datastudio/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_history" "../" "./")
+
+ ("/Applications/Meeting Burner.app/Contents/" (21656 39917 0 0) "Resources/" "PlugIns/" "PkgInfo" "MacOS/" "Java/" "Info.plist" "_CodeSignature/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
