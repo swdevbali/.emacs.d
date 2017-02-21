@@ -1,0 +1,87 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/ekowibowo/code/m2/web_app/adscrape/" . "lib/")
+ ("/home/ekowibowo/code/m2/web_app/wadev/src/apps/currency_rates/maintenance/" . "routines/")
+ ("/home/ekowibowo/code/m2/web_app/wadev/src/apps/currency_rates/" . "maintenance/")
+ ("/home/ekowibowo/code/m2/web_app/wadev/src/apps/maintenance/maintenance/" . "routines/")
+ ("/home/ekowibowo/code/m2/web_app/wadev/src/apps/maintenance/" . "maintenance/")
+ ("/home/ekowibowo/code/m2/web_app/wadev/src/apps/" . "currency_rates/")
+ ("/home/ekowibowo/code/m2/web_app/wadev/src/" . "lib/")
+ ("/home/ekowibowo/code/m2/web_app/wadev/" . "src/")
+ ("/home/ekowibowo/code/m2/web_app/" . "adscrape/")
+ ("/home/ekowibowo/code/m2/" . "web_app/")
+ ("/home/ekowibowo/code/" . "m2/")
+ ("/home/ekowibowo/" . "code/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/ekowibowo/"
+ "/home/ekowibowo/code/m2/web_app/wadev/src/"
+ "/home/ekowibowo/code/m2/web_app/adscrape/lib/"
+ "/home/ekowibowo/code/m2/web_app/wadev/src/lib/"
+ "/home/ekowibowo/code/m2/web_app/wadev/src/apps/currency_rates/maintenance/routines/"
+ "/home/ekowibowo/code/m2/web_app/wadev/src/apps/maintenance/maintenance/routines/"
+ "/home/ekowibowo/belajar/"
+ "/home/ekowibowo/code/m2/web_app/my_app/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "app.py"
+ "currency.py"
+ "config.py"
+ "fetch_currency.py"
+ "__init__.py"
+ "hato.py"
+ "cinderella.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/ekowibowo/" (22700 21440 164158 914000) ".psql_history" "Voices/" ".mplayer/" "pycharm-community-2016.1.4/" "app/" ".mozilla/" ".sugar/" ".ICEauthority" "Templates/" "Pictures/" ".local/" "iii" ".gitconfig" ".python_history" "Confidential2" ".pulse-cookie" ".HipChat/" ".v8flags.5.1.281.83.ekowibowo.json" ".zoom/" "untitled/" ".profile" "untitled1/" ".npmrc" ".xsession-errors" ".dbus/" ".audacity-data/" ".bash_logout" ".steampath" ".xsession-errors.old" ".pgadmin_histoqueries" ".config/" ".tkremindrc" ".dosbox/" "pgadmin.log" ".jspm/" ".pgpass" ".QtWebEngineProcess/" "Composing Music/" ".PyCharm2016.1/" "Videos/" "acak.aup" ".recently-used" ".thumbnails/" ".java/" ".directory" "Desktop/" "build-untitled-Desktop_Qt_5_7_0_GCC_64bit-Debug/" ".nano/" "Hubstaff/" ".sudo_as_admin_successful" "Android/" ".rbdoom3bfg/" "Documents/" "googleads.yaml" ".gnupg/" ".gnome2/" "Tahap Eksekusi Finish.xlsx" ".psensor/" "#test#" ".ssh/" ".gtkrc-2.0" ".gnome/" ".Skype/" "m2-account.txt" ".reminders" "Music/" ".gphoto/" "Ebook/" ".gnome2_private/" "untitled_0.odg" ".saves/" ".d2x-rebirth/" "Confidential4" "Quran/" ".steampid" "Downloads/" "belajar/" "Dropbox/" ".babel.json" "Confidential3" "build-untitled1-Desktop_Qt_5_7_0_GCC_64bit-Debug/" "supergirl-womens-march-sign-2-25902-1485030886-11_dblbig.jpg" ".icons/" ".emacs.d/" "missing tasks.txt" ".cinnamon/" ".pgadmin3" ".kde/" ".steam/" ".IdeaIC2016.2/" "V-PlaySDK/" ".usage-stats/" "Confidential" "GNUstep/" ".emacs" ".cache/" ".node_repl_history" ".themes/" ".pki/" ".npm/" ".Xauthority" ".bash_history" ".fltk/" ".gradle/" ".dropbox/" "code/" ".gconf/" "vid/" ".WebStorm2016.2/" ".bashrc" ".v8flags.4.5.103.35.ekowibowo.json" ".dmrc" "./" "../" ".dropbox-dist/" "acak_data/" "Public/")
+
+ ("/home/ekowibowo/code/m2/web_app/wadev/src/apps/maintenance/maintenance/routines/" (22680 31968 280999 278000) "__init__.pyc" "__init__.py" "db_backup_check.pyc" "./" "../" "db_backup_check.py")
+
+ ("/home/ekowibowo/code/m2/web_app/wadev/src/apps/currency_rates/maintenance/routines/" (22680 31974 421293 35000) "fetch_currency.py" "__init__.pyc" "__init__.py" "fetch_currency.pyc" "./" "../")
+
+ ("/home/ekowibowo/code/m2/web_app/wadev/src/lib/" (22699 5421 132211 963000) "__init__.pyc" "json_response.pyc" "chunks.pyc" "currency.py" "chunks.py" "ga/" "requested_to_multidict.py" "json_response.py" "lib_random.py" "misc.pyc" "lib_random.pyc" "currency.pyc" "__init__.py" "celery/" "site_currency.py" "requested_to_multidict.pyc" "site_currency.pyc" "misc.py" "test/" "./" "../" "dfp/" "flask_admin_fields/")
+
+ ("/home/ekowibowo/code/m2/web_app/adscrape/lib/" (22680 31974 417292 856000) "currency.py" "handler/" "__pycache__/" "__init__.py" "test/" "./" "../" "dfp/" "test_new_currency.py")
+
+ ("/home/ekowibowo/code/m2/web_app/wadev/src/" (22699 6931 617911 924000) "TESTS.md" "fixtures/" "local_config.sample" "mailgun.py" "config.pyc" "config.py" "sandbox/" "database.pyc" "manage.py" "migrations/" "sentry_setup.pyc" "flask_setup.pyc" "lib/" "container_start/" "mailgun.pyc" "apps/" "utils/" "views/" "database.py" "manage_setup.pyc" "htmlcov/" "__init__.py" "tests_/" "sentry_setup.py" "templates/" ".gitignore" "static/" "app_cache.pyc" "app.py" "flask_setup.py" "app_cache.py" "templates_pubguru/" "app.pyc" "./" "../" "manage_setup.py")
+
+ ("/home/ekowibowo/code/m2/m2hb/" (22695 8146 113979 541000) "build.js" "loaders/" "karma.conf.js" "README.md" ".babelrc" "gulpfile.js" "builders/" "node_modules/" "LICENSE" ".idea/" "package.json" "gulpHelpers.js" ".directory" "configtest.js" "src/" "david.initial.task.txt" "m2hb-onpage.js" "adapters.json" "bower.json" ".git/" ".travis.yml" "webpack.conf.js" ".jshintrc" "prebid.js_0.11.5.zip" ".gitignore" "integrationExamples/" ".jscsrc" "configs/" "test/" "./" "build/" "../")
+
+ ("/home/ekowibowo/code/m2/web_app/" (22692 27825 822195 398000) "nginx/" "README.md" ".idea/" "frontend/" "docker-compose.common.yml" "docker-compose-staging3.yml" "docker-compose.override.yml" "docker-compose-test.yml" "reportads/" "docker-compose.yml" ".git/" "docker-compose-staging2.yml" ".gitignore" "static/" "rogue/" ".env" "scripts/" "./" "../" "adscrape/" "wadev/" "docker-compose-prod.yml" "docker-compose-staging.yml")
+
+ ("/home/ekowibowo/code/m2/web_app/adscrape/" (22648 60224 849180 24000) "server.py" "mailgun.py" "requirements.txt" "lib/" "container_start/" "external/" "apps/" "__pycache__/" "wait-for-it.sh" "templates/" "static/" "app.py" "test_fetchers.py" "global_config.py" "runtests.py" "Dockerfile" "./" "../" "adexchangeseller.dat" "settings/")
+
+ ("/home/ekowibowo/code/m2/web_app/wadev/src/apps/currency_rates/maintenance/" (22655 23665 262981 658000) "__init__.pyc" "__init__.py" "routines/" "./" "../")
+
+ ("/home/ekowibowo/code/m2/web_app/wadev/src/apps/currency_rates/" (22655 22240 511011 709000) "__init__.pyc" "models.pyc" "__init__.py" "maintenance/" "models.py" "./" "../")
+
+ ("/home/ekowibowo/code/m2/web_app/wadev/src/apps/maintenance/commands/" (22652 57742 803745 351000) "__init__.pyc" "db_backup_command.pyc" "maintenance_command.pyc" "db_backup_command.py" "__init__.py" "maintenance_command.py" "./" "../")
+
+ ("/home/ekowibowo/code/m2/web_app/wadev/src/apps/maintenance/maintenance/" (22619 55548 608578 616000) "__init__.pyc" "health_check/" "__init__.py" "routines/" "./" "../")
+
+ ("/home/ekowibowo/code/m2/web_app/wadev/src/apps/maintenance/" (22648 60336 277377 216000) "commands/" "__init__.pyc" "models.pyc" "maintenance_base.pyc" "__init__.py" "maintenance/" "celery_tasks/" "maintenance_base.py" "models.py" "./" "../")
+
+ ("/home/ekowibowo/code/m2/web_app/wadev/src/apps/" (22647 42217 633468 90000) "dfp_admin/" "saas/" "db_admin/" "__init__.pyc" "tasks/" "dfp_ans/" "m2hb/" "rogue_redirection/" "account/" "analytics/" "dfp_tools/" "ad_network_scraper/" "file_uploader/" "main_menu/" "static_monitor/" "demo_page_maker/" "mutex/" "adx_reports/" "pagespeed/" "ga_admin/" "__init__.py" "dfp_autoline/" "ad_bidder_configs/" "currency_rates/" "maintenance/" "dashboard/" "./" "../" "test_runner/" "ga_dfp/")
+
+ ("/home/ekowibowo/belajar/" (22515 39479 602308 592000) "nama-nama.py" "cinderella.py" "hato.py" "./" "../")
+
+ ("/home/ekowibowo/code/m2/web_app/wadev/" (22655 22238 435425 614000) "supervisord.conf" "mailgun.py" "requirements.txt" "src/" "appender.py" "wait-for-it.sh" "gotpl" "Dockerfile" "./" "../")
+
+ ("/home/ekowibowo/code/m2/web_app/my_app/" (22505 8060 849493 939000) "TESTS.md" "fixtures/" "local_config.sample" "mailgun.py" "config.pyc" "config.py" ".idea/" "#app.py#" "requirements.txt" "database.pyc" "manage.py" "migrations/" "sentry_setup.pyc" "flask_setup.pyc" "lib/" "container_start/" "mailgun.pyc" "apps/" "utils.pyc" "utils/" "views/" "database.py" "multiple_client_secrets.pyc" "manage_setup.pyc" "htmlcov/" "__init__.py" "tests_/" "sentry_setup.py" "templates/" ".gitignore" "static/" "app_cache.pyc" "app.py" "flask_setup.py" "app_cache.py" "app.pyc" "./" "../" "manage_setup.py")
+
+ ("/home/ekowibowo/code/m2/" (22449 33653 195027 828000) "mysql" "misterpoll.com/" "misterpollcom_mrpollproject" "snippet/" "./" "../" "web_app/")
+
+ ("/home/ekowibowo/code/" (22505 922 94483 458000) "bitbucket-swdev.bali@gmail.com/" "coderdojoindonesia/" "github-swdev.bali@gmail.com/" "m2/" "./" "openshift-ekoatcoderdojoid/" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

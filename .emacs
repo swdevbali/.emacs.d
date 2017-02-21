@@ -292,3 +292,6 @@
 ;(setq load-path (cons "~/.emacs.d/org2blog/" load-path))
  ; (require 'org2blog-autoloads)
 ;(load-file "~/wp-settings.el")
+
+
+(set-face-foreground 'minibuffer-prompt "white")
