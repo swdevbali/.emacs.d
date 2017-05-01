@@ -1,3 +1,14 @@
+(require 'package)
+;(tool-bar-mode -1)
+(add-to-list 'package-archives
+             '("melpa" . "https://melpa.org/packages/") t)
+(when (< emacs-major-version 24)
+  ;; For important compatibility libraries like cl-lib
+  (add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/")))
+(package-initialize)
+;(require 'ac-helm) ;; Not necessary if using ELPA package
+;(global-set-key (kbd "C-:") 'ac-complete-with-helm)
+;(define-key ac-complete-mode-map (kbd "C-:") 'ac-complete-with-helm)
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/lisp"))
 ;(defun toggle-full-screen ()
 ;  "Toggles full-screen mode for Emacs window on Win32."
@@ -8,7 +19,7 @@
   "Toggles bars visibility."
   (interactive)
   (menu-bar-mode)
-;  (tool-bar-mode)
+  (tool-bar-mode)
   (scroll-bar-mode))
 
 (defun toggle-full-screen-and-bars ()
@@ -295,3 +306,8 @@
 
 
 (set-face-foreground 'minibuffer-prompt "white")
+
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.jsx\\'" . javascript-mode))
+(require 'evil)
+(evil-mode 1)
