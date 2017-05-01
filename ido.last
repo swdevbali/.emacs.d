@@ -2,8 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/" . "reducer/")
- ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/" . "shared/")
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/" . "container/")
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/" . "server/")
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/" . "src/")
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/" . "domains/")
  ("/home/ekowibowo/code/m2/m2hb/src/" . "adapters/")
@@ -25,8 +25,8 @@
 ;; ----- ido-work-directory-list -----
 (
  "/home/ekowibowo/"
- "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/shared/"
  "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/server/"
+ "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/shared/"
  "/home/ekowibowo/code/github-swdev.bali@gmail.com/reactblog/reactblog/src/"
  "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/reducer/"
  "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/action/"
@@ -48,10 +48,10 @@
 ;; ----- ido-work-file-list -----
 (
  ".emacs"
- "routes.js"
  "index.js"
- "hello.js"
+ "routes.js"
  "routes.test.js"
+ "hello.js"
  "message.js"
  "hello-button.js"
  ".eslintrc.json"
@@ -61,19 +61,19 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/server/" (22791 2470 866880 433000) "index-compiled-compiled.js.map" "index.js" "index-compiled-compiled.js" "render-app.js" "./" "../")
+
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/shared/" (22786 9858 881817 30000) "util.js" "config-compiled.js.map" "routes.test.js" "routes.js" "config-compiled.js" "config.js" "./" "../")
+
  ("/home/ekowibowo/" (22790 64216 585908 606000) ".psql_history" ".Xdefaults" ".mplayer/" "pycharm-community-2016.1.4/" "app/" ".mozilla/" ".sugar/" ".ICEauthority" "Templates/" "Pictures/" ".local/" ".gitconfig" ".python_history" ".vim/" ".pulse-cookie" ".HipChat/" ".v8flags.5.1.281.83.ekowibowo.json" ".zoom/" ".profile" ".npmrc" ".xsession-errors" ".viminfo" ".dbus/" ".audacity-data/" ".bash_logout" ".steampath" ".spacemacs" ".xsession-errors.old" ".pgadmin_histoqueries" ".config/" ".tkremindrc" ".dosbox/" "pgadmin.log" ".jspm/" ".pgpass" ".QtWebEngineProcess/" "Composing Music/" ".PyCharm2016.1/" ".emacs.d.spacemacs/" ".recently-used" ".thumbnails/" ".java/" ".directory" "Desktop/" ".nano/" "Hubstaff/" ".sudo_as_admin_successful" "Android/" ".Xresources" ".rbdoom3bfg/" "Documents/" ".gnupg/" ".gnome2/" ".AndroidStudio2.3/" ".psensor/" ".ssh/" ".gtkrc-2.0" "AndroidStudioProjects/" ".gnome/" ".Skype/" ".reminders" "Music/" ".gphoto/" "Ebook/" ".gnome2_private/" ".saves/" ".vscode/" ".d2x-rebirth/" "Quran/" ".steampid" "Downloads/" "belajar/" "Dropbox/" ".babel.json" "logs/" ".icons/" ".SpaceVim/" ".emacs.d/" "missing tasks.txt" ".cinnamon/" ".pgadmin3" "unique.txt" ".kde/" ".android/" ".steam/" ".IdeaIC2016.2/" ".usage-stats/" "GNUstep/" ".emacs" ".cache/" ".data/" ".node_repl_history" ".apport-ignore.xml" ".themes/" "Video/" ".emulator_console_auth_token" ".pm2/" ".pki/" ".npm/" ".Xauthority" ".bash_history" ".fltk/" ".gradle/" ".dropbox/" "code/" ".gconf/" ".WebStorm2016.2/" ".bashrc" ".v8flags.4.5.103.35.ekowibowo.json" ".dmrc" "./" "../" ".dropbox-dist/" "acak_data/" "Public/")
 
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/" (22786 9872 475101 608000) ".babelrc" ".eslintignore" "node_modules/" ".idea/" "package.json" "coverage/" "lib/" "src/" ".git/" "dist/" ".gitignore" ".flowconfig" "public/" "webpack.config.babel.js" "./" "../" ".eslintrc.json")
-
- ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/server/" (22786 530 981533 229000) "index-compiled-compiled.js.map" "index.js" "index-compiled-compiled.js" "render-app.js" "./" "../")
 
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/reactblog/" (22706 63847 242253 10000) "README.md" ".idea/" "reactblog/" ".git/" ".gitignore" "./" "../")
 
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/reactblog/reactblog/" (22706 63613 222261 39000) "README.md" "node_modules/" "package.json" "src/" ".gitignore" "public/" "./" "../")
 
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/reducer/" (22786 9672 76999 48000) "./" "../" "hello.js")
-
- ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/shared/" (22786 9556 343573 880000) "util.js" "config-compiled.js.map" "routes.test.js" "routes.js" "config-compiled.js" "config.js" "./" "../")
 
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/container/" (22786 9438 179668 79000) "message.js" "hello-button.js" "./" "../")
 
