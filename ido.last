@@ -7,9 +7,9 @@
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/" . "action/")
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/" . "server/")
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/" . "src/")
- ("/home/ekowibowo/code/github-swdev.bali@gmail.com/" . "domains/")
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/" . "webpack_tut/")
  ("/home/ekowibowo/code/m2/m2hb/src/" . "adapters/")
- ("/home/ekowibowo/code/m2/m2hb/" . "test/")
+ ("/home/ekowibowo/code/m2/m2hb/" . "sandbox/")
  ("/home/ekowibowo/code/m2/web_app/adscrape/" . "lib/")
  ("/home/ekowibowo/code/m2/web_app/wadev/src/apps/currency_rates/maintenance/" . "routines/")
  ("/home/ekowibowo/code/m2/web_app/wadev/src/apps/currency_rates/" . "maintenance/")
@@ -19,18 +19,22 @@
  ("/home/ekowibowo/code/m2/web_app/wadev/src/" . "lib/")
  ("/home/ekowibowo/code/m2/web_app/wadev/" . "src/")
  ("/home/ekowibowo/code/m2/web_app/" . "adscrape/")
- ("/home/ekowibowo/code/m2/" . "web_app/")
+ ("/home/ekowibowo/code/m2/" . "m2hb/")
  ("/home/ekowibowo/code/" . "github-swdev.bali@gmail.com/")
  ("/home/ekowibowo/" . "code/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/ekowibowo/"
- "/home/ekowibowo/code/m2/m2hb/"
- "/home/ekowibowo/code/m2/m2hb/test/spec/m2/"
  "/home/ekowibowo/code/m2/m2hb/sandbox/"
+ "/home/ekowibowo/code/m2/m2hb/"
+ "/home/ekowibowo/code/github-swdev.bali@gmail.com/webpack_tut/tut01/"
+ "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/sandbox/"
+ "/home/ekowibowo/code/m2/Prebid.js/"
  "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/"
+ "/home/ekowibowo/code/m2/m2hb/src/"
+ "/home/ekowibowo/"
+ "/home/ekowibowo/code/m2/m2hb/test/spec/m2/"
  "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/server/"
  "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/action/"
  "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/container/"
@@ -40,7 +44,6 @@
  "/home/ekowibowo/code/github-swdev.bali@gmail.com/reactblog/reactblog/src/"
  "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/"
  "/home/ekowibowo/code/m2/m2hb/src/adapters/"
- "/home/ekowibowo/code/m2/m2hb/src/"
  "/home/ekowibowo/code/m2/web_app/wadev/src/"
  "/home/ekowibowo/code/m2/web_app/adscrape/lib/"
  "/home/ekowibowo/code/m2/web_app/wadev/src/lib/"
@@ -52,29 +55,45 @@
 
 ;; ----- ido-work-file-list -----
 (
- ".emacs"
- ".bashrc"
- ".directory"
+ "mock-test.org"
+ ".babelrc"
+ "gulpfile.js"
+ "webpack.config.js"
+ "webpack.conf.js"
  "package.json"
- "sovrn_brealtime_bidding_spec.js"
- "how-it-works.org"
- "build.js"
- ".eslintrc.json"
- "index.js"
- "render-app.js"
+ "cats.js"
+ "app.js"
+ "webpack_tut01"
+ "webpack.config.babel.js"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ekowibowo/code/m2/m2hb/sandbox/" (22797 64660 893641 968000) "#how-it-works.org#" "m2d.understanding.txt" "david.initial.task/" "how-it-works.org" "integrationExamples/" "test/" "./" "../")
+ ("/home/ekowibowo/code/m2/m2hb/sandbox/" (22800 30464 823398 80000) "mock-test.org" "m2d.understanding.txt" "david.initial.task/" "how-it-works.org" "integrationExamples/" "test/" "./" "../")
 
- ("/home/ekowibowo/" (22799 17772 649550 938000) ".psql_history" ".Xdefaults" ".mplayer/" "pycharm-community-2016.1.4/" "app/" ".mozilla/" ".sugar/" ".ICEauthority" "Templates/" "Pictures/" "kazam_x2rli_rm.movie" ".local/" ".gitconfig" ".python_history" ".vim/" ".pulse-cookie" ".HipChat/" ".v8flags.5.1.281.83.ekowibowo.json" ".zoom/" ".profile" ".npmrc" ".xsession-errors" ".viminfo" ".dbus/" ".audacity-data/" ".bash_logout" ".steampath" ".spacemacs" ".xsession-errors.old" ".pgadmin_histoqueries" ".config/" ".tkremindrc" ".dosbox/" "pgadmin.log" ".jspm/" ".pgpass" ".QtWebEngineProcess/" "Composing Music/" ".PyCharm2016.1/" ".emacs.d.spacemacs/" ".recently-used" ".thumbnails/" ".java/" ".directory" "Desktop/" ".nano/" "Hubstaff/" ".sudo_as_admin_successful" "Android/" ".Xresources" ".rbdoom3bfg/" "Documents/" ".gnupg/" ".gnome2/" ".AndroidStudio2.3/" ".psensor/" ".ssh/" ".gtkrc-2.0" "AndroidStudioProjects/" ".gnome/" ".Skype/" "#test.org#" ".reminders" "Music/" ".gphoto/" "Ebook/" ".gnome2_private/" ".saves/" ".vscode/" ".d2x-rebirth/" "Quran/" ".fonts/" ".steampid" "Downloads/" "belajar/" "Dropbox/" ".babel.json" "logs/" ".icons/" ".SpaceVim/" ".emacs.d/" "missing tasks.txt" ".cinnamon/" ".pgadmin3" "unique.txt" ".kde/" ".android/" ".steam/" ".IdeaIC2016.2/" ".usage-stats/" ".v8flags.5.1.281.83.b59cecefb929ed9df133496edde86620.json" "GNUstep/" ".emacs" ".cache/" ".data/" ".node_repl_history" ".apport-ignore.xml" ".themes/" "#.profile#" "Video/" ".emulator_console_auth_token" ".pm2/" ".pki/" ".npm/" "npm-debug.log" ".Xauthority" ".bash_history" ".fltk/" ".gradle/" ".dropbox/" "code/" ".gconf/" ".WebStorm2016.2/" ".bashrc" ".v8flags.4.5.103.35.ekowibowo.json" ".dmrc" "./" "../" ".dropbox-dist/" "acak_data/" "Public/")
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/webpack_tut/tut01/" (22799 61345 63562 398000) "node_modules/" "package.json" "src/" "webpack.config.js" "dist/" "./" "../")
 
- ("/home/ekowibowo/.emacs.d/" (22797 25549 851425 404000) "diary" ".emacs.command.frequency" "url/" ".org-id-locations" "ido.last" ".git/" "auto-save-list/" ".gitignore" ".emacs" "lisp/" "eshell/" ".#ido.last" "elpa/" "./" "../" ".emacs.swp")
+ ("/home/ekowibowo/code/m2/m2hb/" (22800 18478 32639 63000) "build.js" "loaders/" "karma.conf.js" "README.md" ".babelrc" "gulpfile.js" "builders/" "node_modules/" "LICENSE" ".idea/" "sandbox/" "package.json" "gulpHelpers.js" "configtest.js" "src/" "m2hb-onpage.js" "adapters.json" "bower.json" ".git/" ".travis.yml" "webpack.conf.js" ".jshintrc" "prebid.js_0.11.5.zip" ".gitignore" ".jscsrc" "configs/" "test/" "./" "build/" "../")
+
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/webpack_tut/" (22799 53777 205636 403000) "tut01/" "./" "../")
+
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/" (22799 53744 989088 237000) "googleads-adxseller-examples/" "Isometric/" "Prebid.js/" "es6-tutorial/" "fifengine/" "python-id/" "reactblog/" "flask-admin/" "learningnode/" "gulptest/" "pyscroll/" "webpack_tut/" "domains/" "js-stack-walkthrough/" "fifengine-editor/" "./" "ProjectPerpus/" "../" "googleads-python-lib/")
+
+ ("/home/ekowibowo/.emacs.d/" (22799 19037 235516 146000) "diary" ".emacs.command.frequency" "url/" ".org-id-locations" "ido.last" ".git/" "auto-save-list/" ".gitignore" ".emacs" "lisp/" "eshell/" "elpa/" "./" "../" ".emacs.swp")
+
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/" (22799 53530 609389 381000) ".babelrc" ".eslintignore" "node_modules/" ".idea/" "sandbox/" "package.json" "coverage/" "lib/" "src/" ".git/" "dist/" ".gitignore" ".flowconfig" "npm-debug.log" "public/" "webpack.config.babel.js" "./" "../" ".eslintrc.json")
+
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/sandbox/" (22799 53590 235396 344000) "./" "../" "webpack_tut01/")
+
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/sandbox/webpack_tut01/" (22799 53590 235396 344000) "./" "../")
+
+ ("/home/ekowibowo/code/m2/Prebid.js/" (22766 10814 337666 169000) ".github/" "nightwatch.json" "governance.md" "loaders/" "karma.conf.js" "README.md" ".babelrc" "gulpfile.js" "node_modules/" "LICENSE" ".idea/" "package.json" "gulpHelpers.js" "pr_review.md" "src/" "adapters.json" ".git/" "nightwatch.conf.js" ".travis.yml" "webpack.conf.js" ".jshintrc" "nightwatch.browserstack.json" ".gitignore" "CONTRIBUTING.md" "integrationExamples/" ".jscsrc" "browsers.json" "analytics.json" "test/" "prebid.js_0.14.0-pre.zip" "./" "build/" "../" ".nvmrc")
+
+ ("/home/ekowibowo/" (22799 18917 341756 756000) ".psql_history" ".Xdefaults" ".mplayer/" "pycharm-community-2016.1.4/" "app/" ".mozilla/" ".sugar/" ".ICEauthority" "Templates/" "Pictures/" "kazam_x2rli_rm.movie" ".local/" ".gitconfig" ".python_history" ".vim/" ".pulse-cookie" ".HipChat/" ".v8flags.5.1.281.83.ekowibowo.json" ".zoom/" ".profile" ".npmrc" ".xsession-errors" ".viminfo" ".dbus/" ".audacity-data/" ".bash_logout" ".steampath" ".spacemacs" ".xsession-errors.old" ".pgadmin_histoqueries" ".config/" ".tkremindrc" ".dosbox/" "pgadmin.log" ".jspm/" ".pgpass" ".QtWebEngineProcess/" "Composing Music/" ".PyCharm2016.1/" ".emacs.d.spacemacs/" ".recently-used" ".thumbnails/" ".java/" ".directory" "Desktop/" ".nano/" "Hubstaff/" ".sudo_as_admin_successful" "Android/" ".Xresources" ".rbdoom3bfg/" "Documents/" ".gnupg/" ".gnome2/" ".AndroidStudio2.3/" ".psensor/" ".ssh/" ".gtkrc-2.0" "AndroidStudioProjects/" ".gnome/" ".Skype/" "#test.org#" ".reminders" "Music/" ".gphoto/" "Ebook/" ".gnome2_private/" ".saves/" ".vscode/" ".d2x-rebirth/" "Quran/" ".fonts/" ".steampid" "Downloads/" "belajar/" "Dropbox/" ".babel.json" "logs/" ".icons/" ".SpaceVim/" ".emacs.d/" "missing tasks.txt" ".cinnamon/" ".pgadmin3" "unique.txt" ".kde/" ".android/" ".steam/" ".IdeaIC2016.2/" ".usage-stats/" ".v8flags.5.1.281.83.b59cecefb929ed9df133496edde86620.json" "GNUstep/" ".emacs" ".cache/" ".data/" ".node_repl_history" ".apport-ignore.xml" ".themes/" "#.profile#" "Video/" ".emulator_console_auth_token" ".pm2/" ".pki/" ".npm/" "npm-debug.log" ".Xauthority" ".bash_history" ".fltk/" ".gradle/" ".dropbox/" "code/" ".gconf/" ".WebStorm2016.2/" ".bashrc" ".v8flags.4.5.103.35.ekowibowo.json" ".dmrc" "./" "../" ".dropbox-dist/" "acak_data/" "Public/")
+
+ ("/home/ekowibowo/code/m2/" (22731 23030 100715 948000) "m2hb/" "Prebid.js/" "misterpoll.com/" "misterpollcom_mrpollproject" "prebidnewbie/" "m2hb-testing/" "m2hb.walkthrough.txt" "old-m2hb/" "snippet/" "./" "../" "web_app/")
 
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/action/" (22795 27590 958643 443000) "hello.test.js" "./" "../" "hello.js")
-
- ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/" (22795 28237 530743 426000) ".babelrc" ".eslintignore" "node_modules/" ".idea/" "package.json" "coverage/" "lib/" "src/" ".git/" "dist/" ".gitignore" ".flowconfig" "npm-debug.log" "public/" "webpack.config.babel.js" "./" "../" ".eslintrc.json")
 
  ("/home/ekowibowo/code/m2/m2hb/test/spec/m2/" (22766 11710 813128 198000) "sovrn_brealtime_bidding_spec.js" "getBidderCodes_spec.js" "traffic_spec.js" "revShare_spec.js" "./" "../")
 
@@ -83,8 +102,6 @@
  ("/home/ekowibowo/code/m2/m2hb/test/app/" (22731 23057 406807 358000) "./" "../" "prebid.js")
 
  ("/home/ekowibowo/code/m2/m2hb/test/" (22731 23057 406807 358000) "fixtures/" "app/" "spec/" "helpers/" "./" "../")
-
- ("/home/ekowibowo/code/m2/m2hb/" (22766 11710 813128 198000) "build.js" "loaders/" "karma.conf.js" "README.md" ".babelrc" "gulpfile.js" "builders/" "node_modules/" "LICENSE" ".idea/" "sandbox/" "package.json" "gulpHelpers.js" "configtest.js" "src/" "m2hb-onpage.js" "adapters.json" "bower.json" ".git/" ".travis.yml" "webpack.conf.js" ".jshintrc" ".gitignore" ".jscsrc" "configs/" "test/" "./" "build/" "../")
 
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/server/" (22795 26413 894563 180000) "#index.js#" "index.js" "render-app.js" "./" "../")
 
@@ -126,8 +143,6 @@
 
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/coverage/" (22774 42417 790631 570000) "coverage-final.json" "lcov.info" "lcov-report/" "clover.xml" "./" "../")
 
- ("/home/ekowibowo/code/github-swdev.bali@gmail.com/" (22768 18899 967651 62000) "googleads-adxseller-examples/" "Isometric/" "Prebid.js/" "es6-tutorial/" "fifengine/" "python-id/" "reactblog/" "flask-admin/" "learningnode/" "gulptest/" "pyscroll/" "domains/" "fifengine-editor/" "./" "ProjectPerpus/" "../" "googleads-python-lib/")
-
  ("/home/ekowibowo/code/" (22739 12556 106488 374000) "jigo/" "m2hb-test.html" "bitbucket-swdev.bali@gmail.com/" "learnreactjs/" "android/" "forex/" "coderdojoindonesia/" "packt/" "github-swdev.bali@gmail.com/" "m2/" "./" "openshift-ekoatcoderdojoid/" "../")
 
  ("/home/ekowibowo/code/m2/web_app/adscrape/lib/" (22680 31974 417292 856000) "currency.py" "handler/" "__pycache__/" "__init__.py" "test/" "./" "../" "dfp/" "test_new_currency.py")
@@ -151,8 +166,6 @@
  ("/home/ekowibowo/belajar/" (22515 39479 602308 592000) "nama-nama.py" "cinderella.py" "hato.py" "./" "../")
 
  ("/home/ekowibowo/code/m2/web_app/my_app/" (22505 8060 849493 939000) "TESTS.md" "fixtures/" "local_config.sample" "mailgun.py" "config.pyc" "config.py" ".idea/" "#app.py#" "requirements.txt" "database.pyc" "manage.py" "migrations/" "sentry_setup.pyc" "flask_setup.pyc" "lib/" "container_start/" "mailgun.pyc" "apps/" "utils.pyc" "utils/" "views/" "database.py" "multiple_client_secrets.pyc" "manage_setup.pyc" "htmlcov/" "__init__.py" "tests_/" "sentry_setup.py" "templates/" ".gitignore" "static/" "app_cache.pyc" "app.py" "flask_setup.py" "app_cache.py" "app.pyc" "./" "../" "manage_setup.py")
-
- ("/home/ekowibowo/code/m2/" (22449 33653 195027 828000) "mysql" "misterpoll.com/" "misterpollcom_mrpollproject" "snippet/" "./" "../" "web_app/")
 )
 
 ;; ----- ido-unc-hosts-cache -----
