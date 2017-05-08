@@ -2,12 +2,14 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/ekowibowo/code/m2/m2hb/test/spec/" . "m2/")
+ ("/home/ekowibowo/code/m2/m2hb/test/" . "spec/")
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/" . "action/")
- ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/" . "client/")
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/" . "server/")
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/" . "src/")
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/" . "domains/")
  ("/home/ekowibowo/code/m2/m2hb/src/" . "adapters/")
- ("/home/ekowibowo/code/m2/m2hb/" . "src/")
+ ("/home/ekowibowo/code/m2/m2hb/" . "test/")
  ("/home/ekowibowo/code/m2/web_app/adscrape/" . "lib/")
  ("/home/ekowibowo/code/m2/web_app/wadev/src/apps/currency_rates/maintenance/" . "routines/")
  ("/home/ekowibowo/code/m2/web_app/wadev/src/apps/currency_rates/" . "maintenance/")
@@ -25,15 +27,18 @@
 ;; ----- ido-work-directory-list -----
 (
  "/home/ekowibowo/"
- "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/action/"
+ "/home/ekowibowo/code/m2/m2hb/"
+ "/home/ekowibowo/code/m2/m2hb/test/spec/m2/"
+ "/home/ekowibowo/code/m2/m2hb/sandbox/"
  "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/"
- "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/container/"
  "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/server/"
- "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/shared/"
- "/home/ekowibowo/code/github-swdev.bali@gmail.com/reactblog/reactblog/src/"
+ "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/action/"
+ "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/container/"
  "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/reducer/"
- "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/"
+ "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/shared/"
  "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/component/"
+ "/home/ekowibowo/code/github-swdev.bali@gmail.com/reactblog/reactblog/src/"
+ "/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/"
  "/home/ekowibowo/code/m2/m2hb/src/adapters/"
  "/home/ekowibowo/code/m2/m2hb/src/"
  "/home/ekowibowo/code/m2/web_app/wadev/src/"
@@ -48,42 +53,56 @@
 ;; ----- ido-work-file-list -----
 (
  ".emacs"
- "hello.js"
+ ".bashrc"
+ ".directory"
+ "package.json"
+ "sovrn_brealtime_bidding_spec.js"
+ "how-it-works.org"
+ "build.js"
  ".eslintrc.json"
- "hello-button.js"
  "index.js"
- "routes.js"
- "routes.test.js"
- "message.js"
- ".gitignore"
- ".eslintignore"
+ "render-app.js"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/action/" (22791 12011 918648 756000) ".#hello.js" "#hello.js#" "./" "../" "hello.js")
+ ("/home/ekowibowo/code/m2/m2hb/sandbox/" (22797 64660 893641 968000) "#how-it-works.org#" "m2d.understanding.txt" "david.initial.task/" "how-it-works.org" "integrationExamples/" "test/" "./" "../")
 
- ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/" (22791 11934 614292 684000) ".babelrc" ".eslintignore" "node_modules/" ".idea/" "package.json" "coverage/" "lib/" "src/" ".git/" "dist/" ".gitignore" ".flowconfig" "public/" "webpack.config.babel.js" "./" "../" ".eslintrc.json")
+ ("/home/ekowibowo/" (22799 17772 649550 938000) ".psql_history" ".Xdefaults" ".mplayer/" "pycharm-community-2016.1.4/" "app/" ".mozilla/" ".sugar/" ".ICEauthority" "Templates/" "Pictures/" "kazam_x2rli_rm.movie" ".local/" ".gitconfig" ".python_history" ".vim/" ".pulse-cookie" ".HipChat/" ".v8flags.5.1.281.83.ekowibowo.json" ".zoom/" ".profile" ".npmrc" ".xsession-errors" ".viminfo" ".dbus/" ".audacity-data/" ".bash_logout" ".steampath" ".spacemacs" ".xsession-errors.old" ".pgadmin_histoqueries" ".config/" ".tkremindrc" ".dosbox/" "pgadmin.log" ".jspm/" ".pgpass" ".QtWebEngineProcess/" "Composing Music/" ".PyCharm2016.1/" ".emacs.d.spacemacs/" ".recently-used" ".thumbnails/" ".java/" ".directory" "Desktop/" ".nano/" "Hubstaff/" ".sudo_as_admin_successful" "Android/" ".Xresources" ".rbdoom3bfg/" "Documents/" ".gnupg/" ".gnome2/" ".AndroidStudio2.3/" ".psensor/" ".ssh/" ".gtkrc-2.0" "AndroidStudioProjects/" ".gnome/" ".Skype/" "#test.org#" ".reminders" "Music/" ".gphoto/" "Ebook/" ".gnome2_private/" ".saves/" ".vscode/" ".d2x-rebirth/" "Quran/" ".fonts/" ".steampid" "Downloads/" "belajar/" "Dropbox/" ".babel.json" "logs/" ".icons/" ".SpaceVim/" ".emacs.d/" "missing tasks.txt" ".cinnamon/" ".pgadmin3" "unique.txt" ".kde/" ".android/" ".steam/" ".IdeaIC2016.2/" ".usage-stats/" ".v8flags.5.1.281.83.b59cecefb929ed9df133496edde86620.json" "GNUstep/" ".emacs" ".cache/" ".data/" ".node_repl_history" ".apport-ignore.xml" ".themes/" "#.profile#" "Video/" ".emulator_console_auth_token" ".pm2/" ".pki/" ".npm/" "npm-debug.log" ".Xauthority" ".bash_history" ".fltk/" ".gradle/" ".dropbox/" "code/" ".gconf/" ".WebStorm2016.2/" ".bashrc" ".v8flags.4.5.103.35.ekowibowo.json" ".dmrc" "./" "../" ".dropbox-dist/" "acak_data/" "Public/")
 
- ("/home/ekowibowo/" (22791 3590 136984 679000) ".psql_history" ".Xdefaults" ".mplayer/" "pycharm-community-2016.1.4/" "app/" ".mozilla/" ".sugar/" ".ICEauthority" "Templates/" "Pictures/" ".local/" ".gitconfig" ".python_history" ".vim/" ".pulse-cookie" ".HipChat/" ".v8flags.5.1.281.83.ekowibowo.json" ".zoom/" ".profile" ".npmrc" ".xsession-errors" ".viminfo" ".dbus/" ".audacity-data/" ".bash_logout" ".steampath" ".spacemacs" ".xsession-errors.old" ".pgadmin_histoqueries" ".config/" ".tkremindrc" ".dosbox/" "pgadmin.log" ".jspm/" ".pgpass" ".QtWebEngineProcess/" "Composing Music/" ".PyCharm2016.1/" ".emacs.d.spacemacs/" ".recently-used" ".thumbnails/" ".java/" ".directory" "Desktop/" ".nano/" "Hubstaff/" ".sudo_as_admin_successful" "Android/" ".Xresources" ".rbdoom3bfg/" "Documents/" ".gnupg/" ".gnome2/" ".AndroidStudio2.3/" ".psensor/" ".ssh/" ".gtkrc-2.0" "AndroidStudioProjects/" ".gnome/" ".Skype/" ".reminders" "Music/" ".gphoto/" "Ebook/" ".gnome2_private/" ".saves/" ".vscode/" ".d2x-rebirth/" "Quran/" ".steampid" "Downloads/" "belajar/" "Dropbox/" ".babel.json" "logs/" ".icons/" ".SpaceVim/" ".emacs.d/" "missing tasks.txt" ".cinnamon/" ".pgadmin3" "unique.txt" ".kde/" ".android/" ".steam/" ".IdeaIC2016.2/" ".usage-stats/" "GNUstep/" ".emacs" ".cache/" ".data/" ".node_repl_history" ".apport-ignore.xml" ".themes/" "Video/" ".emulator_console_auth_token" ".pm2/" ".pki/" ".npm/" "npm-debug.log" ".Xauthority" ".bash_history" ".fltk/" ".gradle/" ".dropbox/" "code/" ".gconf/" ".WebStorm2016.2/" ".bashrc" ".v8flags.4.5.103.35.ekowibowo.json" ".dmrc" "./" "../" ".dropbox-dist/" "acak_data/" "Public/")
+ ("/home/ekowibowo/.emacs.d/" (22797 25549 851425 404000) "diary" ".emacs.command.frequency" "url/" ".org-id-locations" "ido.last" ".git/" "auto-save-list/" ".gitignore" ".emacs" "lisp/" "eshell/" ".#ido.last" "elpa/" "./" "../" ".emacs.swp")
 
- ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/shared/" (22791 3179 308048 566000) "util.js" "config-compiled.js.map" "routes.test.js" "routes.js" "config-compiled.js" "config.js" "./" "../")
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/action/" (22795 27590 958643 443000) "hello.test.js" "./" "../" "hello.js")
 
- ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/server/" (22791 3029 48433 834000) "index-compiled-compiled.js.map" "index.js" "index-compiled-compiled.js" "render-app.js" "./" "../")
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/" (22795 28237 530743 426000) ".babelrc" ".eslintignore" "node_modules/" ".idea/" "package.json" "coverage/" "lib/" "src/" ".git/" "dist/" ".gitignore" ".flowconfig" "npm-debug.log" "public/" "webpack.config.babel.js" "./" "../" ".eslintrc.json")
+
+ ("/home/ekowibowo/code/m2/m2hb/test/spec/m2/" (22766 11710 813128 198000) "sovrn_brealtime_bidding_spec.js" "getBidderCodes_spec.js" "traffic_spec.js" "revShare_spec.js" "./" "../")
+
+ ("/home/ekowibowo/code/m2/m2hb/test/spec/" (22766 11710 813128 198000) "utils_spec.js" "aliasBidder_spec.js" "api_spec.js" "unit/" "bidmanager_spec.js" "adloader_spec.js" "adUnits_spec.js" "m2/" "adapters/" "./" "ga_spec.js" "../")
+
+ ("/home/ekowibowo/code/m2/m2hb/test/app/" (22731 23057 406807 358000) "./" "../" "prebid.js")
+
+ ("/home/ekowibowo/code/m2/m2hb/test/" (22731 23057 406807 358000) "fixtures/" "app/" "spec/" "helpers/" "./" "../")
+
+ ("/home/ekowibowo/code/m2/m2hb/" (22766 11710 813128 198000) "build.js" "loaders/" "karma.conf.js" "README.md" ".babelrc" "gulpfile.js" "builders/" "node_modules/" "LICENSE" ".idea/" "sandbox/" "package.json" "gulpHelpers.js" "configtest.js" "src/" "m2hb-onpage.js" "adapters.json" "bower.json" ".git/" ".travis.yml" "webpack.conf.js" ".jshintrc" ".gitignore" ".jscsrc" "configs/" "test/" "./" "build/" "../")
+
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/server/" (22795 26413 894563 180000) "#index.js#" "index.js" "render-app.js" "./" "../")
+
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/container/" (22794 44029 842500 97000) "hello-async-button.js" "message-async.js" "message.js" "hello-button.js" "./" "../")
+
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/reducer/" (22794 44995 384654 952000) "./" "../" "hello.js")
+
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/shared/" (22794 37844 604525 955000) "util.js" "routes.test.js" "routes.js" "config.js" "./" "../")
+
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/component/" (22794 43648 270535 750000) "button.jsx" "message.jsx" "./" "../")
+
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/" (22794 40320 865621 648000) "component/" "action/" "container/" "app.jsx" "index.jsx" "reducer/" "./" "../")
+
+ ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/" (22794 37109 754364 99000) "server/" "client/" "shared/" "./" "../")
 
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/reactblog/" (22706 63847 242253 10000) "README.md" ".idea/" "reactblog/" ".git/" ".gitignore" "./" "../")
 
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/reactblog/reactblog/" (22706 63613 222261 39000) "README.md" "node_modules/" "package.json" "src/" ".gitignore" "public/" "./" "../")
-
- ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/reducer/" (22786 9672 76999 48000) "./" "../" "hello.js")
-
- ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/container/" (22786 9438 179668 79000) "message.js" "hello-button.js" "./" "../")
-
- ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/" (22786 530 981533 229000) "server/" "client/" "index-compiled.js" "shared/" "index-compiled.js.map" "dog.test-compiled.js.map" "./" "../" "dog.test-compiled.js")
-
- ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/" (22786 530 981533 229000) "component/" "action/" "container/" "app.jsx" "index.jsx" "reducer/" "./" "../")
-
- ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/src/client/component/" (22786 530 981533 229000) "button.jsx" "message.jsx" "./" "../")
 
  ("/home/ekowibowo/code/m2/web_app/wadev/" (22772 53168 358006 790000) "supervisord.conf" "mailgun.py" "requirements.txt" "src/" "appender.py" "wait-for-it.sh" "gotpl" "Dockerfile" "./" "../")
 
@@ -103,8 +122,6 @@
 
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/reactblog/reactblog/src/" (22709 33752 264037 995000) "logo.svg" "index.js" "App.css" "App.js" "index.css" "App.test.js" "./" "../")
 
- ("/home/ekowibowo/.emacs.d/" (22785 37994 876381 671000) "diary" ".emacs.command.frequency" ".org-id-locations" "ido.last" ".git/" "auto-save-list/" ".gitignore" ".emacs" "lisp/" "eshell/" "elpa/" "./" "../" ".emacs.swp")
-
  ("/home/" (22438 18009 344733 731000) ".directory" "ekowibowo/" "./" "../")
 
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/domains/coverage/" (22774 42417 790631 570000) "coverage-final.json" "lcov.info" "lcov-report/" "clover.xml" "./" "../")
@@ -112,14 +129,6 @@
  ("/home/ekowibowo/code/github-swdev.bali@gmail.com/" (22768 18899 967651 62000) "googleads-adxseller-examples/" "Isometric/" "Prebid.js/" "es6-tutorial/" "fifengine/" "python-id/" "reactblog/" "flask-admin/" "learningnode/" "gulptest/" "pyscroll/" "domains/" "fifengine-editor/" "./" "ProjectPerpus/" "../" "googleads-python-lib/")
 
  ("/home/ekowibowo/code/" (22739 12556 106488 374000) "jigo/" "m2hb-test.html" "bitbucket-swdev.bali@gmail.com/" "learnreactjs/" "android/" "forex/" "coderdojoindonesia/" "packt/" "github-swdev.bali@gmail.com/" "m2/" "./" "openshift-ekoatcoderdojoid/" "../")
-
- ("/home/ekowibowo/code/m2/m2hb/" (22703 64796 635502 980000) "build.js" "loaders/" "karma.conf.js" "README.md" ".babelrc" "gulpfile.js" "builders/" "node_modules/" "LICENSE" ".idea/" "package.json" "gulpHelpers.js" ".directory" "configtest.js" "src/" "david.initial.task.txt" "m2hb-onpage.js" "adapters.json" "bower.json" ".git/" ".travis.yml" "webpack.conf.js" ".jshintrc" "prebid.js_0.11.5.zip" ".gitignore" "integrationExamples/" ".jscsrc" "configs/" "test/" "./" "build/" "../")
-
- ("/home/ekowibowo/code/m2/m2hb/test/" (22695 9275 682208 293000) "fixtures/" "app/" "eko_spec.js" "spec/" "helpers/" "./" "../")
-
- ("/home/ekowibowo/code/m2/m2hb/test/spec/" (22703 64651 832077 861000) "utils_spec.js" "aliasBidder_spec.js" "api_spec.js" "unit/" "bidmanager_spec.js" "adloader_spec.js" "adUnits_spec.js" "m2/" "adapters/" "./" "ga_spec.js" "../")
-
- ("/home/ekowibowo/code/m2/m2hb/test/spec/m2/" (22704 23891 653534 375000) "learn_spec.js" "sovrn_brealtime_bidding_spec.js" "getBidderCodes_spec.js" "traffic_spec.js" "store.min.js" "revShare_spec.js" "./" "../")
 
  ("/home/ekowibowo/code/m2/web_app/adscrape/lib/" (22680 31974 417292 856000) "currency.py" "handler/" "__pycache__/" "__init__.py" "test/" "./" "../" "dfp/" "test_new_currency.py")
 
